@@ -136,6 +136,17 @@
     cursor: pointer; font-size: 20px; display: flex; align-items: center; justify-content: center;
   }
   .gallery-nav:hover { background: rgba(0,0,0,.8); }
+  .btn {
+    background: var(--panel-2); border: 1px solid var(--border); color: var(--text);
+    padding: 7px 12px; border-radius: 8px; font-size: 13px; cursor: pointer;
+  }
+  .btn:hover { border-color: var(--accent-2); }
+  .fav {
+    margin-left: auto; cursor: pointer; font-size: 17px; line-height: 1;
+    color: var(--muted); background: none; border: 0; padding: 0; transition: transform .1s, color .12s;
+  }
+  .fav:hover { transform: scale(1.2); color: var(--accent); }
+  .fav.on { color: var(--accent); }
   .gallery-nav.prev { left: 0; border-radius: 0 8px 8px 0; }
   .gallery-nav.next { right: 0; border-radius: 8px 0 0 8px; }
   .gallery-count {
@@ -176,6 +187,8 @@
       </select>
     </label>
     <label><input type="checkbox" id="mediaonly"> 仅看有图/视频</label>
+    <label><input type="checkbox" id="favonly"> ★ 仅看收藏 <span id="favcount">(0)</span></label>
+    <button id="export" class="btn" type="button">导出收藏 ↓</button>
   </div>
   <div class="themebar" id="themebar"></div>
 </header>
@@ -195,6 +208,13 @@ let activeTheme = "", io = null;
 
 const $ = s => document.querySelector(s);
 const grid = $("#grid");
+
+const FAV_KEY = "cgp_favs";
+let FAVS = new Set();
+try { FAVS = new Set(JSON.parse(localStorage.getItem(FAV_KEY) || "[]")); } catch {}
+function saveFavs(){ localStorage.setItem(FAV_KEY, JSON.stringify([...FAVS])); updateFavCount(); }
+function updateFavCount(){ const el = $("#favcount"); if (el) el.textContent = `(${FAVS.size})`; }
+function toggleFav(id){ if (FAVS.has(id)) FAVS.delete(id); else FAVS.add(id); saveFavs(); }
 
 function esc(s) { return (s||"").replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c])); }
 function fmtDate(ts){ const d=new Date(ts*1000); return d.toISOString().slice(0,10); }
@@ -255,6 +275,7 @@ function cardHTML(p){
         <span>${fmtDate(p.created_utc)}</span>
         ${flair}
         <span>u/${esc(p.author)}</span>
+        <button class="fav ${FAVS.has(p.id)?'on':''}" data-fav="${esc(p.id)}" title="收藏">${FAVS.has(p.id)?'★':'☆'}</button>
       </div>
       <div class="links">
         <a href="${esc(p.permalink)}" target="_blank" rel="noopener">Reddit ↗</a>
@@ -270,9 +291,11 @@ function applyFilters(){
   const year = $("#year").value;
   const minscore = +$("#minscore").value;
   const mediaonly = $("#mediaonly").checked;
+  const favonly = $("#favonly").checked;
   const sort = $("#sort").value;
 
   VIEW = ALL.filter(p => {
+    if (favonly && !FAVS.has(p.id)) return false;
     if (activeTheme && !p.themes.includes(activeTheme)) return false;
     if (flair && p.flair !== flair) return false;
     if (year && fmtDate(p.created_utc).slice(0,4) !== year) return false;
@@ -321,7 +344,7 @@ function buildThemebar(){
     const c = document.createElement("span");
     c.className = "theme-chip" + (key===activeTheme?" active":"");
     c.innerHTML = `${label}<span class="n">${n.toLocaleString()}</span>`;
-    c.onclick = () => { activeTheme = key; document.querySelectorAll(".theme-chip").forEach(x=>x.classList.remove("active")); c.classList.add("active"); applyFilters(); window.scrollTo({top:0}); };
+    c.onclick = () => { activeTheme = key; document.querySelectorAll(".theme-chip").forEach(x=>x.classList.remove("active")); c.classList.add("active"); applyFilters(); writeHash(); window.scrollTo({top:0}); };
     return c;
   };
   bar.appendChild(mk("全部",""));
@@ -342,15 +365,58 @@ function buildSelects(){
 function init(data){
   ALL = data.posts;
   $("#hdr-sub").textContent = `${data.total.toLocaleString()} 个去重项目 · 2014–2026 · 数据源 Arctic Shift`;
-  buildThemebar();
   buildSelects();
-  ["q","sort","flair","year","minscore","mediaonly"].forEach(id=>{
+  readHash();
+  buildThemebar();
+  updateFavCount();
+  ["q","sort","flair","year","minscore","mediaonly","favonly"].forEach(id=>{
     const el = $("#"+id);
-    el.addEventListener(el.tagName==="INPUT"&&el.type==="search"?"input":"change", debounce(applyFilters, 180));
+    el.addEventListener(el.tagName==="INPUT"&&el.type==="search"?"input":"change", debounce(()=>{ applyFilters(); writeHash(); }, 180));
   });
+  $("#export").addEventListener("click", exportFavs);
   io = new IntersectionObserver(es=>{ if(es[0].isIntersecting) renderMore(); }, {rootMargin:"600px"});
   io.observe($("#sentinel"));
   applyFilters();
+}
+
+function exportFavs(){
+  const favs = ALL.filter(p => FAVS.has(p.id));
+  if (!favs.length){ alert("还没有收藏任何项目。点卡片上的 ☆ 收藏。"); return; }
+  favs.sort((a,b)=>b.score-a.score);
+  let md = `# r/coolgithubprojects 收藏 (${favs.length})\n\n`;
+  for (const p of favs){
+    const d = fmtDate(p.created_utc);
+    md += `- **[${p.title.replace(/\n/g," ")}](${p.url})** \`${p.score}▲\` ${p.flair?`\`${p.flair}\` `:""}· ${d} · [reddit](${p.permalink})\n`;
+  }
+  const blob = new Blob([md], {type:"text/markdown"});
+  const a = document.createElement("a");
+  a.href = URL.createObjectURL(blob);
+  a.download = "coolgithubprojects-favorites.md";
+  a.click();
+  URL.revokeObjectURL(a.href);
+}
+
+function readHash(){
+  const h = new URLSearchParams(location.hash.slice(1));
+  if (h.has("theme")) activeTheme = h.get("theme");
+  const map = {q:"q",sort:"sort",flair:"flair",year:"year",minscore:"minscore"};
+  for (const [k,id] of Object.entries(map)) if (h.has(k)) { const el=$("#"+id); if(el) el.value = h.get(k); }
+  if (h.get("mediaonly")==="1") $("#mediaonly").checked = true;
+  if (h.get("favonly")==="1") $("#favonly").checked = true;
+}
+
+function writeHash(){
+  const h = new URLSearchParams();
+  if (activeTheme) h.set("theme", activeTheme);
+  const q=$("#q").value.trim(); if(q) h.set("q", q);
+  if($("#sort").value!=="score") h.set("sort", $("#sort").value);
+  if($("#flair").value) h.set("flair", $("#flair").value);
+  if($("#year").value) h.set("year", $("#year").value);
+  if($("#minscore").value!=="0") h.set("minscore", $("#minscore").value);
+  if($("#mediaonly").checked) h.set("mediaonly","1");
+  if($("#favonly").checked) h.set("favonly","1");
+  const s = h.toString();
+  history.replaceState(null, "", s ? "#"+s : location.pathname);
 }
 
 function playVideo(mediaEl){
@@ -385,6 +451,17 @@ function galleryStep(wrap, dir){
 }
 
 grid.addEventListener("click", e=>{
+  const favBtn = e.target.closest(".fav");
+  if (favBtn){
+    e.preventDefault();
+    const id = favBtn.dataset.fav;
+    toggleFav(id);
+    const on = FAVS.has(id);
+    favBtn.classList.toggle("on", on);
+    favBtn.textContent = on ? "★" : "☆";
+    if ($("#favonly").checked && !on){ const card = favBtn.closest(".card"); if (card) card.remove(); }
+    return;
+  }
   const navBtn = e.target.closest(".gallery-nav");
   if (navBtn){
     e.preventDefault();
