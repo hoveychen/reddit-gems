@@ -1,0 +1,49 @@
+name: Weekly archive refresh
+
+on:
+  schedule:
+    # Every Monday 06:00 UTC
+    - cron: "0 6 * * 1"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: archive-refresh
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Scrape full archive from Arctic Shift
+        run: python3 scrape.py
+
+      - name: Rebuild browser data and digests
+        run: |
+          python3 build_browser_data.py
+          python3 build_digest.py
+          python3 build_clean_top.py
+
+      - name: Commit refreshed data if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          # Only the auto-generated artifacts; hand-curated files are left untouched.
+          git add data.json top.md top_clean.md by_language.md by_year.md stats.md
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+          else
+            STAMP=$(date -u +"%Y-%m-%d")
+            git commit -m "Weekly archive refresh ($STAMP)"
+            git push
+          fi
