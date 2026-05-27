@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>r/coolgithubprojects — 档案浏览器</title>
+<style>
+  :root {
+    --bg: #0d1117;
+    --panel: #161b22;
+    --panel-2: #1c2330;
+    --border: #2a3140;
+    --text: #e6edf3;
+    --muted: #8b949e;
+    --accent: #ff6b4a;
+    --accent-2: #58a6ff;
+    --green: #3fb950;
+    --chip: #21262d;
+  }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; padding: 0; }
+  body {
+    background: var(--bg);
+    color: var(--text);
+    font: 15px/1.5 -apple-system, "Segoe UI", "PingFang SC", "Microsoft YaHei", system-ui, sans-serif;
+    -webkit-font-smoothing: antialiased;
+  }
+  a { color: var(--accent-2); text-decoration: none; }
+  a:hover { text-decoration: underline; }
+
+  header {
+    position: sticky; top: 0; z-index: 50;
+    background: rgba(13,17,23,.92);
+    backdrop-filter: blur(8px);
+    border-bottom: 1px solid var(--border);
+    padding: 14px 20px;
+  }
+  .title-row { display: flex; align-items: baseline; gap: 12px; flex-wrap: wrap; }
+  h1 { font-size: 18px; margin: 0; font-weight: 700; letter-spacing: -.01em; }
+  h1 .r { color: var(--accent); }
+  .sub { color: var(--muted); font-size: 12.5px; }
+
+  .controls {
+    display: flex; gap: 10px; flex-wrap: wrap; align-items: center;
+    margin-top: 12px;
+  }
+  .controls input[type=search], .controls select {
+    background: var(--panel-2);
+    border: 1px solid var(--border);
+    color: var(--text);
+    padding: 7px 10px;
+    border-radius: 8px;
+    font-size: 13.5px;
+    outline: none;
+  }
+  .controls input[type=search] { min-width: 240px; flex: 1 1 240px; }
+  .controls input[type=search]:focus, .controls select:focus { border-color: var(--accent-2); }
+  .controls label { color: var(--muted); font-size: 12px; display: inline-flex; align-items: center; gap: 5px; }
+
+  .themebar {
+    display: flex; gap: 7px; flex-wrap: wrap; margin-top: 12px;
+  }
+  .theme-chip {
+    background: var(--chip); border: 1px solid var(--border);
+    color: var(--muted); padding: 4px 11px; border-radius: 999px;
+    font-size: 12.5px; cursor: pointer; user-select: none; white-space: nowrap;
+    transition: all .12s;
+  }
+  .theme-chip:hover { color: var(--text); border-color: var(--muted); }
+  .theme-chip.active { background: var(--accent); border-color: var(--accent); color: #1a1008; font-weight: 600; }
+  .theme-chip .n { opacity: .65; font-size: 11px; margin-left: 3px; }
+
+  main { padding: 18px 20px 80px; max-width: 1500px; margin: 0 auto; }
+  #count { color: var(--muted); font-size: 12.5px; margin-bottom: 14px; }
+
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+    gap: 16px;
+  }
+  .card {
+    background: var(--panel); border: 1px solid var(--border);
+    border-radius: 12px; overflow: hidden; display: flex; flex-direction: column;
+    transition: border-color .12s, transform .12s;
+  }
+  .card:hover { border-color: #3d4759; transform: translateY(-2px); }
+
+  .media { background: #000; position: relative; line-height: 0; }
+  .media img { width: 100%; height: auto; display: block; max-height: 460px; object-fit: contain; }
+  .media .ph {
+    width: 100%; aspect-ratio: 16/9; display: flex; align-items: center; justify-content: center;
+    color: var(--muted); font-size: 13px; background: var(--panel-2); line-height: 1.4;
+    flex-direction: column; gap: 6px; text-align: center; padding: 10px;
+  }
+  .media .ph .big { font-size: 26px; }
+  .media iframe { width: 100%; aspect-ratio: 16/9; border: 0; display: block; }
+  .badge {
+    position: absolute; top: 8px; left: 8px;
+    background: rgba(0,0,0,.7); color: #fff; font-size: 11px;
+    padding: 2px 8px; border-radius: 6px; backdrop-filter: blur(4px);
+  }
+
+  .body { padding: 13px 14px; display: flex; flex-direction: column; gap: 9px; flex: 1; }
+  .card-title { font-size: 14.5px; font-weight: 600; line-height: 1.35; margin: 0; }
+  .card-title a { color: var(--text); }
+  .card-title a:hover { color: var(--accent-2); }
+  .selftext { color: var(--muted); font-size: 12.5px; line-height: 1.45;
+    display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
+
+  .meta { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; font-size: 12px; color: var(--muted); margin-top: auto; }
+  .score { color: var(--accent); font-weight: 700; }
+  .flair { background: var(--chip); border: 1px solid var(--border); padding: 1px 7px; border-radius: 5px; font-size: 11px; text-transform: uppercase; letter-spacing: .03em; }
+  .links { display: flex; gap: 12px; font-size: 12.5px; padding-top: 4px; border-top: 1px solid var(--border); }
+
+  #sentinel { height: 40px; }
+  .loadmore { text-align: center; padding: 24px; color: var(--muted); font-size: 13px; }
+  .empty { text-align: center; padding: 60px 20px; color: var(--muted); }
+
+  kbd { background: var(--chip); border: 1px solid var(--border); border-radius: 4px; padding: 1px 5px; font-size: 11px; }
+
+  .media video { width: 100%; max-height: 460px; display: block; background: #000; }
+  .playbtn {
+    position: absolute; inset: 0; display: flex; align-items: center; justify-content: center;
+    cursor: pointer; background: rgba(0,0,0,.25);
+  }
+  .playbtn .circle {
+    width: 56px; height: 56px; border-radius: 50%; background: rgba(0,0,0,.65);
+    display: flex; align-items: center; justify-content: center; font-size: 22px; color: #fff;
+    border: 2px solid rgba(255,255,255,.85); transition: transform .12s;
+  }
+  .playbtn:hover .circle { transform: scale(1.08); }
+  .gallery-wrap { position: relative; }
+  .gallery-nav {
+    position: absolute; top: 50%; transform: translateY(-50%);
+    width: 36px; height: 56px; background: rgba(0,0,0,.55); color: #fff; border: 0;
+    cursor: pointer; font-size: 20px; display: flex; align-items: center; justify-content: center;
+  }
+  .gallery-nav:hover { background: rgba(0,0,0,.8); }
+  .gallery-nav.prev { left: 0; border-radius: 0 8px 8px 0; }
+  .gallery-nav.next { right: 0; border-radius: 8px 0 0 8px; }
+  .gallery-count {
+    position: absolute; bottom: 8px; right: 8px; background: rgba(0,0,0,.7); color: #fff;
+    font-size: 11px; padding: 2px 8px; border-radius: 6px;
+  }
+</style>
+</head>
+<body>
+<header>
+  <div class="title-row">
+    <h1><span class="r">r/</span>coolgithubprojects 档案浏览器</h1>
+    <span class="sub" id="hdr-sub">加载中…</span>
+  </div>
+  <div class="controls">
+    <input type="search" id="q" placeholder="搜索标题 / 作者 / 仓库…  (按 / 聚焦)" autocomplete="off">
+    <label>排序
+      <select id="sort">
+        <option value="score">点赞最高</option>
+        <option value="new">最新</option>
+        <option value="old">最早</option>
+        <option value="comments">评论最多</option>
+      </select>
+    </label>
+    <label>语言
+      <select id="flair"><option value="">全部</option></select>
+    </label>
+    <label>年份
+      <select id="year"><option value="">全部</option></select>
+    </label>
+    <label>最低分
+      <select id="minscore">
+        <option value="0">全部</option>
+        <option value="10">10+</option>
+        <option value="25">25+</option>
+        <option value="50">50+</option>
+        <option value="100">100+</option>
+      </select>
+    </label>
+    <label><input type="checkbox" id="mediaonly"> 仅看有图/视频</label>
+  </div>
+  <div class="themebar" id="themebar"></div>
+</header>
+
+<script src="https://cdn.jsdelivr.net/npm/hls.js@1.5.13/dist/hls.min.js"></script>
+<main>
+  <div id="count"></div>
+  <div class="grid" id="grid"></div>
+  <div id="sentinel"></div>
+  <div class="loadmore" id="loadmore"></div>
+</main>
+
+<script>
+const PAGE = 48;
+let ALL = [], VIEW = [], shown = 0;
+let activeTheme = "", io = null;
+
+const $ = s => document.querySelector(s);
+const grid = $("#grid");
+
+function esc(s) { return (s||"").replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c])); }
+function fmtDate(ts){ const d=new Date(ts*1000); return d.toISOString().slice(0,10); }
+
+function mediaHTML(p){
+  if (p.kind === "image" && /^https?:\/\//.test(p.url)) {
+    return `<div class="media"><img loading="lazy" src="${esc(p.url)}" alt="" onerror="this.parentNode.innerHTML='<div class=ph><span class=big>🖼️</span>图片加载失败<br><a href=&quot;${esc(p.url)}&quot; target=_blank>原图</a></div>'"></div>`;
+  }
+  if (p.kind === "youtube" && p.yt_id) {
+    return `<div class="media"><iframe loading="lazy" src="https://www.youtube.com/embed/${esc(p.yt_id)}" allowfullscreen></iframe></div>`;
+  }
+  if (p.kind === "image" && p.thumbnail) {
+    return `<div class="media"><img loading="lazy" src="${esc(p.thumbnail)}" alt=""></div>`;
+  }
+  if (p.kind === "reddit_video") {
+    if (p.video && (p.video.hls || p.video.mp4)) {
+      const src = esc(JSON.stringify(p.video));
+      const poster = p.thumbnail ? ` style="background-image:url('${esc(p.thumbnail)}');background-size:cover;background-position:center"` : "";
+      const t = p.thumbnail ? `<img loading="lazy" src="${esc(p.thumbnail)}" alt="">` : `<div class="ph"><span class="big">▶️</span>Reddit 视频</div>`;
+      return `<div class="media" data-video='${src}'><span class="badge">▶ 视频</span>${t}<div class="playbtn"><div class="circle">▶</div></div></div>`;
+    }
+    const t = p.thumbnail ? `<img loading="lazy" src="${esc(p.thumbnail)}" alt="">` : `<div class="ph"><span class="big">▶️</span>Reddit 视频<br><span style="font-size:11px">点 reddit 链接播放</span></div>`;
+    return `<div class="media"><span class="badge">▶ 视频</span>${t}</div>`;
+  }
+  if (p.kind === "reddit_gallery") {
+    if (p.gallery && p.gallery.length) {
+      const imgs = esc(JSON.stringify(p.gallery));
+      const nav = p.gallery.length > 1
+        ? `<button class="gallery-nav prev">‹</button><button class="gallery-nav next">›</button><span class="gallery-count">1/${p.gallery.length}</span>`
+        : "";
+      return `<div class="media gallery-wrap" data-gallery='${imgs}' data-idx="0"><span class="badge">🖼 相册</span><img loading="lazy" src="${esc(p.gallery[0])}" alt="">${nav}</div>`;
+    }
+    const t = p.thumbnail ? `<img loading="lazy" src="${esc(p.thumbnail)}" alt="">` : `<div class="ph"><span class="big">🖼️</span>Reddit 相册<br><span style="font-size:11px">点 reddit 链接看全部</span></div>`;
+    return `<div class="media"><span class="badge">🖼 相册</span>${t}</div>`;
+  }
+  if (p.kind === "github") {
+    return `<div class="media"><div class="ph"><span class="big">🐙</span>${esc(p.repo||"GitHub")}</div></div>`;
+  }
+  if (p.thumbnail) {
+    return `<div class="media"><img loading="lazy" src="${esc(p.thumbnail)}" alt=""></div>`;
+  }
+  return `<div class="media"><div class="ph"><span class="big">🔗</span>外部链接</div></div>`;
+}
+
+function cardHTML(p){
+  const flair = p.flair ? `<span class="flair">${esc(p.flair)}</span>` : "";
+  const self = p.selftext ? `<p class="selftext">${esc(p.selftext)}</p>` : "";
+  const ghLink = p.kind === "github" ? `<a href="${esc(p.url)}" target="_blank" rel="noopener">GitHub ↗</a>` :
+                 (/^https?:/.test(p.url) && p.kind!=="reddit_video" && p.kind!=="reddit_gallery" && p.kind!=="image") ? `<a href="${esc(p.url)}" target="_blank" rel="noopener">链接 ↗</a>` : "";
+  return `<article class="card">
+    ${mediaHTML(p)}
+    <div class="body">
+      <h2 class="card-title"><a href="${esc(p.permalink)}" target="_blank" rel="noopener">${esc(p.title)}</a></h2>
+      ${self}
+      <div class="meta">
+        <span class="score">▲ ${p.score}</span>
+        <span>💬 ${p.n_comments}</span>
+        <span>${fmtDate(p.created_utc)}</span>
+        ${flair}
+        <span>u/${esc(p.author)}</span>
+      </div>
+      <div class="links">
+        <a href="${esc(p.permalink)}" target="_blank" rel="noopener">Reddit ↗</a>
+        ${ghLink}
+      </div>
+    </div>
+  </article>`;
+}
+
+function applyFilters(){
+  const q = $("#q").value.trim().toLowerCase();
+  const flair = $("#flair").value;
+  const year = $("#year").value;
+  const minscore = +$("#minscore").value;
+  const mediaonly = $("#mediaonly").checked;
+  const sort = $("#sort").value;
+
+  VIEW = ALL.filter(p => {
+    if (activeTheme && !p.themes.includes(activeTheme)) return false;
+    if (flair && p.flair !== flair) return false;
+    if (year && fmtDate(p.created_utc).slice(0,4) !== year) return false;
+    if (p.score < minscore) return false;
+    if (mediaonly && !["image","youtube","reddit_video","reddit_gallery"].includes(p.kind)) return false;
+    if (q) {
+      const hay = (p.title + " " + p.author + " " + (p.repo||"") + " " + (p.selftext||"")).toLowerCase();
+      if (!hay.includes(q)) return false;
+    }
+    return true;
+  });
+
+  if (sort === "score") VIEW.sort((a,b)=>b.score-a.score);
+  else if (sort === "new") VIEW.sort((a,b)=>b.created_utc-a.created_utc);
+  else if (sort === "old") VIEW.sort((a,b)=>a.created_utc-b.created_utc);
+  else if (sort === "comments") VIEW.sort((a,b)=>b.n_comments-a.n_comments);
+
+  grid.innerHTML = "";
+  shown = 0;
+  $("#count").textContent = `${VIEW.length.toLocaleString()} 个项目` + (activeTheme?` · 主题: ${activeTheme}`:"");
+  renderMore();
+}
+
+function renderMore(){
+  const next = VIEW.slice(shown, shown+PAGE);
+  if (!next.length) {
+    $("#loadmore").textContent = VIEW.length ? "— 到底了 —" : "";
+    if (!VIEW.length) grid.innerHTML = `<div class="empty">没有匹配的项目，换个筛选条件试试</div>`;
+    return;
+  }
+  grid.insertAdjacentHTML("beforeend", next.map(cardHTML).join(""));
+  shown += next.length;
+  $("#loadmore").textContent = shown < VIEW.length ? `已显示 ${shown} / ${VIEW.length}，向下滚动加载更多` : "— 到底了 —";
+}
+
+function buildThemebar(){
+  const counts = {};
+  for (const p of ALL) for (const t of p.themes) counts[t]=(counts[t]||0)+1;
+  const order = ["AI / LLM","Terminal / TUI","Self-hosted SaaS Replacement","Privacy / Security",
+    "GitHub Meta","Music / Spotify","OS / Low Level","Educational / Awesome List",
+    "Browser Extension","Visual / Creative","Productivity / Workflow","Politics / Society",
+    "Quirky / Joke","Other / Misc"];
+  const bar = $("#themebar");
+  const mk = (label, key) => {
+    const n = key==="" ? ALL.length : (counts[key]||0);
+    const c = document.createElement("span");
+    c.className = "theme-chip" + (key===activeTheme?" active":"");
+    c.innerHTML = `${label}<span class="n">${n.toLocaleString()}</span>`;
+    c.onclick = () => { activeTheme = key; document.querySelectorAll(".theme-chip").forEach(x=>x.classList.remove("active")); c.classList.add("active"); applyFilters(); window.scrollTo({top:0}); };
+    return c;
+  };
+  bar.appendChild(mk("全部",""));
+  for (const t of order) if (counts[t]) bar.appendChild(mk(t, t));
+}
+
+function buildSelects(){
+  const flairs = {}, years = {};
+  for (const p of ALL){ if(p.flair) flairs[p.flair]=(flairs[p.flair]||0)+1; years[fmtDate(p.created_utc).slice(0,4)]=1; }
+  const fsel = $("#flair");
+  Object.keys(flairs).sort((a,b)=>flairs[b]-flairs[a]).forEach(f=>{
+    const o=document.createElement("option"); o.value=f; o.textContent=`${f} (${flairs[f]})`; fsel.appendChild(o);
+  });
+  const ysel = $("#year");
+  Object.keys(years).sort().reverse().forEach(y=>{ const o=document.createElement("option"); o.value=y; o.textContent=y; ysel.appendChild(o); });
+}
+
+function init(data){
+  ALL = data.posts;
+  $("#hdr-sub").textContent = `${data.total.toLocaleString()} 个去重项目 · 2014–2026 · 数据源 Arctic Shift`;
+  buildThemebar();
+  buildSelects();
+  ["q","sort","flair","year","minscore","mediaonly"].forEach(id=>{
+    const el = $("#"+id);
+    el.addEventListener(el.tagName==="INPUT"&&el.type==="search"?"input":"change", debounce(applyFilters, 180));
+  });
+  io = new IntersectionObserver(es=>{ if(es[0].isIntersecting) renderMore(); }, {rootMargin:"600px"});
+  io.observe($("#sentinel"));
+  applyFilters();
+}
+
+function playVideo(mediaEl){
+  let info; try { info = JSON.parse(mediaEl.dataset.video); } catch { return; }
+  const badge = mediaEl.querySelector(".badge");
+  mediaEl.innerHTML = "";
+  if (badge) mediaEl.appendChild(badge);
+  const v = document.createElement("video");
+  v.controls = true; v.autoplay = true; v.playsInline = true; v.muted = !!info.is_gif; v.loop = !!info.is_gif;
+  mediaEl.appendChild(v);
+  const hls = info.hls, mp4 = info.mp4;
+  if (hls && window.Hls && Hls.isSupported()){
+    const h = new Hls({ maxBufferLength: 30 });
+    h.loadSource(hls); h.attachMedia(v);
+    h.on(Hls.ErrorData ? Hls.Events.ERROR : "hlsError", (_,d)=>{ if(d && d.fatal && mp4){ h.destroy(); v.src = mp4; } });
+  } else if (hls && v.canPlayType("application/vnd.apple.mpegurl")){
+    v.src = hls;
+  } else if (mp4){
+    v.src = mp4;
+  }
+  v.play && v.play().catch(()=>{});
+}
+
+function galleryStep(wrap, dir){
+  let imgs; try { imgs = JSON.parse(wrap.dataset.gallery); } catch { return; }
+  let idx = (+wrap.dataset.idx + dir + imgs.length) % imgs.length;
+  wrap.dataset.idx = idx;
+  const img = wrap.querySelector("img");
+  if (img) img.src = imgs[idx];
+  const c = wrap.querySelector(".gallery-count");
+  if (c) c.textContent = `${idx+1}/${imgs.length}`;
+}
+
+grid.addEventListener("click", e=>{
+  const navBtn = e.target.closest(".gallery-nav");
+  if (navBtn){
+    e.preventDefault();
+    galleryStep(navBtn.closest(".gallery-wrap"), navBtn.classList.contains("next") ? 1 : -1);
+    return;
+  }
+  const play = e.target.closest(".playbtn");
+  if (play){
+    e.preventDefault();
+    playVideo(play.closest(".media"));
+  }
+});
+
+function debounce(fn, ms){ let t; return (...a)=>{ clearTimeout(t); t=setTimeout(()=>fn(...a), ms); }; }
+
+document.addEventListener("keydown", e=>{ if(e.key==="/" && document.activeElement.tagName!=="INPUT"){ e.preventDefault(); $("#q").focus(); } });
+
+fetch("data.json")
+  .then(r=>r.json())
+  .then(init)
+  .catch(e=>{ document.querySelector("main").innerHTML = `<div class="empty">加载 data.json 失败：${esc(e.message)}<br><br>请通过本地服务器打开（见下方说明），不要直接 file:// 打开。</div>`; });
+</script>
+</body>
+</html>

@@ -1,0 +1,7 @@
+# 原始全量数据 (86 MB, 可由 scrape.py 重新抓取)
+posts.jsonl
+# 抓取进度/日志
+.cursor
+scrape.log
+# 系统文件
+.DS_Store
