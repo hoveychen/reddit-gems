@@ -5,3 +5,5 @@ posts.jsonl
 scrape.log
 # 系统文件
 .DS_Store
+# 开发用 git worktree
+.worktrees/
