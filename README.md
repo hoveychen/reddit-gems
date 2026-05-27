@@ -4,6 +4,8 @@ A complete archive of every post from [r/coolgithubprojects](https://www.reddit.
 
 **Live site**: https://hoveychen.github.io/reddit-gems/
 
+![Screenshot of the reddit-gems browser](screenshot.png)
+
 ## What this is
 
 - **25,794** posts fully archived (source: [Arctic Shift](https://arctic-shift.photon-reddit.com/), the successor to Pushshift)
