@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="zh">
+<html lang="en">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>r/coolgithubprojects — 档案浏览器</title>
+<title>r/coolgithubprojects — Archive Browser</title>
 <style>
   :root {
     --bg: #0d1117;
@@ -39,6 +39,13 @@
   h1 { font-size: 18px; margin: 0; font-weight: 700; letter-spacing: -.01em; }
   h1 .r { color: var(--accent); }
   .sub { color: var(--muted); font-size: 12.5px; }
+  .langswitch { margin-left: auto; display: flex; gap: 4px; align-self: center; }
+  .langswitch button {
+    background: var(--chip); border: 1px solid var(--border); color: var(--muted);
+    padding: 3px 10px; border-radius: 6px; font-size: 12px; cursor: pointer;
+  }
+  .langswitch button:hover { color: var(--text); }
+  .langswitch button.on { background: var(--accent); border-color: var(--accent); color: #1a1008; font-weight: 600; }
 
   .controls {
     display: flex; gap: 10px; flex-wrap: wrap; align-items: center;
@@ -57,9 +64,7 @@
   .controls input[type=search]:focus, .controls select:focus { border-color: var(--accent-2); }
   .controls label { color: var(--muted); font-size: 12px; display: inline-flex; align-items: center; gap: 5px; }
 
-  .themebar {
-    display: flex; gap: 7px; flex-wrap: wrap; margin-top: 12px;
-  }
+  .themebar { display: flex; gap: 7px; flex-wrap: wrap; margin-top: 12px; }
   .theme-chip {
     background: var(--chip); border: 1px solid var(--border);
     color: var(--muted); padding: 4px 11px; border-radius: 999px;
@@ -73,11 +78,7 @@
   main { padding: 18px 20px 80px; max-width: 1500px; margin: 0 auto; }
   #count { color: var(--muted); font-size: 12.5px; margin-bottom: 14px; }
 
-  .grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
-    gap: 16px;
-  }
+  .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); gap: 16px; }
   .card {
     background: var(--panel); border: 1px solid var(--border);
     border-radius: 12px; overflow: hidden; display: flex; flex-direction: column;
@@ -116,8 +117,6 @@
   .loadmore { text-align: center; padding: 24px; color: var(--muted); font-size: 13px; }
   .empty { text-align: center; padding: 60px 20px; color: var(--muted); }
 
-  kbd { background: var(--chip); border: 1px solid var(--border); border-radius: 4px; padding: 1px 5px; font-size: 11px; }
-
   .media video { width: 100%; max-height: 460px; display: block; background: #000; }
   .playbtn {
     position: absolute; inset: 0; display: flex; align-items: center; justify-content: center;
@@ -136,15 +135,11 @@
     cursor: pointer; font-size: 20px; display: flex; align-items: center; justify-content: center;
   }
   .gallery-nav:hover { background: rgba(0,0,0,.8); }
-  .btn {
-    background: var(--panel-2); border: 1px solid var(--border); color: var(--text);
-    padding: 7px 12px; border-radius: 8px; font-size: 13px; cursor: pointer;
-  }
+  .btn { background: var(--panel-2); border: 1px solid var(--border); color: var(--text);
+    padding: 7px 12px; border-radius: 8px; font-size: 13px; cursor: pointer; }
   .btn:hover { border-color: var(--accent-2); }
-  .fav {
-    margin-left: auto; cursor: pointer; font-size: 17px; line-height: 1;
-    color: var(--muted); background: none; border: 0; padding: 0; transition: transform .1s, color .12s;
-  }
+  .fav { margin-left: auto; cursor: pointer; font-size: 17px; line-height: 1;
+    color: var(--muted); background: none; border: 0; padding: 0; transition: transform .1s, color .12s; }
   .fav:hover { transform: scale(1.2); color: var(--accent); }
   .fav.on { color: var(--accent); }
   .gallery-nav.prev { left: 0; border-radius: 0 8px 8px 0; }
@@ -158,37 +153,41 @@
 <body>
 <header>
   <div class="title-row">
-    <h1><span class="r">r/</span>coolgithubprojects 档案浏览器</h1>
-    <span class="sub" id="hdr-sub">加载中…</span>
+    <h1><span class="r">r/</span>coolgithubprojects <span id="title-suffix"></span></h1>
+    <span class="sub" id="hdr-sub"></span>
+    <span class="langswitch">
+      <button id="lang-en" type="button">EN</button>
+      <button id="lang-zh" type="button">中</button>
+    </span>
   </div>
   <div class="controls">
-    <input type="search" id="q" placeholder="搜索标题 / 作者 / 仓库…  (按 / 聚焦)" autocomplete="off">
-    <label>排序
+    <input type="search" id="q" autocomplete="off">
+    <label><span data-t="sort"></span>
       <select id="sort">
-        <option value="score">点赞最高</option>
-        <option value="new">最新</option>
-        <option value="old">最早</option>
-        <option value="comments">评论最多</option>
+        <option value="score" data-t="sort_score"></option>
+        <option value="new" data-t="sort_new"></option>
+        <option value="old" data-t="sort_old"></option>
+        <option value="comments" data-t="sort_comments"></option>
       </select>
     </label>
-    <label>语言
-      <select id="flair"><option value="">全部</option></select>
+    <label><span data-t="lang_flair"></span>
+      <select id="flair"><option value="" data-t="all"></option></select>
     </label>
-    <label>年份
-      <select id="year"><option value="">全部</option></select>
+    <label><span data-t="year"></span>
+      <select id="year"><option value="" data-t="all"></option></select>
     </label>
-    <label>最低分
+    <label><span data-t="minscore"></span>
       <select id="minscore">
-        <option value="0">全部</option>
+        <option value="0" data-t="all"></option>
         <option value="10">10+</option>
         <option value="25">25+</option>
         <option value="50">50+</option>
         <option value="100">100+</option>
       </select>
     </label>
-    <label><input type="checkbox" id="mediaonly"> 仅看有图/视频</label>
-    <label><input type="checkbox" id="favonly"> ★ 仅看收藏 <span id="favcount">(0)</span></label>
-    <button id="export" class="btn" type="button">导出收藏 ↓</button>
+    <label><input type="checkbox" id="mediaonly"> <span data-t="mediaonly"></span></label>
+    <label><input type="checkbox" id="favonly"> <span data-t="favonly"></span> <span id="favcount">(0)</span></label>
+    <button id="export" class="btn" type="button"></button>
   </div>
   <div class="themebar" id="themebar"></div>
 </header>
@@ -202,8 +201,82 @@
 </main>
 
 <script>
+const THEME_ORDER = ["AI / LLM","Terminal / TUI","Self-hosted SaaS Replacement","Privacy / Security",
+  "GitHub Meta","Music / Spotify","OS / Low Level","Educational / Awesome List",
+  "Browser Extension","Visual / Creative","Productivity / Workflow","Politics / Society",
+  "Quirky / Joke","Other / Misc"];
+
+const I18N = {
+  en: {
+    title_suffix: "Archive Browser",
+    loading: "Loading…",
+    sub: n => `${n.toLocaleString()} deduped projects · 2014–2026 · data via Arctic Shift`,
+    search_ph: "Search title / author / repo…  (press / to focus)",
+    sort: "Sort", sort_score: "Top score", sort_new: "Newest", sort_old: "Oldest", sort_comments: "Most comments",
+    lang_flair: "Language", all: "All", year: "Year", minscore: "Min score",
+    mediaonly: "Media only", favonly: "★ Favorites only", export: "Export favorites ↓",
+    all_chip: "All",
+    count: n => `${n.toLocaleString()} projects`,
+    count_theme: theme => ` · theme: ${theme}`,
+    loadmore: (s,t) => `Showing ${s} / ${t}, scroll for more`,
+    end: "— end —",
+    empty: "No matching projects — try different filters",
+    link: "Link ↗", reddit: "Reddit ↗",
+    img_fail: "Image failed to load", img_orig: "open original",
+    video: "Video", video_hint: "open the Reddit link to play",
+    gallery: "Gallery", gallery_hint: "open the Reddit link for all images",
+    ext_link: "External link", fav_title: "Favorite",
+    no_favs: "No favorites yet — click ☆ on a card.",
+    export_title: n => `# r/coolgithubprojects favorites (${n})`,
+    themes: {
+      "AI / LLM":"AI / LLM","Terminal / TUI":"Terminal / TUI","Self-hosted SaaS Replacement":"Self-hosted SaaS",
+      "Privacy / Security":"Privacy / Security","GitHub Meta":"GitHub Meta","Music / Spotify":"Music / Spotify",
+      "OS / Low Level":"OS / Low Level","Educational / Awesome List":"Educational / Awesome",
+      "Browser Extension":"Browser Extension","Visual / Creative":"Visual / Creative",
+      "Productivity / Workflow":"Productivity / Workflow","Politics / Society":"Politics / Society",
+      "Quirky / Joke":"Quirky / Joke","Other / Misc":"Other / Misc"
+    }
+  },
+  zh: {
+    title_suffix: "档案浏览器",
+    loading: "加载中…",
+    sub: n => `${n.toLocaleString()} 个去重项目 · 2014–2026 · 数据源 Arctic Shift`,
+    search_ph: "搜索标题 / 作者 / 仓库…  (按 / 聚焦)",
+    sort: "排序", sort_score: "点赞最高", sort_new: "最新", sort_old: "最早", sort_comments: "评论最多",
+    lang_flair: "语言", all: "全部", year: "年份", minscore: "最低分",
+    mediaonly: "仅看有图/视频", favonly: "★ 仅看收藏", export: "导出收藏 ↓",
+    all_chip: "全部",
+    count: n => `${n.toLocaleString()} 个项目`,
+    count_theme: theme => ` · 主题: ${theme}`,
+    loadmore: (s,t) => `已显示 ${s} / ${t}，向下滚动加载更多`,
+    end: "— 到底了 —",
+    empty: "没有匹配的项目，换个筛选条件试试",
+    link: "链接 ↗", reddit: "Reddit ↗",
+    img_fail: "图片加载失败", img_orig: "看原图",
+    video: "视频", video_hint: "点 Reddit 链接播放",
+    gallery: "相册", gallery_hint: "点 Reddit 链接看全部",
+    ext_link: "外部链接", fav_title: "收藏",
+    no_favs: "还没有收藏任何项目。点卡片上的 ☆ 收藏。",
+    export_title: n => `# r/coolgithubprojects 收藏 (${n})`,
+    themes: {
+      "AI / LLM":"AI / 大模型","Terminal / TUI":"终端 / TUI","Self-hosted SaaS Replacement":"自托管 SaaS 替代",
+      "Privacy / Security":"隐私 / 安全","GitHub Meta":"GitHub 元话题","Music / Spotify":"音乐 / Spotify",
+      "OS / Low Level":"系统 / 底层","Educational / Awesome List":"教程 / Awesome",
+      "Browser Extension":"浏览器扩展","Visual / Creative":"视觉 / 创意",
+      "Productivity / Workflow":"生产力 / 工作流","Politics / Society":"政治 / 社会",
+      "Quirky / Joke":"脑洞 / 玩梗","Other / Misc":"其它 / 杂项"
+    }
+  }
+};
+
+const LANG_KEY = "cgp_lang";
+let lang = localStorage.getItem(LANG_KEY) || ((navigator.language||"").toLowerCase().startsWith("zh") ? "zh" : "en");
+if (!["zh","en"].includes(lang)) lang = "en";
+function T(){ return I18N[lang]; }
+function themeLabel(key){ return key==="" ? T().all_chip : (T().themes[key]||key); }
+
 const PAGE = 48;
-let ALL = [], VIEW = [], shown = 0;
+let ALL = [], VIEW = [], shown = 0, dataTotal = 0;
 let activeTheme = "", io = null;
 
 const $ = s => document.querySelector(s);
@@ -220,8 +293,10 @@ function esc(s) { return (s||"").replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;
 function fmtDate(ts){ const d=new Date(ts*1000); return d.toISOString().slice(0,10); }
 
 function mediaHTML(p){
+  const t = T();
   if (p.kind === "image" && /^https?:\/\//.test(p.url)) {
-    return `<div class="media"><img loading="lazy" src="${esc(p.url)}" alt="" onerror="this.parentNode.innerHTML='<div class=ph><span class=big>🖼️</span>图片加载失败<br><a href=&quot;${esc(p.url)}&quot; target=_blank>原图</a></div>'"></div>`;
+    const fail = `<div class=ph><span class=big>🖼️</span>${t.img_fail}<br><a href=&quot;${esc(p.url)}&quot; target=_blank>${t.img_orig}</a></div>`;
+    return `<div class="media"><img loading="lazy" src="${esc(p.url)}" alt="" onerror="this.parentNode.innerHTML='${fail}'"></div>`;
   }
   if (p.kind === "youtube" && p.yt_id) {
     return `<div class="media"><iframe loading="lazy" src="https://www.youtube.com/embed/${esc(p.yt_id)}" allowfullscreen></iframe></div>`;
@@ -232,12 +307,11 @@ function mediaHTML(p){
   if (p.kind === "reddit_video") {
     if (p.video && (p.video.hls || p.video.mp4)) {
       const src = esc(JSON.stringify(p.video));
-      const poster = p.thumbnail ? ` style="background-image:url('${esc(p.thumbnail)}');background-size:cover;background-position:center"` : "";
-      const t = p.thumbnail ? `<img loading="lazy" src="${esc(p.thumbnail)}" alt="">` : `<div class="ph"><span class="big">▶️</span>Reddit 视频</div>`;
-      return `<div class="media" data-video='${src}'><span class="badge">▶ 视频</span>${t}<div class="playbtn"><div class="circle">▶</div></div></div>`;
+      const thumb = p.thumbnail ? `<img loading="lazy" src="${esc(p.thumbnail)}" alt="">` : `<div class="ph"><span class="big">▶️</span>${t.video}</div>`;
+      return `<div class="media" data-video='${src}'><span class="badge">▶ ${t.video}</span>${thumb}<div class="playbtn"><div class="circle">▶</div></div></div>`;
     }
-    const t = p.thumbnail ? `<img loading="lazy" src="${esc(p.thumbnail)}" alt="">` : `<div class="ph"><span class="big">▶️</span>Reddit 视频<br><span style="font-size:11px">点 reddit 链接播放</span></div>`;
-    return `<div class="media"><span class="badge">▶ 视频</span>${t}</div>`;
+    const thumb = p.thumbnail ? `<img loading="lazy" src="${esc(p.thumbnail)}" alt="">` : `<div class="ph"><span class="big">▶️</span>${t.video}<br><span style="font-size:11px">${t.video_hint}</span></div>`;
+    return `<div class="media"><span class="badge">▶ ${t.video}</span>${thumb}</div>`;
   }
   if (p.kind === "reddit_gallery") {
     if (p.gallery && p.gallery.length) {
@@ -245,10 +319,10 @@ function mediaHTML(p){
       const nav = p.gallery.length > 1
         ? `<button class="gallery-nav prev">‹</button><button class="gallery-nav next">›</button><span class="gallery-count">1/${p.gallery.length}</span>`
         : "";
-      return `<div class="media gallery-wrap" data-gallery='${imgs}' data-idx="0"><span class="badge">🖼 相册</span><img loading="lazy" src="${esc(p.gallery[0])}" alt="">${nav}</div>`;
+      return `<div class="media gallery-wrap" data-gallery='${imgs}' data-idx="0"><span class="badge">🖼 ${t.gallery}</span><img loading="lazy" src="${esc(p.gallery[0])}" alt="">${nav}</div>`;
     }
-    const t = p.thumbnail ? `<img loading="lazy" src="${esc(p.thumbnail)}" alt="">` : `<div class="ph"><span class="big">🖼️</span>Reddit 相册<br><span style="font-size:11px">点 reddit 链接看全部</span></div>`;
-    return `<div class="media"><span class="badge">🖼 相册</span>${t}</div>`;
+    const thumb = p.thumbnail ? `<img loading="lazy" src="${esc(p.thumbnail)}" alt="">` : `<div class="ph"><span class="big">🖼️</span>${t.gallery}<br><span style="font-size:11px">${t.gallery_hint}</span></div>`;
+    return `<div class="media"><span class="badge">🖼 ${t.gallery}</span>${thumb}</div>`;
   }
   if (p.kind === "github") {
     return `<div class="media"><div class="ph"><span class="big">🐙</span>${esc(p.repo||"GitHub")}</div></div>`;
@@ -256,14 +330,15 @@ function mediaHTML(p){
   if (p.thumbnail) {
     return `<div class="media"><img loading="lazy" src="${esc(p.thumbnail)}" alt=""></div>`;
   }
-  return `<div class="media"><div class="ph"><span class="big">🔗</span>外部链接</div></div>`;
+  return `<div class="media"><div class="ph"><span class="big">🔗</span>${t.ext_link}</div></div>`;
 }
 
 function cardHTML(p){
+  const t = T();
   const flair = p.flair ? `<span class="flair">${esc(p.flair)}</span>` : "";
   const self = p.selftext ? `<p class="selftext">${esc(p.selftext)}</p>` : "";
   const ghLink = p.kind === "github" ? `<a href="${esc(p.url)}" target="_blank" rel="noopener">GitHub ↗</a>` :
-                 (/^https?:/.test(p.url) && p.kind!=="reddit_video" && p.kind!=="reddit_gallery" && p.kind!=="image") ? `<a href="${esc(p.url)}" target="_blank" rel="noopener">链接 ↗</a>` : "";
+                 (/^https?:/.test(p.url) && p.kind!=="reddit_video" && p.kind!=="reddit_gallery" && p.kind!=="image") ? `<a href="${esc(p.url)}" target="_blank" rel="noopener">${t.link}</a>` : "";
   return `<article class="card">
     ${mediaHTML(p)}
     <div class="body">
@@ -275,10 +350,10 @@ function cardHTML(p){
         <span>${fmtDate(p.created_utc)}</span>
         ${flair}
         <span>u/${esc(p.author)}</span>
-        <button class="fav ${FAVS.has(p.id)?'on':''}" data-fav="${esc(p.id)}" title="收藏">${FAVS.has(p.id)?'★':'☆'}</button>
+        <button class="fav ${FAVS.has(p.id)?'on':''}" data-fav="${esc(p.id)}" title="${t.fav_title}">${FAVS.has(p.id)?'★':'☆'}</button>
       </div>
       <div class="links">
-        <a href="${esc(p.permalink)}" target="_blank" rel="noopener">Reddit ↗</a>
+        <a href="${esc(p.permalink)}" target="_blank" rel="noopener">${t.reddit}</a>
         ${ghLink}
       </div>
     </div>
@@ -315,40 +390,37 @@ function applyFilters(){
 
   grid.innerHTML = "";
   shown = 0;
-  $("#count").textContent = `${VIEW.length.toLocaleString()} 个项目` + (activeTheme?` · 主题: ${activeTheme}`:"");
+  $("#count").textContent = T().count(VIEW.length) + (activeTheme ? T().count_theme(themeLabel(activeTheme)) : "");
   renderMore();
 }
 
 function renderMore(){
   const next = VIEW.slice(shown, shown+PAGE);
   if (!next.length) {
-    $("#loadmore").textContent = VIEW.length ? "— 到底了 —" : "";
-    if (!VIEW.length) grid.innerHTML = `<div class="empty">没有匹配的项目，换个筛选条件试试</div>`;
+    $("#loadmore").textContent = VIEW.length ? T().end : "";
+    if (!VIEW.length) grid.innerHTML = `<div class="empty">${T().empty}</div>`;
     return;
   }
   grid.insertAdjacentHTML("beforeend", next.map(cardHTML).join(""));
   shown += next.length;
-  $("#loadmore").textContent = shown < VIEW.length ? `已显示 ${shown} / ${VIEW.length}，向下滚动加载更多` : "— 到底了 —";
+  $("#loadmore").textContent = shown < VIEW.length ? T().loadmore(shown, VIEW.length) : T().end;
 }
 
 function buildThemebar(){
   const counts = {};
-  for (const p of ALL) for (const t of p.themes) counts[t]=(counts[t]||0)+1;
-  const order = ["AI / LLM","Terminal / TUI","Self-hosted SaaS Replacement","Privacy / Security",
-    "GitHub Meta","Music / Spotify","OS / Low Level","Educational / Awesome List",
-    "Browser Extension","Visual / Creative","Productivity / Workflow","Politics / Society",
-    "Quirky / Joke","Other / Misc"];
+  for (const p of ALL) for (const th of p.themes) counts[th]=(counts[th]||0)+1;
   const bar = $("#themebar");
-  const mk = (label, key) => {
+  bar.innerHTML = "";
+  const mk = (key) => {
     const n = key==="" ? ALL.length : (counts[key]||0);
     const c = document.createElement("span");
     c.className = "theme-chip" + (key===activeTheme?" active":"");
-    c.innerHTML = `${label}<span class="n">${n.toLocaleString()}</span>`;
+    c.innerHTML = `${themeLabel(key)}<span class="n">${n.toLocaleString()}</span>`;
     c.onclick = () => { activeTheme = key; document.querySelectorAll(".theme-chip").forEach(x=>x.classList.remove("active")); c.classList.add("active"); applyFilters(); writeHash(); window.scrollTo({top:0}); };
     return c;
   };
-  bar.appendChild(mk("全部",""));
-  for (const t of order) if (counts[t]) bar.appendChild(mk(t, t));
+  bar.appendChild(mk(""));
+  for (const th of THEME_ORDER) if (counts[th]) bar.appendChild(mk(th));
 }
 
 function buildSelects(){
@@ -362,9 +434,33 @@ function buildSelects(){
   Object.keys(years).sort().reverse().forEach(y=>{ const o=document.createElement("option"); o.value=y; o.textContent=y; ysel.appendChild(o); });
 }
 
+function applyLang(){
+  const t = T();
+  document.documentElement.lang = lang;
+  $("#title-suffix").textContent = t.title_suffix;
+  $("#hdr-sub").textContent = ALL.length ? t.sub(dataTotal) : t.loading;
+  $("#q").placeholder = t.search_ph;
+  $("#export").textContent = t.export;
+  document.querySelectorAll("[data-t]").forEach(el => {
+    const key = el.getAttribute("data-t");
+    if (t[key] != null) el.textContent = t[key];
+  });
+  $("#lang-en").classList.toggle("on", lang==="en");
+  $("#lang-zh").classList.toggle("on", lang==="zh");
+}
+
+function setLang(l){
+  if (l === lang) return;
+  lang = l;
+  localStorage.setItem(LANG_KEY, l);
+  applyLang();
+  if (ALL.length){ buildThemebar(); applyFilters(); }
+}
+
 function init(data){
   ALL = data.posts;
-  $("#hdr-sub").textContent = `${data.total.toLocaleString()} 个去重项目 · 2014–2026 · 数据源 Arctic Shift`;
+  dataTotal = data.total;
+  applyLang();
   buildSelects();
   readHash();
   buildThemebar();
@@ -374,6 +470,8 @@ function init(data){
     el.addEventListener(el.tagName==="INPUT"&&el.type==="search"?"input":"change", debounce(()=>{ applyFilters(); writeHash(); }, 180));
   });
   $("#export").addEventListener("click", exportFavs);
+  $("#lang-en").addEventListener("click", ()=>setLang("en"));
+  $("#lang-zh").addEventListener("click", ()=>setLang("zh"));
   io = new IntersectionObserver(es=>{ if(es[0].isIntersecting) renderMore(); }, {rootMargin:"600px"});
   io.observe($("#sentinel"));
   applyFilters();
@@ -381,9 +479,9 @@ function init(data){
 
 function exportFavs(){
   const favs = ALL.filter(p => FAVS.has(p.id));
-  if (!favs.length){ alert("还没有收藏任何项目。点卡片上的 ☆ 收藏。"); return; }
+  if (!favs.length){ alert(T().no_favs); return; }
   favs.sort((a,b)=>b.score-a.score);
-  let md = `# r/coolgithubprojects 收藏 (${favs.length})\n\n`;
+  let md = T().export_title(favs.length) + "\n\n";
   for (const p of favs){
     const d = fmtDate(p.created_utc);
     md += `- **[${p.title.replace(/\n/g," ")}](${p.url})** \`${p.score}▲\` ${p.flair?`\`${p.flair}\` `:""}· ${d} · [reddit](${p.permalink})\n`;
@@ -431,7 +529,7 @@ function playVideo(mediaEl){
   if (hls && window.Hls && Hls.isSupported()){
     const h = new Hls({ maxBufferLength: 30 });
     h.loadSource(hls); h.attachMedia(v);
-    h.on(Hls.ErrorData ? Hls.Events.ERROR : "hlsError", (_,d)=>{ if(d && d.fatal && mp4){ h.destroy(); v.src = mp4; } });
+    h.on(Hls.Events.ERROR, (_,d)=>{ if(d && d.fatal && mp4){ h.destroy(); v.src = mp4; } });
   } else if (hls && v.canPlayType("application/vnd.apple.mpegurl")){
     v.src = hls;
   } else if (mp4){
@@ -479,10 +577,12 @@ function debounce(fn, ms){ let t; return (...a)=>{ clearTimeout(t); t=setTimeout
 
 document.addEventListener("keydown", e=>{ if(e.key==="/" && document.activeElement.tagName!=="INPUT"){ e.preventDefault(); $("#q").focus(); } });
 
+applyLang();  // paint static labels before data loads
+
 fetch("data.json")
   .then(r=>r.json())
   .then(init)
-  .catch(e=>{ document.querySelector("main").innerHTML = `<div class="empty">加载 data.json 失败：${esc(e.message)}<br><br>请通过本地服务器打开（见下方说明），不要直接 file:// 打开。</div>`; });
+  .catch(e=>{ document.querySelector("main").innerHTML = `<div class="empty">Failed to load data.json: ${esc(e.message)}<br><br>Serve via a local HTTP server, not file://.</div>`; });
 </script>
 </body>
 </html>

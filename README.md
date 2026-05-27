@@ -1,57 +1,58 @@
-# reddit-gems — r/coolgithubprojects 全量档案 & 浏览器
+# reddit-gems — r/coolgithubprojects full archive & browser
 
-[r/coolgithubprojects](https://www.reddit.com/r/coolgithubprojects/) 12 年(2014–2026)全部帖子的归档、主题精选，以及一个能直接看图片/视频的浏览页面。
+A complete archive of every post from [r/coolgithubprojects](https://www.reddit.com/r/coolgithubprojects/) across 12 years (2014–2026), plus curated picks and a browser page that renders images and video inline.
 
-**在线浏览**: https://hoveychen.github.io/reddit-gems/
+**Live site**: https://hoveychen.github.io/reddit-gems/
 
-## 这是什么
+## What this is
 
-- **25,794** 条帖子全量归档（数据源 [Arctic Shift](https://arctic-shift.photon-reddit.com/)，Pushshift 的继任者）
-- 去重 + 反 spam 后 **14,604** 条，分到 14 个主题
-- 浏览页面支持：图片 / YouTube / Reddit 视频(HLS) / 多图相册内嵌播放，按主题/语言/年份/分数筛选，搜索，无限滚动
+- **25,794** posts fully archived (source: [Arctic Shift](https://arctic-shift.photon-reddit.com/), the successor to Pushshift)
+- Deduped and de-spammed down to **14,604** posts, classified into 14 themes
+- The browser page embeds images / YouTube / Reddit HLS video / multi-image gallery carousels, with filters by theme, language, year and score, plus search, favorites and infinite scroll
+- Bilingual UI (English / 中文) — toggle in the top-right
 
-## 文件说明
+## Files
 
-| 文件 | 作用 |
+| File | Purpose |
 |---|---|
-| `index.html` | 单文件浏览器（暗色主题，无构建依赖） |
-| `data.json` | 14,604 条去重 + 主题分类的帖子（浏览页面的数据源） |
-| `serve.sh` | 本地一键启动（起 HTTP 服务器并打开浏览器） |
-| `scrape.py` | 从 Arctic Shift 抓取全量帖子（支持断点续传） |
-| `build_browser_data.py` | `posts.jsonl` → `data.json`（去重、分类、提取媒体直链） |
-| `build_digest.py` | 生成 `top.md` / `by_language.md` / `by_year.md` / `stats.md` |
-| `build_clean_top.py` | 生成反 spam 版 `top_clean.md` |
-| `curated.md` / `curated_clean.md` | 人工主题精选（中文，每条一句话点评） |
-| `top.md` / `top_clean.md` | 按分数排序的 Top 500（原始 / 去重版） |
-| `by_language.md` / `by_year.md` / `stats.md` | 按语言、按年、总体统计 |
+| `index.html` | Single-file browser (dark theme, no build step) |
+| `data.json` | 14,604 deduped + theme-classified posts (the browser's data source) |
+| `serve.sh` | One-command local launch (starts an HTTP server and opens the browser) |
+| `scrape.py` | Scrapes all posts from Arctic Shift (resumable) |
+| `build_browser_data.py` | `posts.jsonl` → `data.json` (dedupe, classify, extract media links) |
+| `build_digest.py` | Generates `top.md` / `by_language.md` / `by_year.md` / `stats.md` |
+| `build_clean_top.py` | Generates the de-spammed `top_clean.md` |
+| `curated.md` / `curated_clean.md` | Hand-picked themed selections (Chinese, one-line note each) |
+| `top.md` / `top_clean.md` | Top 500 by score (raw / deduped) |
+| `by_language.md` / `by_year.md` / `stats.md` | By language, by year, overall stats |
 
-> `posts.jsonl`（86 MB 原始全量数据）不在仓库里——跑 `python3 scrape.py` 即可重新抓取。
+> `posts.jsonl` (the 86 MB raw archive) is not committed — run `python3 scrape.py` to regenerate it.
 
-## 本地运行
+## Run locally
 
 ```bash
-./serve.sh              # 起服务器并打开浏览器
-# 或指定端口
+./serve.sh              # start a server and open the browser
+# or pick a port
 ./serve.sh 8080
 ```
 
-必须走本地 HTTP 服务器，不能直接 `file://` 打开（`fetch` 会被 CORS 拦）。
+Must be served over a local HTTP server — opening `file://` directly will fail (`fetch` is blocked by CORS).
 
-## 从零重建数据
+## Rebuild the data from scratch
 
 ```bash
-python3 scrape.py              # 抓全量 → posts.jsonl
-python3 build_browser_data.py  # → data.json（浏览页面用）
-python3 build_digest.py        # → 各种 markdown 摘要
-python3 build_clean_top.py     # → 反 spam Top 500
+python3 scrape.py              # scrape everything → posts.jsonl
+python3 build_browser_data.py  # → data.json (for the browser)
+python3 build_digest.py        # → markdown digests
+python3 build_clean_top.py     # → de-spammed Top 500
 ```
 
-## 已知限制
+## Known limitations
 
-- **视频/相册媒体**：约 87% 的视频、70% 的相册能在页面内播放；其余是 Arctic Shift 当年未抓到 `media` 字段的老帖，只显缩略图 + 跳转 Reddit。
-- **过期 token**：归档时捕获的 v.redd.it 视频链接带签名 token，实测 Reddit CDN 不严格校验过期，老视频仍可播；但不保证长期有效。
-- **`data.json` 媒体来自 Reddit CDN**：浏览页面需联网加载图片/视频。
+- **Video / gallery media**: about 87% of videos and 70% of galleries play inline; the rest are older posts where Arctic Shift never captured the `media` field, so they show a thumbnail and link out to Reddit.
+- **Expired tokens**: archived v.redd.it video links carry signed tokens; in practice Reddit's CDN does not strictly enforce expiry, so old videos still play — but this is not guaranteed long-term.
+- **`data.json` media comes from Reddit's CDN**: the browser page needs network access to load images/video.
 
-## 数据来源与许可
+## Data source & license
 
-帖子元数据来自 [Arctic Shift](https://arctic-shift.photon-reddit.com/) 公开 API。所有内容版权归各自原作者/Reddit 所有，本仓库仅作研究归档用途。
+Post metadata comes from the public [Arctic Shift](https://arctic-shift.photon-reddit.com/) API. All content is the property of its respective authors / Reddit; this repository is for research and archival purposes only.
