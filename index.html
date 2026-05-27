@@ -155,6 +155,31 @@
   .loadmore { text-align: center; padding: 24px; color: var(--muted); font-size: 13px; }
   .empty { text-align: center; padding: 60px 20px; color: var(--muted); }
 
+  /* loading state */
+  #loading {
+    display: flex; flex-direction: column; align-items: center; justify-content: center;
+    gap: 16px; padding: 90px 20px; color: var(--muted);
+  }
+  .spinner {
+    width: 38px; height: 38px; border-radius: 50%;
+    border: 3px solid var(--border); border-top-color: var(--accent);
+    animation: spin .8s linear infinite;
+  }
+  #loading .lbl { font-size: 13.5px; }
+  @keyframes spin { to { transform: rotate(360deg); } }
+
+  /* card entrance */
+  @keyframes cardIn { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: none; } }
+  @keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
+  .card { animation: cardIn .32s ease both; }
+  .modal-backdrop.show { animation: fadeIn .18s ease both; }
+  .modal-backdrop.show .modal { animation: cardIn .22s ease both; }
+
+  @media (prefers-reduced-motion: reduce) {
+    .card, .modal-backdrop.show, .modal-backdrop.show .modal { animation: none; }
+    .spinner { animation-duration: 1.6s; }
+  }
+
   .media video { width: 100%; max-height: 460px; display: block; background: #000; }
   .playbtn {
     position: absolute; inset: 0; display: flex; align-items: center; justify-content: center;
@@ -325,6 +350,7 @@
 
 <script src="https://cdn.jsdelivr.net/npm/hls.js@1.5.13/dist/hls.min.js"></script>
 <main>
+  <div id="loading"><div class="spinner"></div><div class="lbl" data-t="loading"></div></div>
   <div id="count"></div>
   <div class="grid" id="grid"></div>
   <div id="sentinel"></div>
@@ -644,6 +670,7 @@ function init(data){
   loadStarCount();
   io = new IntersectionObserver(es=>{ if(es[0].isIntersecting) renderMore(); }, {rootMargin:"600px"});
   io.observe($("#sentinel"));
+  $("#loading").style.display = "none";
   applyFilters();
 }
 
