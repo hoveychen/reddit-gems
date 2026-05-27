@@ -1,5 +1,10 @@
 # reddit-gems — r/coolgithubprojects full archive & browser
 
+[![GitHub stars](https://img.shields.io/github/stars/hoveychen/reddit-gems?style=flat&logo=github)](https://github.com/hoveychen/reddit-gems/stargazers)
+[![Last commit](https://img.shields.io/github/last-commit/hoveychen/reddit-gems)](https://github.com/hoveychen/reddit-gems/commits/main)
+[![Weekly refresh](https://github.com/hoveychen/reddit-gems/actions/workflows/update.yml/badge.svg)](https://github.com/hoveychen/reddit-gems/actions/workflows/update.yml)
+[![Live site](https://img.shields.io/badge/live-GitHub%20Pages-2ea44f)](https://hoveychen.github.io/reddit-gems/)
+
 A complete archive of every post from [r/coolgithubprojects](https://www.reddit.com/r/coolgithubprojects/) across 12 years (2014–2026), plus curated picks and a browser page that renders images and video inline.
 
 **Live site**: https://hoveychen.github.io/reddit-gems/
