@@ -16,6 +16,20 @@
     --accent-2: #58a6ff;
     --green: #3fb950;
     --chip: #21262d;
+    --header-bg: rgba(13,17,23,.92);
+  }
+  :root[data-theme="light"] {
+    --bg: #f6f8fa;
+    --panel: #ffffff;
+    --panel-2: #eef1f5;
+    --border: #d0d7de;
+    --text: #1f2328;
+    --muted: #656d76;
+    --accent: #e0512f;
+    --accent-2: #0969da;
+    --green: #1a7f37;
+    --chip: #eaeef2;
+    --header-bg: rgba(246,248,250,.92);
   }
   * { box-sizing: border-box; }
   html, body { margin: 0; padding: 0; }
@@ -30,7 +44,7 @@
 
   header {
     position: sticky; top: 0; z-index: 50;
-    background: rgba(13,17,23,.92);
+    background: var(--header-bg);
     backdrop-filter: blur(8px);
     border-bottom: 1px solid var(--border);
     padding: 14px 20px;
@@ -39,13 +53,23 @@
   h1 { font-size: 18px; margin: 0; font-weight: 700; letter-spacing: -.01em; }
   h1 .r { color: var(--accent); }
   .sub { color: var(--muted); font-size: 12.5px; }
-  .langswitch { margin-left: auto; display: flex; gap: 4px; align-self: center; }
-  .langswitch button {
+  .toolbar { margin-left: auto; display: flex; gap: 10px; align-items: center; align-self: center; }
+  .langswitch { display: flex; gap: 4px; }
+  .langswitch button, .themetoggle {
     background: var(--chip); border: 1px solid var(--border); color: var(--muted);
-    padding: 3px 10px; border-radius: 6px; font-size: 12px; cursor: pointer;
+    padding: 3px 10px; border-radius: 6px; font-size: 12px; cursor: pointer; line-height: 1.6;
   }
-  .langswitch button:hover { color: var(--text); }
-  .langswitch button.on { background: var(--accent); border-color: var(--accent); color: #1a1008; font-weight: 600; }
+  .langswitch button:hover, .themetoggle:hover { color: var(--text); }
+  .langswitch button.on { background: var(--accent); border-color: var(--accent); color: #fff; font-weight: 600; }
+  .themetoggle { font-size: 14px; }
+  .ghstar {
+    display: inline-flex; align-items: center; gap: 5px;
+    background: var(--chip); border: 1px solid var(--border); color: var(--text);
+    padding: 3px 10px; border-radius: 6px; font-size: 12px; text-decoration: none; white-space: nowrap;
+  }
+  .ghstar:hover { border-color: var(--muted); text-decoration: none; }
+  .ghstar svg { width: 14px; height: 14px; fill: currentColor; }
+  .ghstar .cnt { color: var(--muted); }
 
   .controls {
     display: flex; gap: 10px; flex-wrap: wrap; align-items: center;
@@ -176,9 +200,16 @@
   <div class="title-row">
     <h1><span class="r">r/</span>coolgithubprojects <span id="title-suffix"></span></h1>
     <span class="sub" id="hdr-sub"></span>
-    <span class="langswitch">
-      <button id="lang-en" type="button">EN</button>
-      <button id="lang-zh" type="button">中</button>
+    <span class="toolbar">
+      <a class="ghstar" id="ghstar" href="https://github.com/hoveychen/reddit-gems" target="_blank" rel="noopener" title="View source on GitHub">
+        <svg viewBox="0 0 16 16" aria-hidden="true"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0016 8c0-4.42-3.58-8-8-8z"></path></svg>
+        <span id="ghstar-label">GitHub</span><span class="cnt" id="ghstar-count"></span>
+      </a>
+      <button class="themetoggle" id="themetoggle" type="button" title="Toggle theme">🌙</button>
+      <span class="langswitch">
+        <button id="lang-en" type="button">EN</button>
+        <button id="lang-zh" type="button">中</button>
+      </span>
     </span>
   </div>
   <div class="controls">
@@ -295,6 +326,34 @@ let lang = localStorage.getItem(LANG_KEY) || ((navigator.language||"").toLowerCa
 if (!["zh","en"].includes(lang)) lang = "en";
 function T(){ return I18N[lang]; }
 function themeLabel(key){ return key==="" ? T().all_chip : (T().themes[key]||key); }
+
+const THEME_KEY = "cgp_theme";
+const prefersLight = window.matchMedia && window.matchMedia("(prefers-color-scheme: light)").matches;
+let theme = localStorage.getItem(THEME_KEY) || (prefersLight ? "light" : "dark");
+function applyTheme(){
+  document.documentElement.setAttribute("data-theme", theme);
+  const btn = document.querySelector("#themetoggle");
+  if (btn) btn.textContent = theme === "light" ? "☀️" : "🌙";
+}
+function toggleTheme(){
+  theme = theme === "light" ? "dark" : "light";
+  localStorage.setItem(THEME_KEY, theme);
+  applyTheme();
+}
+applyTheme();
+
+const REPO = "hoveychen/reddit-gems";
+function loadStarCount(){
+  fetch(`https://api.github.com/repos/${REPO}`)
+    .then(r => r.ok ? r.json() : null)
+    .then(d => {
+      if (d && typeof d.stargazers_count === "number"){
+        const el = document.querySelector("#ghstar-count");
+        if (el) el.textContent = " ★ " + d.stargazers_count.toLocaleString();
+      }
+    })
+    .catch(()=>{});
+}
 
 const PAGE = 48;
 let ALL = [], VIEW = [], shown = 0, dataTotal = 0;
@@ -493,6 +552,8 @@ function init(data){
   $("#export").addEventListener("click", exportFavs);
   $("#lang-en").addEventListener("click", ()=>setLang("en"));
   $("#lang-zh").addEventListener("click", ()=>setLang("zh"));
+  $("#themetoggle").addEventListener("click", toggleTheme);
+  loadStarCount();
   io = new IntersectionObserver(es=>{ if(es[0].isIntersecting) renderMore(); }, {rootMargin:"600px"});
   io.observe($("#sentinel"));
   applyFilters();
