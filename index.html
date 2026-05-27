@@ -187,6 +187,53 @@
     font-size: 11px; padding: 2px 8px; border-radius: 6px;
   }
 
+  .grid .card { cursor: pointer; }
+  .grid .card a, .grid .card button { cursor: auto; }
+
+  .modal-backdrop {
+    position: fixed; inset: 0; background: rgba(0,0,0,.72); z-index: 200;
+    display: none; align-items: center; justify-content: center; padding: 24px;
+  }
+  .modal-backdrop.show { display: flex; }
+  .modal {
+    background: var(--panel); border: 1px solid var(--border); border-radius: 14px;
+    width: 100%; max-width: 860px; max-height: 90vh; overflow-y: auto; position: relative;
+  }
+  .modal-media { background: #000; position: relative; line-height: 0; }
+  .modal-media img { width: 100%; max-height: 68vh; object-fit: contain; display: block; }
+  .modal-media video { width: 100%; max-height: 68vh; display: block; background: #000; }
+  .modal-media iframe { width: 100%; aspect-ratio: 16/9; border: 0; display: block; }
+  .modal-media .ph {
+    width: 100%; aspect-ratio: 16/9; display: flex; align-items: center; justify-content: center;
+    color: var(--muted); font-size: 14px; background: var(--panel-2); flex-direction: column; gap: 8px;
+  }
+  .modal-media .ph .big { font-size: 40px; }
+  .modal-body { padding: 18px 22px 22px; }
+  .modal-title { font-size: 19px; font-weight: 700; line-height: 1.35; margin: 0 0 12px; }
+  .modal-selftext { color: var(--text); font-size: 14px; line-height: 1.6; white-space: pre-wrap;
+    word-break: break-word; margin: 0 0 14px; opacity: .85; }
+  .modal-meta { display: flex; flex-wrap: wrap; gap: 12px; align-items: center; font-size: 13px;
+    color: var(--muted); margin-bottom: 14px; }
+  .modal-links { display: flex; flex-wrap: wrap; gap: 16px; align-items: center; font-size: 14px;
+    border-top: 1px solid var(--border); padding-top: 14px; }
+  .modal-close {
+    position: absolute; top: 10px; right: 10px; z-index: 3;
+    width: 34px; height: 34px; border-radius: 50%; border: 0; cursor: pointer;
+    background: rgba(0,0,0,.6); color: #fff; font-size: 20px; line-height: 1;
+    display: flex; align-items: center; justify-content: center;
+  }
+  .modal-close:hover { background: rgba(0,0,0,.85); }
+  .modal-arrow {
+    position: fixed; top: 50%; transform: translateY(-50%); z-index: 201;
+    width: 48px; height: 48px; border-radius: 50%; border: 1px solid var(--border); cursor: pointer;
+    background: var(--panel-2); color: var(--text); font-size: 24px;
+    display: flex; align-items: center; justify-content: center;
+  }
+  .modal-arrow:hover { border-color: var(--muted); }
+  .modal-arrow.prev { left: 16px; }
+  .modal-arrow.next { right: 16px; }
+  .modal-arrow[hidden] { display: none; }
+
   .links .sharebtn {
     background: none; border: 0; color: var(--accent-2); cursor: pointer;
     font: inherit; font-size: 12.5px; padding: 0; display: inline-flex; align-items: center; gap: 3px;
@@ -219,6 +266,11 @@
     .theme-chip { flex: 0 0 auto; }
     .media img, .media video { max-height: 75vh; }
     .gallery-nav { width: 44px; height: 64px; font-size: 24px; }
+    .modal-backdrop { padding: 0; align-items: flex-end; }
+    .modal { max-width: 100%; max-height: 92vh; border-radius: 14px 14px 0 0; }
+    .modal-arrow { width: 38px; height: 38px; font-size: 20px; opacity: .85; top: auto; bottom: 12px; transform: none; }
+    .modal-arrow.prev { left: 12px; }
+    .modal-arrow.next { right: 12px; }
   }
 </style>
 </head>
@@ -279,6 +331,11 @@
   <div class="loadmore" id="loadmore"></div>
 </main>
 <div id="toast"></div>
+<div class="modal-backdrop" id="modal-backdrop">
+  <button class="modal-arrow prev" id="modal-prev" type="button" aria-label="prev">‹</button>
+  <div class="modal" id="modal"></div>
+  <button class="modal-arrow next" id="modal-next" type="button" aria-label="next">›</button>
+</div>
 
 <script>
 const THEME_ORDER = ["AI / LLM","Terminal / TUI","Self-hosted SaaS Replacement","Privacy / Security",
@@ -306,6 +363,7 @@ const I18N = {
     video: "Video", video_hint: "open the Reddit link to play",
     gallery: "Gallery", gallery_hint: "open the Reddit link for all images",
     ext_link: "External link", fav_title: "Favorite",
+    close: "Close", prev: "Previous", next: "Next", open_reddit: "Open on Reddit ↗",
     no_favs: "No favorites yet — click ☆ on a card.",
     export_title: n => `# r/coolgithubprojects favorites (${n})`,
     themes: {
@@ -336,6 +394,7 @@ const I18N = {
     video: "视频", video_hint: "点 Reddit 链接播放",
     gallery: "相册", gallery_hint: "点 Reddit 链接看全部",
     ext_link: "外部链接", fav_title: "收藏",
+    close: "关闭", prev: "上一个", next: "下一个", open_reddit: "在 Reddit 打开 ↗",
     no_favs: "还没有收藏任何项目。点卡片上的 ☆ 收藏。",
     export_title: n => `# r/coolgithubprojects 收藏 (${n})`,
     themes: {
@@ -447,7 +506,7 @@ function cardHTML(p){
   const self = p.selftext ? `<p class="selftext">${esc(p.selftext)}</p>` : "";
   const ghLink = p.kind === "github" ? `<a href="${esc(p.url)}" target="_blank" rel="noopener">GitHub ↗</a>` :
                  (/^https?:/.test(p.url) && p.kind!=="reddit_video" && p.kind!=="reddit_gallery" && p.kind!=="image") ? `<a href="${esc(p.url)}" target="_blank" rel="noopener">${t.link}</a>` : "";
-  return `<article class="card">
+  return `<article class="card" data-id="${esc(p.id)}">
     ${mediaHTML(p)}
     <div class="body">
       <h2 class="card-title"><a href="${esc(p.permalink)}" target="_blank" rel="noopener">${esc(p.title)}</a></h2>
@@ -689,7 +748,60 @@ function fallbackCopy(text, cb){
   document.body.removeChild(ta);
 }
 
-grid.addEventListener("click", e=>{
+let modalIndex = -1;
+function modalHTML(p){
+  const t = T();
+  const flair = p.flair ? `<span class="flair">${esc(p.flair)}</span>` : "";
+  const self = p.selftext ? `<p class="modal-selftext">${esc(p.selftext)}</p>` : "";
+  const gh = p.kind === "github" ? `<a href="${esc(p.url)}" target="_blank" rel="noopener">GitHub ↗</a>` :
+             (/^https?:/.test(p.url) && !["reddit_video","reddit_gallery","image"].includes(p.kind)) ? `<a href="${esc(p.url)}" target="_blank" rel="noopener">${t.link}</a>` : "";
+  return `<button class="modal-close" id="modal-close" type="button" aria-label="${t.close}">×</button>
+    <div class="modal-media">${mediaHTML(p)}</div>
+    <div class="modal-body">
+      <h2 class="modal-title">${esc(p.title)}</h2>
+      ${self}
+      <div class="modal-meta">
+        <span class="score">▲ ${p.score}</span><span>💬 ${p.n_comments}</span>
+        <span>${fmtDate(p.created_utc)}</span>${flair}<span>u/${esc(p.author)}</span>
+      </div>
+      <div class="modal-links">
+        <a href="${esc(p.permalink)}" target="_blank" rel="noopener">${t.open_reddit}</a>
+        ${gh}
+        <button class="fav ${FAVS.has(p.id)?'on':''}" data-fav="${esc(p.id)}" title="${t.fav_title}">${FAVS.has(p.id)?'★':'☆'}</button>
+        <button class="sharebtn" data-share-url="${esc(p.permalink)}" data-share-title="${esc(p.title.replace(/\n/g,' '))}">⤴ ${t.share}</button>
+      </div>
+    </div>`;
+}
+function renderModal(){
+  const p = VIEW[modalIndex];
+  if (!p) return;
+  $("#modal").innerHTML = modalHTML(p);
+  $("#modal").scrollTop = 0;
+  $("#modal-prev").hidden = modalIndex <= 0;
+  $("#modal-next").hidden = modalIndex >= VIEW.length - 1;
+}
+function openModal(id){
+  const idx = VIEW.findIndex(p => p.id === id);
+  if (idx < 0) return;
+  modalIndex = idx;
+  renderModal();
+  $("#modal-backdrop").classList.add("show");
+  document.body.style.overflow = "hidden";
+}
+function closeModal(){
+  $("#modal-backdrop").classList.remove("show");
+  $("#modal").innerHTML = "";
+  document.body.style.overflow = "";
+  modalIndex = -1;
+}
+function navModal(dir){
+  const ni = modalIndex + dir;
+  if (ni < 0 || ni >= VIEW.length) return;
+  modalIndex = ni;
+  renderModal();
+}
+
+document.addEventListener("click", e=>{
   const shareBtn = e.target.closest(".sharebtn");
   if (shareBtn){
     e.preventDefault();
@@ -702,9 +814,11 @@ grid.addEventListener("click", e=>{
     const id = favBtn.dataset.fav;
     toggleFav(id);
     const on = FAVS.has(id);
-    favBtn.classList.toggle("on", on);
-    favBtn.textContent = on ? "★" : "☆";
-    if ($("#favonly").checked && !on){ const card = favBtn.closest(".card"); if (card) card.remove(); }
+    // sync every fav button for this id (grid card + modal)
+    document.querySelectorAll(`.fav[data-fav="${CSS.escape(id)}"]`).forEach(b=>{
+      b.classList.toggle("on", on); b.textContent = on ? "★" : "☆";
+    });
+    if ($("#favonly").checked && !on){ const card = favBtn.closest("#grid .card"); if (card) card.remove(); }
     return;
   }
   const navBtn = e.target.closest(".gallery-nav");
@@ -717,16 +831,25 @@ grid.addEventListener("click", e=>{
   if (play){
     e.preventDefault();
     playVideo(play.closest(".media"));
+    return;
   }
+  // modal controls
+  if (e.target.closest("#modal-close")){ closeModal(); return; }
+  if (e.target.id === "modal-backdrop"){ closeModal(); return; }
+  const arrow = e.target.closest(".modal-arrow");
+  if (arrow){ navModal(arrow.id === "modal-next" ? 1 : -1); return; }
+  // open modal from a grid card (skip clicks on links/buttons)
+  const card = e.target.closest("#grid .card");
+  if (card && !e.target.closest("a, button")){ openModal(card.dataset.id); }
 });
 
-// Touch-swipe to flip gallery images on mobile
+// Touch-swipe to flip gallery images on mobile (works in grid and modal)
 let touchX = null, touchY = null, touchWrap = null;
-grid.addEventListener("touchstart", e=>{
+document.addEventListener("touchstart", e=>{
   const w = e.target.closest(".gallery-wrap");
   if (w){ touchWrap = w; touchX = e.touches[0].clientX; touchY = e.touches[0].clientY; }
 }, {passive:true});
-grid.addEventListener("touchend", e=>{
+document.addEventListener("touchend", e=>{
   if (!touchWrap || touchX==null) return;
   const dx = e.changedTouches[0].clientX - touchX;
   const dy = e.changedTouches[0].clientY - touchY;
@@ -736,7 +859,16 @@ grid.addEventListener("touchend", e=>{
 
 function debounce(fn, ms){ let t; return (...a)=>{ clearTimeout(t); t=setTimeout(()=>fn(...a), ms); }; }
 
-document.addEventListener("keydown", e=>{ if(e.key==="/" && document.activeElement.tagName!=="INPUT"){ e.preventDefault(); $("#q").focus(); } });
+document.addEventListener("keydown", e=>{
+  const modalOpen = $("#modal-backdrop").classList.contains("show");
+  if (modalOpen){
+    if (e.key === "Escape") closeModal();
+    else if (e.key === "ArrowLeft") navModal(-1);
+    else if (e.key === "ArrowRight") navModal(1);
+    return;
+  }
+  if(e.key==="/" && document.activeElement.tagName!=="INPUT"){ e.preventDefault(); $("#q").focus(); }
+});
 
 applyLang();  // paint static labels before data loads
 
