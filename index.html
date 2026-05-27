@@ -4,6 +4,20 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>r/coolgithubprojects — Archive Browser</title>
+<meta name="description" content="Browse 12 years of r/coolgithubprojects: 14,600+ deduped open-source projects with inline images and video, themes, search and favorites.">
+<!-- Open Graph -->
+<meta property="og:type" content="website">
+<meta property="og:title" content="r/coolgithubprojects — Archive Browser">
+<meta property="og:description" content="12 years of r/coolgithubprojects, deduped and browsable: images & video inline, themes, search, favorites.">
+<meta property="og:url" content="https://hoveychen.github.io/reddit-gems/">
+<meta property="og:image" content="https://hoveychen.github.io/reddit-gems/screenshot.png">
+<meta property="og:image:width" content="1440">
+<meta property="og:image:height" content="900">
+<!-- Twitter Card -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="r/coolgithubprojects — Archive Browser">
+<meta name="twitter:description" content="12 years of r/coolgithubprojects, deduped and browsable: images & video inline, themes, search, favorites.">
+<meta name="twitter:image" content="https://hoveychen.github.io/reddit-gems/screenshot.png">
 <style>
   :root {
     --bg: #0d1117;
@@ -173,6 +187,19 @@
     font-size: 11px; padding: 2px 8px; border-radius: 6px;
   }
 
+  .links .sharebtn {
+    background: none; border: 0; color: var(--accent-2); cursor: pointer;
+    font: inherit; font-size: 12.5px; padding: 0; display: inline-flex; align-items: center; gap: 3px;
+  }
+  .links .sharebtn:hover { text-decoration: underline; }
+  #toast {
+    position: fixed; left: 50%; bottom: 28px; transform: translateX(-50%) translateY(20px);
+    background: var(--accent); color: #fff; padding: 9px 18px; border-radius: 999px;
+    font-size: 13px; font-weight: 600; box-shadow: 0 6px 20px rgba(0,0,0,.35);
+    opacity: 0; pointer-events: none; transition: opacity .2s, transform .2s; z-index: 100;
+  }
+  #toast.show { opacity: 1; transform: translateX(-50%) translateY(0); }
+
   @media (max-width: 640px) {
     header { padding: 10px 12px; }
     h1 { font-size: 15.5px; }
@@ -251,6 +278,7 @@
   <div id="sentinel"></div>
   <div class="loadmore" id="loadmore"></div>
 </main>
+<div id="toast"></div>
 
 <script>
 const THEME_ORDER = ["AI / LLM","Terminal / TUI","Self-hosted SaaS Replacement","Privacy / Security",
@@ -273,7 +301,7 @@ const I18N = {
     loadmore: (s,t) => `Showing ${s} / ${t}, scroll for more`,
     end: "— end —",
     empty: "No matching projects — try different filters",
-    link: "Link ↗", reddit: "Reddit ↗",
+    link: "Link ↗", reddit: "Reddit ↗", share: "Share", copied: "Link copied to clipboard",
     img_fail: "Image failed to load", img_orig: "open original",
     video: "Video", video_hint: "open the Reddit link to play",
     gallery: "Gallery", gallery_hint: "open the Reddit link for all images",
@@ -303,7 +331,7 @@ const I18N = {
     loadmore: (s,t) => `已显示 ${s} / ${t}，向下滚动加载更多`,
     end: "— 到底了 —",
     empty: "没有匹配的项目，换个筛选条件试试",
-    link: "链接 ↗", reddit: "Reddit ↗",
+    link: "链接 ↗", reddit: "Reddit ↗", share: "分享", copied: "链接已复制到剪贴板",
     img_fail: "图片加载失败", img_orig: "看原图",
     video: "视频", video_hint: "点 Reddit 链接播放",
     gallery: "相册", gallery_hint: "点 Reddit 链接看全部",
@@ -435,6 +463,7 @@ function cardHTML(p){
       <div class="links">
         <a href="${esc(p.permalink)}" target="_blank" rel="noopener">${t.reddit}</a>
         ${ghLink}
+        <button class="sharebtn" data-share-url="${esc(p.permalink)}" data-share-title="${esc(p.title.replace(/\n/g,' '))}">⤴ ${t.share}</button>
       </div>
     </div>
   </article>`;
@@ -630,7 +659,43 @@ function galleryStep(wrap, dir){
   if (c) c.textContent = `${idx+1}/${imgs.length}`;
 }
 
+let toastTimer = null;
+function showToast(msg){
+  const el = $("#toast");
+  if (!el) return;
+  el.textContent = msg;
+  el.classList.add("show");
+  clearTimeout(toastTimer);
+  toastTimer = setTimeout(()=>el.classList.remove("show"), 2200);
+}
+
+function sharePost(url, title){
+  if (navigator.share){
+    navigator.share({ title, url }).catch(()=>{});
+    return;
+  }
+  const done = ()=>showToast(T().copied);
+  if (navigator.clipboard && navigator.clipboard.writeText){
+    navigator.clipboard.writeText(url).then(done).catch(()=>fallbackCopy(url, done));
+  } else {
+    fallbackCopy(url, done);
+  }
+}
+function fallbackCopy(text, cb){
+  const ta = document.createElement("textarea");
+  ta.value = text; ta.style.position = "fixed"; ta.style.opacity = "0";
+  document.body.appendChild(ta); ta.select();
+  try { document.execCommand("copy"); cb && cb(); } catch {}
+  document.body.removeChild(ta);
+}
+
 grid.addEventListener("click", e=>{
+  const shareBtn = e.target.closest(".sharebtn");
+  if (shareBtn){
+    e.preventDefault();
+    sharePost(shareBtn.dataset.shareUrl, shareBtn.dataset.shareTitle);
+    return;
+  }
   const favBtn = e.target.closest(".fav");
   if (favBtn){
     e.preventDefault();
