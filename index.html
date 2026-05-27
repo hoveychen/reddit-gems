@@ -155,18 +155,23 @@
   .loadmore { text-align: center; padding: 24px; color: var(--muted); font-size: 13px; }
   .empty { text-align: center; padding: 60px 20px; color: var(--muted); }
 
-  /* loading state */
+  /* loading state — skeleton screen */
   #loading {
-    display: flex; flex-direction: column; align-items: center; justify-content: center;
-    gap: 16px; padding: 90px 20px; color: var(--muted);
+    display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 320px), 1fr)); gap: 16px;
   }
-  .spinner {
-    width: 38px; height: 38px; border-radius: 50%;
-    border: 3px solid var(--border); border-top-color: var(--accent);
-    animation: spin .8s linear infinite;
+  .skel-card {
+    background: var(--panel); border: 1px solid var(--border);
+    border-radius: 12px; overflow: hidden;
   }
-  #loading .lbl { font-size: 13.5px; }
-  @keyframes spin { to { transform: rotate(360deg); } }
+  .skel-media { width: 100%; aspect-ratio: 16/10; }
+  .skel-body { padding: 13px 14px; display: flex; flex-direction: column; gap: 10px; }
+  .skel-line { height: 12px; border-radius: 5px; }
+  .skel-line.lg { height: 15px; }
+  .skel-meta { display: flex; gap: 8px; margin-top: 4px; }
+  .skel-pill { height: 14px; width: 52px; border-radius: 5px; }
+  .skel { background: var(--chip); animation: pulse 1.3s ease-in-out infinite; }
+
+  @keyframes pulse { 0%,100% { opacity: 1; } 50% { opacity: .5; } }
 
   /* card entrance */
   @keyframes cardIn { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: none; } }
@@ -177,7 +182,7 @@
 
   @media (prefers-reduced-motion: reduce) {
     .card, .modal-backdrop.show, .modal-backdrop.show .modal { animation: none; }
-    .spinner { animation-duration: 1.6s; }
+    .skel { animation: none; }
   }
 
   .media video { width: 100%; max-height: 460px; display: block; background: #000; }
@@ -350,7 +355,7 @@
 
 <script src="https://cdn.jsdelivr.net/npm/hls.js@1.5.13/dist/hls.min.js"></script>
 <main>
-  <div id="loading"><div class="spinner"></div><div class="lbl" data-t="loading"></div></div>
+  <div id="loading" aria-busy="true" aria-label="Loading"></div>
   <div id="count"></div>
   <div class="grid" id="grid"></div>
   <div id="sentinel"></div>
@@ -897,7 +902,25 @@ document.addEventListener("keydown", e=>{
   if(e.key==="/" && document.activeElement.tagName!=="INPUT"){ e.preventDefault(); $("#q").focus(); }
 });
 
+function buildSkeletons(n){
+  const card = `<div class="skel-card">
+    <div class="skel-media skel"></div>
+    <div class="skel-body">
+      <div class="skel-line lg skel" style="width:92%"></div>
+      <div class="skel-line lg skel" style="width:60%"></div>
+      <div class="skel-line skel" style="width:80%"></div>
+      <div class="skel-meta">
+        <div class="skel-pill skel" style="width:38px"></div>
+        <div class="skel-pill skel" style="width:46px"></div>
+        <div class="skel-pill skel" style="width:60px"></div>
+      </div>
+    </div>
+  </div>`;
+  $("#loading").innerHTML = card.repeat(n);
+}
+
 applyLang();  // paint static labels before data loads
+buildSkeletons(12);  // skeleton screen while data.json loads
 
 fetch("data.json")
   .then(r=>r.json())
