@@ -5,7 +5,7 @@
 [![Weekly refresh](https://github.com/hoveychen/reddit-gems/actions/workflows/update.yml/badge.svg)](https://github.com/hoveychen/reddit-gems/actions/workflows/update.yml)
 [![Live site](https://img.shields.io/badge/live-GitHub%20Pages-2ea44f)](https://hoveychen.github.io/reddit-gems/)
 
-A complete archive of every post from [r/coolgithubprojects](https://www.reddit.com/r/coolgithubprojects/) across 12 years (2014–2026), plus curated picks and a browser page that renders images and video inline.
+A complete archive of every post from [r/coolgithubprojects](https://www.reddit.com/r/coolgithubprojects/) across 12 years (2014–2026), plus a browser page that renders images and video inline.
 
 **Live site**: https://hoveychen.github.io/reddit-gems/
 
@@ -29,7 +29,6 @@ A complete archive of every post from [r/coolgithubprojects](https://www.reddit.
 | `build_browser_data.py` | `posts.jsonl` → `data.json` (dedupe, classify, extract media links) |
 | `build_digest.py` | Generates `top.md` / `by_language.md` / `by_year.md` / `stats.md` |
 | `build_clean_top.py` | Generates the de-spammed `top_clean.md` |
-| `curated.md` / `curated_clean.md` | Hand-picked themed selections (Chinese, one-line note each) |
 | `top.md` / `top_clean.md` | Top 500 by score (raw / deduped) |
 | `by_language.md` / `by_year.md` / `stats.md` | By language, by year, overall stats |
 
