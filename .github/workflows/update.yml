@@ -1,9 +1,9 @@
-name: Weekly archive refresh
+name: Daily archive refresh
 
 on:
   schedule:
-    # Every Monday 06:00 UTC
-    - cron: "0 6 * * 1"
+    # Every day 06:00 UTC
+    - cron: "0 6 * * *"
   workflow_dispatch: {}
 
 permissions:
@@ -44,6 +44,6 @@ jobs:
             echo "No changes to commit."
           else
             STAMP=$(date -u +"%Y-%m-%d")
-            git commit -m "Weekly archive refresh ($STAMP)"
+            git commit -m "Daily archive refresh ($STAMP)"
             git push
           fi
