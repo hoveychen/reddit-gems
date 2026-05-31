@@ -1116,7 +1116,7 @@
    score `17` · comments `5` · `2025-06-11` · [reddit](https://reddit.com/r/coolgithubprojects/comments/1l8ytsr/congressmcp_an_mcp_server_to_interact_with/)
 
 
-## 2026 (3865 posts)
+## 2026 (3900 posts)
 
 - **[Actress Milla Jovovich just released a free open-source AI memory system](https://i.redd.it/fjzunvsr85ug1.png)** `OTHER`  
    score `933` · comments `101` · `2026-04-09` · [reddit](https://reddit.com/r/coolgithubprojects/comments/1sgm27k/actress_milla_jovovich_just_released_a_free/)
@@ -1190,6 +1190,9 @@
 - **[My Open Source Sketchbook Style Component Library is finally Live](https://i.redd.it/f4qjta82ozsg1.png)** `OTHER`  
    score `142` · comments `12` · `2026-04-03` · [reddit](https://reddit.com/r/coolgithubprojects/comments/1sbgd18/my_open_source_sketchbook_style_component_library/)
 
+- **[Beware!! Users trying to fork and steal your projects](https://i.redd.it/rcxnybjojz3h1.png)**  
+   score `142` · comments `68` · `2026-05-29` · [reddit](https://reddit.com/r/coolgithubprojects/comments/1tqnxzf/beware_users_trying_to_fork_and_steal_your/)
+
 - **[I built vimtutor for AI-assisted coding - learn context windows, MCP, tools, and more in your terminal](https://i.redd.it/p5qluif9ehog1.gif)** `OTHER`  
    score `139` · comments `14` · `2026-03-11` · [reddit](https://reddit.com/r/coolgithubprojects/comments/1rr6i6i/i_built_vimtutor_for_aiassisted_coding_learn/)
 
@@ -1204,8 +1207,5 @@
 
 - **[Live Interactive Dashboard of Internet Bot Attacks with Spinning Global Heatmap](https://i.redd.it/sa42mvysg42h1.gif)**  
    score `125` · comments `15` · `2026-05-19` · [reddit](https://reddit.com/r/coolgithubprojects/comments/1thtb4u/live_interactive_dashboard_of_internet_bot/)
-
-- **[I remade Chrome’s Dino game 🦖 — but it runs in the URL bar (with multiplayer)](https://i.redd.it/rsrevg6m1myg1.gif)** `OTHER`  
-   score `122` · comments `5` · `2026-05-01` · [reddit](https://reddit.com/r/coolgithubprojects/comments/1t19fob/i_remade_chromes_dino_game_but_it_runs_in_the_url/)
 
 
