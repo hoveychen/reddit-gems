@@ -1,6 +1,6 @@
 # r/coolgithubprojects — Top by Language Flair
 
-## OTHER (11960 posts)
+## OTHER (11993 posts)
 
 - **[Actress Milla Jovovich just released a free open-source AI memory system](https://i.redd.it/fjzunvsr85ug1.png)** `OTHER`  
    score `933` · comments `101` · `2026-04-09` · [reddit](https://reddit.com/r/coolgithubprojects/comments/1sgm27k/actress_milla_jovovich_just_released_a_free/)
@@ -16,6 +16,9 @@
 
 - **[I built GitKingdom, where GitHub repos become buildings in a procedurally generated fantasy world. Your stars determine your building size.](https://i.redd.it/iwwwixt2o1rg1.png)**  
    score `330` · comments `49` · `2026-03-24` · [reddit](https://reddit.com/r/coolgithubprojects/comments/1s2nr4q/i_built_gitkingdom_where_github_repos_become/)
+
+- **[Real-time ASCII Webcam renderer in pure C with zero external dependencies](https://i.redd.it/fnh0meurna4h1.gif)**  
+   score `328` · comments `42` · `2026-05-30` · [reddit](https://reddit.com/r/coolgithubprojects/comments/1ts35ei/realtime_ascii_webcam_renderer_in_pure_c_with/)
 
 - **[Finally! Cate v1.0 is out: The Infinite canvas workspace for developers](https://www.reddit.com/gallery/1tmef9f)**  
    score `321` · comments `81` · `2026-05-24` · [reddit](https://reddit.com/r/coolgithubprojects/comments/1tmef9f/finally_cate_v10_is_out_the_infinite_canvas/)
@@ -73,9 +76,6 @@
 
 - **[Sampler - a highly configurable CLI dashboard](https://v.redd.it/wvgu55nogku81)**  
    score `165` · comments `6` · `2022-04-19` · [reddit](https://reddit.com/r/coolgithubprojects/comments/u7i9h6/sampler_a_highly_configurable_cli_dashboard/)
-
-- **[I built a beautiful Git cheatsheet website — 92 commands, searchable, copy-ready, fully free](https://i.redd.it/38z13ce208yg1.png)** `OTHER`  
-   score `165` · comments `44` · `2026-04-30` · [reddit](https://reddit.com/r/coolgithubprojects/comments/1szgghh/i_built_a_beautiful_git_cheatsheet_website_92/)
 
 
 ## PYTHON (4156 posts)

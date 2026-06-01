@@ -1116,7 +1116,7 @@
    score `17` · comments `5` · `2025-06-11` · [reddit](https://reddit.com/r/coolgithubprojects/comments/1l8ytsr/congressmcp_an_mcp_server_to_interact_with/)
 
 
-## 2026 (3900 posts)
+## 2026 (3933 posts)
 
 - **[Actress Milla Jovovich just released a free open-source AI memory system](https://i.redd.it/fjzunvsr85ug1.png)** `OTHER`  
    score `933` · comments `101` · `2026-04-09` · [reddit](https://reddit.com/r/coolgithubprojects/comments/1sgm27k/actress_milla_jovovich_just_released_a_free/)
@@ -1135,6 +1135,9 @@
 
 - **[I built GitKingdom, where GitHub repos become buildings in a procedurally generated fantasy world. Your stars determine your building size.](https://i.redd.it/iwwwixt2o1rg1.png)**  
    score `330` · comments `49` · `2026-03-24` · [reddit](https://reddit.com/r/coolgithubprojects/comments/1s2nr4q/i_built_gitkingdom_where_github_repos_become/)
+
+- **[Real-time ASCII Webcam renderer in pure C with zero external dependencies](https://i.redd.it/fnh0meurna4h1.gif)**  
+   score `328` · comments `42` · `2026-05-30` · [reddit](https://reddit.com/r/coolgithubprojects/comments/1ts35ei/realtime_ascii_webcam_renderer_in_pure_c_with/)
 
 - **[Finally! Cate v1.0 is out: The Infinite canvas workspace for developers](https://www.reddit.com/gallery/1tmef9f)**  
    score `321` · comments `81` · `2026-05-24` · [reddit](https://reddit.com/r/coolgithubprojects/comments/1tmef9f/finally_cate_v10_is_out_the_infinite_canvas/)
@@ -1199,13 +1202,10 @@
 - **[[TypeScript] ContainerFlow - Real-time Docker dashboard with accurate memory monitoring, Discord alerts, and config recommendations](https://i.redd.it/okube3wpcj0h1.gif)** `TYPESCRIPT`  
    score `132` · comments `22` · `2026-05-11` · [reddit](https://reddit.com/r/coolgithubprojects/comments/1ta8kak/typescript_containerflow_realtime_docker/)
 
+- **[Terminal tabs are not the right UI for heavy agentic coding](https://www.reddit.com/gallery/1trhwcw)**  
+   score `129` · comments `61` · `2026-05-29` · [reddit](https://reddit.com/r/coolgithubprojects/comments/1trhwcw/terminal_tabs_are_not_the_right_ui_for_heavy/)
+
 - **[I vibecoded a desktop music player because I was tired of YouTube ads](https://www.reddit.com/gallery/1t1z6jx)** `PYTHON`  
    score `128` · comments `49` · `2026-05-02` · [reddit](https://reddit.com/r/coolgithubprojects/comments/1t1z6jx/i_vibecoded_a_desktop_music_player_because_i_was/)
-
-- **[Mouzi - Organize Downloads folder automatically](https://i.redd.it/l7yr9iffty0h1.gif)** `RUST`  
-   score `127` · comments `23` · `2026-05-13` · [reddit](https://reddit.com/r/coolgithubprojects/comments/1tcbzrg/mouzi_organize_downloads_folder_automatically/)
-
-- **[Live Interactive Dashboard of Internet Bot Attacks with Spinning Global Heatmap](https://i.redd.it/sa42mvysg42h1.gif)**  
-   score `125` · comments `15` · `2026-05-19` · [reddit](https://reddit.com/r/coolgithubprojects/comments/1thtb4u/live_interactive_dashboard_of_internet_bot/)
 
 
