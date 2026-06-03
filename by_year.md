@@ -1116,7 +1116,7 @@
    score `17` · comments `5` · `2025-06-11` · [reddit](https://reddit.com/r/coolgithubprojects/comments/1l8ytsr/congressmcp_an_mcp_server_to_interact_with/)
 
 
-## 2026 (3968 posts)
+## 2026 (3998 posts)
 
 - **[Actress Milla Jovovich just released a free open-source AI memory system](https://i.redd.it/fjzunvsr85ug1.png)** `OTHER`  
    score `933` · comments `101` · `2026-04-09` · [reddit](https://reddit.com/r/coolgithubprojects/comments/1sgm27k/actress_milla_jovovich_just_released_a_free/)
@@ -1199,13 +1199,13 @@
 - **[I built vimtutor for AI-assisted coding - learn context windows, MCP, tools, and more in your terminal](https://i.redd.it/p5qluif9ehog1.gif)** `OTHER`  
    score `139` · comments `14` · `2026-03-11` · [reddit](https://reddit.com/r/coolgithubprojects/comments/1rr6i6i/i_built_vimtutor_for_aiassisted_coding_learn/)
 
+- **[built a terminal torrent client in Go (v2) - now with instant VLC streaming and a proper TUI](https://i.redd.it/2kv1o37z8j4h1.png)**  
+   score `138` · comments `11` · `2026-05-31` · [reddit](https://reddit.com/r/coolgithubprojects/comments/1tt6ioz/built_a_terminal_torrent_client_in_go_v2_now_with/)
+
 - **[[TypeScript] ContainerFlow - Real-time Docker dashboard with accurate memory monitoring, Discord alerts, and config recommendations](https://i.redd.it/okube3wpcj0h1.gif)** `TYPESCRIPT`  
    score `132` · comments `22` · `2026-05-11` · [reddit](https://reddit.com/r/coolgithubprojects/comments/1ta8kak/typescript_containerflow_realtime_docker/)
 
 - **[Terminal tabs are not the right UI for heavy agentic coding](https://www.reddit.com/gallery/1trhwcw)**  
    score `129` · comments `61` · `2026-05-29` · [reddit](https://reddit.com/r/coolgithubprojects/comments/1trhwcw/terminal_tabs_are_not_the_right_ui_for_heavy/)
-
-- **[I vibecoded a desktop music player because I was tired of YouTube ads](https://www.reddit.com/gallery/1t1z6jx)** `PYTHON`  
-   score `128` · comments `49` · `2026-05-02` · [reddit](https://reddit.com/r/coolgithubprojects/comments/1t1z6jx/i_vibecoded_a_desktop_music_player_because_i_was/)
 
 
