@@ -5,7 +5,7 @@
 1. Removed deleted/removed posts.
 2. Removed meta-posts linking to the sub itself.
 3. **Dedupe by GitHub repo**: same `owner/repo` collapsed to its highest-scoring submission (merged 2748 duplicate-repo submissions).
-4. **Per-author cap at 3**: each user contributes at most 3 posts (capped out 5205 extras).
+4. **Per-author cap at 3**: each user contributes at most 3 posts (capped out 5211 extras).
 
 This surfaced **69** posts into the top 500 that were buried in the raw ranking.
 
