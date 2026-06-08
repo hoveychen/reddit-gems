@@ -1023,7 +1023,7 @@
    score `15` · comments `2` · `2024-08-22` · [reddit](https://reddit.com/r/coolgithubprojects/comments/1eydreh/surfsense_never_forget_anything_you_see_on/)
 
 
-## 2025 (3211 posts)
+## 2025 (3209 posts)
 
 - **[Found a pretty cool github readme template](https://github.com/Andrew6rant/Andrew6rant)** `PYTHON`  
    score `198` · comments `6` · `2025-12-14` · [reddit](https://reddit.com/r/coolgithubprojects/comments/1pmfsv9/found_a_pretty_cool_github_readme_template/)
@@ -1116,7 +1116,7 @@
    score `17` · comments `5` · `2025-06-11` · [reddit](https://reddit.com/r/coolgithubprojects/comments/1l8ytsr/congressmcp_an_mcp_server_to_interact_with/)
 
 
-## 2026 (4149 posts)
+## 2026 (4184 posts)
 
 - **[Actress Milla Jovovich just released a free open-source AI memory system](https://i.redd.it/fjzunvsr85ug1.png)** `OTHER`  
    score `933` · comments `101` · `2026-04-09` · [reddit](https://reddit.com/r/coolgithubprojects/comments/1sgm27k/actress_milla_jovovich_just_released_a_free/)
