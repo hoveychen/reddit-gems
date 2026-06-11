@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 """Scrape r/coolgithubprojects full history via Arctic Shift API."""
+import http.client
 import json
 import os
 import sys
@@ -35,7 +36,8 @@ def fetch(after):
         try:
             with urllib.request.urlopen(req, timeout=60) as resp:
                 return json.load(resp)["data"]
-        except (urllib.error.URLError, urllib.error.HTTPError, TimeoutError) as e:
+        except (urllib.error.URLError, urllib.error.HTTPError, TimeoutError,
+                json.JSONDecodeError, http.client.IncompleteRead) as e:
             wait = (attempt + 1) * 2
             print(f"  [retry {attempt + 1}/{MAX_RETRIES}] {e} - sleeping {wait}s", file=sys.stderr)
             time.sleep(wait)
