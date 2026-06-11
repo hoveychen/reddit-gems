@@ -45,5 +45,18 @@ jobs:
           else
             STAMP=$(date -u +"%Y-%m-%d")
             git commit -m "Daily archive refresh ($STAMP)"
-            git push
+            # Remote may have advanced (manual push, overlapping run). Rebase
+            # onto it and retry so a non-fast-forward push doesn't fail the run.
+            for attempt in 1 2 3 4 5; do
+              if git push; then
+                echo "Pushed on attempt $attempt."
+                break
+              fi
+              echo "Push rejected (attempt $attempt) — rebasing onto origin/main and retrying."
+              git pull --rebase origin main
+              if [ "$attempt" -eq 5 ]; then
+                echo "Push still failing after 5 attempts." >&2
+                exit 1
+              fi
+            done
           fi
