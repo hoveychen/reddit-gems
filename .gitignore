@@ -7,3 +7,4 @@ scrape.log
 .DS_Store
 # 开发用 git worktree
 .worktrees/
+.playwright-cli/
