@@ -1,8 +1,8 @@
 # r/coolgithubprojects — Archive Stats
 
-- Total posts: **26890**
-- Unique GitHub repos: **15700**
-- Date range: 2014-04-21 → 2026-06-26
+- Total posts: **26922**
+- Unique GitHub repos: **15713**
+- Date range: 2014-04-21 → 2026-06-27
 
 ## Posts per Year
 
@@ -20,13 +20,13 @@
 | 2023 | 1769 |
 | 2024 | 1502 |
 | 2025 | 3209 |
-| 2026 | 4827 |
+| 2026 | 4859 |
 
 ## Top Language Flairs
 
 | Flair | Posts |
 |---|---|
-| — | 9646 |
+| — | 9678 |
 | PYTHON | 4153 |
 | OTHER | 3242 |
 | JAVASCRIPT | 2728 |
@@ -61,7 +61,7 @@
 
 | Repo | Times Submitted |
 |---|---|
-| [Wisser/Jailer](https://github.com/Wisser/Jailer) | 83 |
+| [Wisser/Jailer](https://github.com/Wisser/Jailer) | 84 |
 | [numbersprotocol/starling-capture](https://github.com/numbersprotocol/starling-capture) | 34 |
 | [sepandhaghighi/art](https://github.com/sepandhaghighi/art) | 28 |
 | [rodrigobressan/face2data](https://github.com/rodrigobressan/face2data) | 25 |
