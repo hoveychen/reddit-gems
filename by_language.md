@@ -1,12 +1,15 @@
 # r/coolgithubprojects — Top by Language Flair
 
-## OTHER (12978 posts)
+## OTHER (13025 posts)
 
 - **[Actress Milla Jovovich just released a free open-source AI memory system](https://i.redd.it/fjzunvsr85ug1.png)** `OTHER`  
    score `933` · comments `101` · `2026-04-09` · [reddit](https://reddit.com/r/coolgithubprojects/comments/1sgm27k/actress_milla_jovovich_just_released_a_free/)
 
 - **[Open Source Palantir on Git](https://www.reddit.com/gallery/1tezfl7)**  
    score `563` · comments `65` · `2026-05-16` · [reddit](https://reddit.com/r/coolgithubprojects/comments/1tezfl7/open_source_palantir_on_git/)
+
+- **[Built a Terminal Torrent client that searches every trusted source at once and downloads straight to disk](https://www.reddit.com/gallery/1uhgk4z)**  
+   score `487` · comments `48` · `2026-06-27` · [reddit](https://reddit.com/r/coolgithubprojects/comments/1uhgk4z/built_a_terminal_torrent_client_that_searches/)
 
 - **[Own your music: I built a terminal app that downloads your YouTube, SoundCloud, and Spotify libraries to real local files and plays them offline](https://www.reddit.com/gallery/1u3keiv)**  
    score `473` · comments `48` · `2026-06-12` · [reddit](https://reddit.com/r/coolgithubprojects/comments/1u3keiv/own_your_music_i_built_a_terminal_app_that/)
@@ -73,9 +76,6 @@
 
 - **[I made a screen ruler to help read digital texts (NodeJS + Electron app)](https://v.redd.it/v700wsf7yb371)**  
    score `166` · comments `16` · `2021-06-04` · [reddit](https://reddit.com/r/coolgithubprojects/comments/nshyzp/i_made_a_screen_ruler_to_help_read_digital_texts/)
-
-- **[Major update Sigma File Manager v2.0.0-beta.3 is published](https://www.reddit.com/gallery/1sn00i8)** `OTHER`  
-   score `166` · comments `29` · `2026-04-16` · [reddit](https://reddit.com/r/coolgithubprojects/comments/1sn00i8/major_update_sigma_file_manager_v200beta3_is/)
 
 
 ## PYTHON (4153 posts)
