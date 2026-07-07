@@ -1116,10 +1116,13 @@
    score `17` · comments `5` · `2025-06-11` · [reddit](https://reddit.com/r/coolgithubprojects/comments/1l8ytsr/congressmcp_an_mcp_server_to_interact_with/)
 
 
-## 2026 (5201 posts)
+## 2026 (5244 posts)
 
 - **[Actress Milla Jovovich just released a free open-source AI memory system](https://i.redd.it/fjzunvsr85ug1.png)** `OTHER`  
    score `933` · comments `101` · `2026-04-09` · [reddit](https://reddit.com/r/coolgithubprojects/comments/1sgm27k/actress_milla_jovovich_just_released_a_free/)
+
+- **[My flight finder hit 1.3k github stars.](https://www.reddit.com/gallery/1unyo4a)**  
+   score `607` · comments `130` · `2026-07-05` · [reddit](https://reddit.com/r/coolgithubprojects/comments/1unyo4a/my_flight_finder_hit_13k_github_stars/)
 
 - **[Open Source Palantir on Git](https://www.reddit.com/gallery/1tezfl7)**  
    score `563` · comments `65` · `2026-05-16` · [reddit](https://reddit.com/r/coolgithubprojects/comments/1tezfl7/open_source_palantir_on_git/)
@@ -1204,8 +1207,5 @@
 
 - **[Beware!! Users trying to fork and steal your projects](https://i.redd.it/rcxnybjojz3h1.png)**  
    score `142` · comments `68` · `2026-05-29` · [reddit](https://reddit.com/r/coolgithubprojects/comments/1tqnxzf/beware_users_trying_to_fork_and_steal_your/)
-
-- **[I built vimtutor for AI-assisted coding - learn context windows, MCP, tools, and more in your terminal](https://i.redd.it/p5qluif9ehog1.gif)** `OTHER`  
-   score `139` · comments `14` · `2026-03-11` · [reddit](https://reddit.com/r/coolgithubprojects/comments/1rr6i6i/i_built_vimtutor_for_aiassisted_coding_learn/)
 
 

@@ -1,9 +1,12 @@
 # r/coolgithubprojects — Top by Language Flair
 
-## OTHER (13262 posts)
+## OTHER (13305 posts)
 
 - **[Actress Milla Jovovich just released a free open-source AI memory system](https://i.redd.it/fjzunvsr85ug1.png)** `OTHER`  
    score `933` · comments `101` · `2026-04-09` · [reddit](https://reddit.com/r/coolgithubprojects/comments/1sgm27k/actress_milla_jovovich_just_released_a_free/)
+
+- **[My flight finder hit 1.3k github stars.](https://www.reddit.com/gallery/1unyo4a)**  
+   score `607` · comments `130` · `2026-07-05` · [reddit](https://reddit.com/r/coolgithubprojects/comments/1unyo4a/my_flight_finder_hit_13k_github_stars/)
 
 - **[Open Source Palantir on Git](https://www.reddit.com/gallery/1tezfl7)**  
    score `563` · comments `65` · `2026-05-16` · [reddit](https://reddit.com/r/coolgithubprojects/comments/1tezfl7/open_source_palantir_on_git/)
@@ -73,9 +76,6 @@
 
 - **[This is Bonjourr, our customisable and lightweight startpage inspired by iOS. We're proud of it and hope you like it! 🌤](https://v.redd.it/gys8ahioemz81)**  
    score `174` · comments `25` · `2022-05-15` · [reddit](https://reddit.com/r/coolgithubprojects/comments/uq3pgb/this_is_bonjourr_our_customisable_and_lightweight/)
-
-- **[Follow football matches in your terminal](https://www.reddit.com/gallery/1t5bz6y)** `OTHER`  
-   score `174` · comments `23` · `2026-05-06` · [reddit](https://reddit.com/r/coolgithubprojects/comments/1t5bz6y/follow_football_matches_in_your_terminal/)
 
 
 ## PYTHON (4153 posts)
