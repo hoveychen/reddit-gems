@@ -4,8 +4,8 @@
 
 1. Removed deleted/removed posts.
 2. Removed meta-posts linking to the sub itself.
-3. **Dedupe by GitHub repo**: same `owner/repo` collapsed to its highest-scoring submission (merged 2788 duplicate-repo submissions).
-4. **Per-author cap at 3**: each user contributes at most 3 posts (capped out 5344 extras).
+3. **Dedupe by GitHub repo**: same `owner/repo` collapsed to its highest-scoring submission (merged 2792 duplicate-repo submissions).
+4. **Per-author cap at 3**: each user contributes at most 3 posts (capped out 5348 extras).
 
 This surfaced **67** posts into the top 500 that were buried in the raw ranking.
 
@@ -1448,66 +1448,66 @@ This surfaced **67** posts into the top 500 that were buried in the raw ranking.
 479. **[RecoverPy: Recover deleted or overwritten files from your terminal](https://i.redd.it/g65gxmz8qcga1.gif)**  
    score `58` · comments `6` · `2023-02-05` · u/ThenChoice2 · [reddit](https://reddit.com/r/coolgithubprojects/comments/10ua0jv/recoverpy_recover_deleted_or_overwritten_files/)
 
-480. **[A YouTube powered music player with instant search and playlist capabilities.](https://github.com/ahhda/queuetube)** `JAVASCRIPT`  
+480. **[Karpathy Style LLM Wiki for your Codebase](https://i.redd.it/3uf0mok3kvbh1.png)**  
+   score `58` · comments `12` · `2026-07-07` · u/ElectronicUnit6303 · [reddit](https://reddit.com/r/coolgithubprojects/comments/1uq8i4f/karpathy_style_llm_wiki_for_your_codebase/)
+
+481. **[A YouTube powered music player with instant search and playlist capabilities.](https://github.com/ahhda/queuetube)** `JAVASCRIPT`  
    score `57` · comments `5` · `2016-09-23` · u/ahhda · [reddit](https://reddit.com/r/coolgithubprojects/comments/5446di/a_youtube_powered_music_player_with_instant/)
 
-481. **[Assembly Cup - A game where everyone gets a robot and 256-bytes of memory (WIP)](https://github.com/asmcup/runtime)** `JAVA`  
+482. **[Assembly Cup - A game where everyone gets a robot and 256-bytes of memory (WIP)](https://github.com/asmcup/runtime)** `JAVA`  
    score `57` · comments `4` · `2016-10-05` · u/KayRice · [reddit](https://reddit.com/r/coolgithubprojects/comments/55yf97/assembly_cup_a_game_where_everyone_gets_a_robot/)
 
-482. **[Regex - List of useful regex snippets](https://github.com/jeffreyshen19/RegEx-Snippets)** `OTHER`  
+483. **[Regex - List of useful regex snippets](https://github.com/jeffreyshen19/RegEx-Snippets)** `OTHER`  
    score `57` · comments `2` · `2018-03-06` · u/notanyasian · [reddit](https://reddit.com/r/coolgithubprojects/comments/82isbo/regex_list_of_useful_regex_snippets/)
 
-483. **[Simple python script to change your desktop background by album arts of currently playing song on Spotify. Enjoy!](https://github.com/gvc14/AlbumartWallpaper)** `PYTHON`  
+484. **[Simple python script to change your desktop background by album arts of currently playing song on Spotify. Enjoy!](https://github.com/gvc14/AlbumartWallpaper)** `PYTHON`  
    score `57` · comments `4` · `2019-01-06` · u/GreedyComputer · [reddit](https://reddit.com/r/coolgithubprojects/comments/ad82uu/simple_python_script_to_change_your_desktop/)
 
-484. **[Taskbook: Like Trello but for the Terminal - Release v0.3.0 is Out Now](https://github.com/klaussinani/taskbook/releases)** `OTHER`  
+485. **[Taskbook: Like Trello but for the Terminal - Release v0.3.0 is Out Now](https://github.com/klaussinani/taskbook/releases)** `OTHER`  
    score `57` · comments `0` · `2019-02-20` · u/ohaiomasta · [reddit](https://reddit.com/r/coolgithubprojects/comments/astxuq/taskbook_like_trello_but_for_the_terminal_release/)
 
-485. **[GitHub - wtfutil/wtf: The personal information dashboard for your terminal.](https://github.com/wtfutil/wtf)** `GO`  
+486. **[GitHub - wtfutil/wtf: The personal information dashboard for your terminal.](https://github.com/wtfutil/wtf)** `GO`  
    score `57` · comments `1` · `2019-08-30` · u/jz_ · [reddit](https://reddit.com/r/coolgithubprojects/comments/cxn7ll/github_wtfutilwtf_the_personal_information/)
 
-486. **[NymphCast: Casual attempt at open alternative to Chromecast](https://github.com/MayaPosch/NymphCast)** `CPP`  
+487. **[NymphCast: Casual attempt at open alternative to Chromecast](https://github.com/MayaPosch/NymphCast)** `CPP`  
    score `57` · comments `3` · `2020-03-02` · u/CorpFire · [reddit](https://reddit.com/r/coolgithubprojects/comments/fc5vn9/nymphcast_casual_attempt_at_open_alternative_to/)
 
-487. **[Python GUI app for getting random wallpapers from Reddit](https://github.com/kriticalflare/KustomPyper)** `PYTHON`  
+488. **[Python GUI app for getting random wallpapers from Reddit](https://github.com/kriticalflare/KustomPyper)** `PYTHON`  
    score `57` · comments `4` · `2020-03-16` · u/kriticalflare · [reddit](https://reddit.com/r/coolgithubprojects/comments/fjiuhg/python_gui_app_for_getting_random_wallpapers_from/)
 
-488. **[Learning Music Theory With Python Programming](https://github.com/acidvegas/mzk)** `PYTHON`  
+489. **[Learning Music Theory With Python Programming](https://github.com/acidvegas/mzk)** `PYTHON`  
    score `57` · comments `0` · `2020-03-26` · u/acidvegas · [reddit](https://reddit.com/r/coolgithubprojects/comments/fpcc2u/learning_music_theory_with_python_programming/)
 
-489. **[TinyChat - Chat app for any computer with network connection (346 KB)](https://github.com/MartinKondor/TinyChat)** `PYTHON`  
+490. **[TinyChat - Chat app for any computer with network connection (346 KB)](https://github.com/MartinKondor/TinyChat)** `PYTHON`  
    score `57` · comments `2` · `2020-05-11` · u/robotic-broccoli · [reddit](https://reddit.com/r/coolgithubprojects/comments/ghin3l/tinychat_chat_app_for_any_computer_with_network/)
 
-490. **[🔎 Glance – All-in-one Quick Look plugin for macOS](https://github.com/samuelmeuli/glance)** `SWIFT`  
+491. **[🔎 Glance – All-in-one Quick Look plugin for macOS](https://github.com/samuelmeuli/glance)** `SWIFT`  
    score `57` · comments `5` · `2020-05-16` · u/_baleb_ · [reddit](https://reddit.com/r/coolgithubprojects/comments/gkw19o/glance_allinone_quick_look_plugin_for_macos/)
 
-491. **[Create your own face database and recognize faces in Python, either directly from the webcam or from local files](https://github.com/0xLeo/EZfaces)** `PYTHON`  
+492. **[Create your own face database and recognize faces in Python, either directly from the webcam or from local files](https://github.com/0xLeo/EZfaces)** `PYTHON`  
    score `57` · comments `2` · `2020-08-09` · u/W000m · [reddit](https://reddit.com/r/coolgithubprojects/comments/i6r8bz/create_your_own_face_database_and_recognize_faces/)
 
-492. **[Intellij plugin that allows to select and save code as image](https://github.com/mohak1712/CodeSnapshot)** `JAVA`  
+493. **[Intellij plugin that allows to select and save code as image](https://github.com/mohak1712/CodeSnapshot)** `JAVA`  
    score `57` · comments `12` · `2020-09-15` · u/mohak1712 · [reddit](https://reddit.com/r/coolgithubprojects/comments/it9aw3/intellij_plugin_that_allows_to_select_and_save/)
 
-493. **[Reddish - A simple reddit clone I made to learn React, Redux & Node.js](https://github.com/amand33p/reddish-mern)** `JAVASCRIPT`  
+494. **[Reddish - A simple reddit clone I made to learn React, Redux & Node.js](https://github.com/amand33p/reddish-mern)** `JAVASCRIPT`  
    score `57` · comments `8` · `2021-03-07` · u/aman_d33p · [reddit](https://reddit.com/r/coolgithubprojects/comments/lztx2w/reddish_a_simple_reddit_clone_i_made_to_learn/)
 
-494. **[Readme.so: online editor to help developers make READMEs](https://github.com/katherinepeterson/readme.so)** `JAVASCRIPT`  
+495. **[Readme.so: online editor to help developers make READMEs](https://github.com/katherinepeterson/readme.so)** `JAVASCRIPT`  
    score `57` · comments `3` · `2021-04-30` · u/streletss · [reddit](https://reddit.com/r/coolgithubprojects/comments/n1yc1s/readmeso_online_editor_to_help_developers_make/)
 
-495. **[Write code that reacts to changes in your cloud infrastructure (AWS, GCP, DigitalOcean).](https://github.com/someengineering/resoto)**  
+496. **[Write code that reacts to changes in your cloud infrastructure (AWS, GCP, DigitalOcean).](https://github.com/someengineering/resoto)**  
    score `57` · comments `7` · `2022-07-30` · u/lloesche · [reddit](https://reddit.com/r/coolgithubprojects/comments/wbtwax/write_code_that_reacts_to_changes_in_your_cloud/)
 
-496. **[CTOP: htop for your Claude Code sessions (zero deps, pure Node.js TUI)](https://i.redd.it/cvfjmc92v00h1.jpeg)** `OTHER`  
+497. **[CTOP: htop for your Claude Code sessions (zero deps, pure Node.js TUI)](https://i.redd.it/cvfjmc92v00h1.jpeg)** `OTHER`  
    score `57` · comments `1` · `2026-05-09` · u/solidharmonica · [reddit](https://reddit.com/r/coolgithubprojects/comments/1t7s3bf/ctop_htop_for_your_claude_code_sessions_zero_deps/)
 
-497. **[Markov Namegen - Procedural Name Generator using a Markov Process](https://github.com/Tw1ddle/MarkovNameGenerator)** `JAVASCRIPT`  
+498. **[Markov Namegen - Procedural Name Generator using a Markov Process](https://github.com/Tw1ddle/MarkovNameGenerator)** `JAVASCRIPT`  
    score `56` · comments `7` · `2021-11-08` · u/Twidlard · [reddit](https://reddit.com/r/coolgithubprojects/comments/qpidpn/markov_namegen_procedural_name_generator_using_a/)
 
-498. **[Fuckboi - the programming language for millenials](https://github.com/VirenMohindra/Fuckboi)** `SCALA`  
+499. **[Fuckboi - the programming language for millenials](https://github.com/VirenMohindra/Fuckboi)** `SCALA`  
    score `56` · comments `6` · `2015-12-24` · u/VirenM97 · [reddit](https://reddit.com/r/coolgithubprojects/comments/3y1y56/fuckboi_the_programming_language_for_millenials/)
 
-499. **[evolus/pencil: The Pencil Project's unique mission is to build a free and opensource tool for making diagrams and GUI prototyping that everyone can use.](https://github.com/evolus/pencil)** `JAVASCRIPT`  
+500. **[evolus/pencil: The Pencil Project's unique mission is to build a free and opensource tool for making diagrams and GUI prototyping that everyone can use.](https://github.com/evolus/pencil)** `JAVASCRIPT`  
    score `56` · comments `0` · `2017-06-26` · u/edwinksl · [reddit](https://reddit.com/r/coolgithubprojects/comments/6jkhfk/evoluspencil_the_pencil_projects_unique_mission/)
-
-500. **[reactos - A free Windows-compatible Operating System](https://github.com/reactos/reactos)** `C`  
-   score `56` · comments `1` · `2017-10-06` · u/doctor316 · [reddit](https://reddit.com/r/coolgithubprojects/comments/74qj4d/reactos_a_free_windowscompatible_operating_system/)
 
