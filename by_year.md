@@ -1116,7 +1116,7 @@
    score `17` · comments `5` · `2025-06-11` · [reddit](https://reddit.com/r/coolgithubprojects/comments/1l8ytsr/congressmcp_an_mcp_server_to_interact_with/)
 
 
-## 2026 (5769 posts)
+## 2026 (5801 posts)
 
 - **[Actress Milla Jovovich just released a free open-source AI memory system](https://i.redd.it/fjzunvsr85ug1.png)** `OTHER`  
    score `933` · comments `101` · `2026-04-09` · [reddit](https://reddit.com/r/coolgithubprojects/comments/1sgm27k/actress_milla_jovovich_just_released_a_free/)
@@ -1184,6 +1184,9 @@
 - **[Follow football matches in your terminal](https://www.reddit.com/gallery/1t5bz6y)** `OTHER`  
    score `174` · comments `23` · `2026-05-06` · [reddit](https://reddit.com/r/coolgithubprojects/comments/1t5bz6y/follow_football_matches_in_your_terminal/)
 
+- **[SUB/WAVE - self-hosted internet radio station with an AI DJ that plays your own music library](https://www.reddit.com/gallery/1v0x9dj)**  
+   score `168` · comments `29` · `2026-07-19` · [reddit](https://reddit.com/r/coolgithubprojects/comments/1v0x9dj/subwave_selfhosted_internet_radio_station_with_an/)
+
 - **[A directory of over 200+ open-source projects you can use instantly in your browser! No sign ups, no downloads!](https://i.redd.it/seesj23y2odh1.png)**  
    score `167` · comments `18` · `2026-07-16` · [reddit](https://reddit.com/r/coolgithubprojects/comments/1uyhdnp/a_directory_of_over_200_opensource_projects_you/)
 
@@ -1204,8 +1207,5 @@
 
 - **[TUI to see where Claude Code tokens actually go](https://i.redd.it/psufd7gzn5xg1.jpeg)** `OTHER`  
    score `146` · comments `8` · `2026-04-24` · [reddit](https://reddit.com/r/coolgithubprojects/comments/1suiq7j/tui_to_see_where_claude_code_tokens_actually_go/)
-
-- **[I built a CLI tool that plants a forest in your terminal while you code](https://i.redd.it/913gimc1xkwg1.png)** `TYPESCRIPT`  
-   score `143` · comments `23` · `2026-04-21` · [reddit](https://reddit.com/r/coolgithubprojects/comments/1srursl/i_built_a_cli_tool_that_plants_a_forest_in_your/)
 
 
