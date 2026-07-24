@@ -1,6 +1,6 @@
 # r/coolgithubprojects — Top by Language Flair
 
-## OTHER (13940 posts)
+## OTHER (13991 posts)
 
 - **[Actress Milla Jovovich just released a free open-source AI memory system](https://i.redd.it/fjzunvsr85ug1.png)** `OTHER`  
    score `933` · comments `101` · `2026-04-09` · [reddit](https://reddit.com/r/coolgithubprojects/comments/1sgm27k/actress_milla_jovovich_just_released_a_free/)
@@ -34,6 +34,9 @@
 
 - **[I made a chrome extension that lets you view the Reddit comments of any YouTube Video or Webpage.](https://v.redd.it/ecaxzbteu3471)**  
    score `289` · comments `23` · `2021-06-08` · [reddit](https://reddit.com/r/coolgithubprojects/comments/nve864/i_made_a_chrome_extension_that_lets_you_view_the/)
+
+- **[Drop your repo, get a free product](https://www.reddit.com/gallery/1v3bujh)**  
+   score `283` · comments `392` · `2026-07-22` · [reddit](https://reddit.com/r/coolgithubprojects/comments/1v3bujh/drop_your_repo_get_a_free_product/)
 
 - **[GitFut – your GitHub stats as a World Cup player card, out of 99](https://i.redd.it/a3izqipg4bah1.gif)**  
    score `272` · comments `70` · `2026-06-29` · [reddit](https://reddit.com/r/coolgithubprojects/comments/1uj8one/gitfut_your_github_stats_as_a_world_cup_player/)
@@ -73,9 +76,6 @@
 
 - **[Effortlessly transmitting Morse Code of chess moves to your butthole 💝](https://github.com/RonSijm/ButtFish)**  
    score `182` · comments `13` · `2022-09-30` · [reddit](https://reddit.com/r/coolgithubprojects/comments/xs193z/effortlessly_transmitting_morse_code_of_chess/)
-
-- **[The ultimate multi-pane agentic markdown workspace](https://www.reddit.com/gallery/1t46swq)** `OTHER`  
-   score `176` · comments `32` · `2026-05-05` · [reddit](https://reddit.com/r/coolgithubprojects/comments/1t46swq/the_ultimate_multipane_agentic_markdown_workspace/)
 
 
 ## PYTHON (4153 posts)

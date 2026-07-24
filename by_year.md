@@ -1116,7 +1116,7 @@
    score `17` · comments `5` · `2025-06-11` · [reddit](https://reddit.com/r/coolgithubprojects/comments/1l8ytsr/congressmcp_an_mcp_server_to_interact_with/)
 
 
-## 2026 (5879 posts)
+## 2026 (5930 posts)
 
 - **[Actress Milla Jovovich just released a free open-source AI memory system](https://i.redd.it/fjzunvsr85ug1.png)** `OTHER`  
    score `933` · comments `101` · `2026-04-09` · [reddit](https://reddit.com/r/coolgithubprojects/comments/1sgm27k/actress_milla_jovovich_just_released_a_free/)
@@ -1150,6 +1150,9 @@
 
 - **[Finally! Cate v1.0 is out: The Infinite canvas workspace for developers](https://www.reddit.com/gallery/1tmef9f)**  
    score `321` · comments `81` · `2026-05-24` · [reddit](https://reddit.com/r/coolgithubprojects/comments/1tmef9f/finally_cate_v10_is_out_the_infinite_canvas/)
+
+- **[Drop your repo, get a free product](https://www.reddit.com/gallery/1v3bujh)**  
+   score `283` · comments `392` · `2026-07-22` · [reddit](https://reddit.com/r/coolgithubprojects/comments/1v3bujh/drop_your_repo_get_a_free_product/)
 
 - **[GitFut – your GitHub stats as a World Cup player card, out of 99](https://i.redd.it/a3izqipg4bah1.gif)**  
    score `272` · comments `70` · `2026-06-29` · [reddit](https://reddit.com/r/coolgithubprojects/comments/1uj8one/gitfut_your_github_stats_as_a_world_cup_player/)
@@ -1204,8 +1207,5 @@
 
 - **[I built a tool to officially declare your abandoned GitHub repos dead and issue a Death Certificate](https://i.redd.it/x0urxdpchrqg1.png)**  
    score `148` · comments `30` · `2026-03-23` · [reddit](https://reddit.com/r/coolgithubprojects/comments/1s1bvha/i_built_a_tool_to_officially_declare_your/)
-
-- **[Kindalive: A neurochemical model that simulates robot emotion and can be used on robot hardware](https://i.redd.it/q4r7qb9267dh1.gif)**  
-   score `148` · comments `22` · `2026-07-14` · [reddit](https://reddit.com/r/coolgithubprojects/comments/1uw8q3b/kindalive_a_neurochemical_model_that_simulates/)
 
 
