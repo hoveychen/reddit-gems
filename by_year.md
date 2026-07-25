@@ -1116,7 +1116,7 @@
    score `17` · comments `5` · `2025-06-11` · [reddit](https://reddit.com/r/coolgithubprojects/comments/1l8ytsr/congressmcp_an_mcp_server_to_interact_with/)
 
 
-## 2026 (5930 posts)
+## 2026 (5983 posts)
 
 - **[Actress Milla Jovovich just released a free open-source AI memory system](https://i.redd.it/fjzunvsr85ug1.png)** `OTHER`  
    score `933` · comments `101` · `2026-04-09` · [reddit](https://reddit.com/r/coolgithubprojects/comments/1sgm27k/actress_milla_jovovich_just_released_a_free/)
@@ -1196,6 +1196,9 @@
 - **[A directory of over 200+ open-source projects you can use instantly in your browser! No sign ups, no downloads!](https://i.redd.it/seesj23y2odh1.png)**  
    score `167` · comments `18` · `2026-07-16` · [reddit](https://reddit.com/r/coolgithubprojects/comments/1uyhdnp/a_directory_of_over_200_opensource_projects_you/)
 
+- **[Timelines Studio: a free, open-source desktop app for creating interactive timelines with Markdown notes and a map view](https://www.reddit.com/gallery/1v47l2z)**  
+   score `167` · comments `21` · `2026-07-23` · [reddit](https://reddit.com/r/coolgithubprojects/comments/1v47l2z/timelines_studio_a_free_opensource_desktop_app/)
+
 - **[Major update Sigma File Manager v2.0.0-beta.3 is published](https://www.reddit.com/gallery/1sn00i8)** `OTHER`  
    score `166` · comments `29` · `2026-04-16` · [reddit](https://reddit.com/r/coolgithubprojects/comments/1sn00i8/major_update_sigma_file_manager_v200beta3_is/)
 
@@ -1204,8 +1207,5 @@
 
 - **[My opensource flight search for AI agents just hit 700 github stars](https://i.redd.it/94p8w8bbqdyg1.png)** `OTHER`  
    score `163` · comments `28` · `2026-04-30` · [reddit](https://reddit.com/r/coolgithubprojects/comments/1t06f3y/my_opensource_flight_search_for_ai_agents_just/)
-
-- **[I built a tool to officially declare your abandoned GitHub repos dead and issue a Death Certificate](https://i.redd.it/x0urxdpchrqg1.png)**  
-   score `148` · comments `30` · `2026-03-23` · [reddit](https://reddit.com/r/coolgithubprojects/comments/1s1bvha/i_built_a_tool_to_officially_declare_your/)
 
 
