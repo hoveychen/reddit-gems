@@ -1116,7 +1116,7 @@
    score `17` · comments `5` · `2025-06-11` · [reddit](https://reddit.com/r/coolgithubprojects/comments/1l8ytsr/congressmcp_an_mcp_server_to_interact_with/)
 
 
-## 2026 (6027 posts)
+## 2026 (6103 posts)
 
 - **[Actress Milla Jovovich just released a free open-source AI memory system](https://i.redd.it/fjzunvsr85ug1.png)** `OTHER`  
    score `933` · comments `101` · `2026-04-09` · [reddit](https://reddit.com/r/coolgithubprojects/comments/1sgm27k/actress_milla_jovovich_just_released_a_free/)
@@ -1126,6 +1126,9 @@
 
 - **[Open Source Palantir on Git](https://www.reddit.com/gallery/1tezfl7)**  
    score `563` · comments `65` · `2026-05-16` · [reddit](https://reddit.com/r/coolgithubprojects/comments/1tezfl7/open_source_palantir_on_git/)
+
+- **[undo, revert what the last shell command did to your filesystem](https://i.redd.it/53lylsnfmefh1.gif)**  
+   score `504` · comments `81` · `2026-07-25` · [reddit](https://reddit.com/r/coolgithubprojects/comments/1v6d5d5/undo_revert_what_the_last_shell_command_did_to/)
 
 - **[Built a Terminal Torrent client that searches every trusted source at once and downloads straight to disk](https://www.reddit.com/gallery/1uhgk4z)**  
    score `487` · comments `48` · `2026-06-27` · [reddit](https://reddit.com/r/coolgithubprojects/comments/1uhgk4z/built_a_terminal_torrent_client_that_searches/)
@@ -1204,8 +1207,5 @@
 
 - **[Major update Sigma File Manager v2.0.0-beta.3 is published](https://www.reddit.com/gallery/1sn00i8)** `OTHER`  
    score `166` · comments `29` · `2026-04-16` · [reddit](https://reddit.com/r/coolgithubprojects/comments/1sn00i8/major_update_sigma_file_manager_v200beta3_is/)
-
-- **[I built a beautiful Git cheatsheet website — 92 commands, searchable, copy-ready, fully free](https://i.redd.it/38z13ce208yg1.png)** `OTHER`  
-   score `165` · comments `44` · `2026-04-30` · [reddit](https://reddit.com/r/coolgithubprojects/comments/1szgghh/i_built_a_beautiful_git_cheatsheet_website_92/)
 
 
