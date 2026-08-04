@@ -1116,7 +1116,7 @@
    score `17` · comments `5` · `2025-06-11` · [reddit](https://reddit.com/r/coolgithubprojects/comments/1l8ytsr/congressmcp_an_mcp_server_to_interact_with/)
 
 
-## 2026 (6450 posts)
+## 2026 (6489 posts)
 
 - **[Actress Milla Jovovich just released a free open-source AI memory system](https://i.redd.it/fjzunvsr85ug1.png)** `OTHER`  
    score `933` · comments `101` · `2026-04-09` · [reddit](https://reddit.com/r/coolgithubprojects/comments/1sgm27k/actress_milla_jovovich_just_released_a_free/)
@@ -1153,6 +1153,9 @@
 
 - **[Finally! Cate v1.0 is out: The Infinite canvas workspace for developers](https://www.reddit.com/gallery/1tmef9f)**  
    score `321` · comments `81` · `2026-05-24` · [reddit](https://reddit.com/r/coolgithubprojects/comments/1tmef9f/finally_cate_v10_is_out_the_infinite_canvas/)
+
+- **[Use your old smartphone as a desk widgit. Say hello! to Desko](https://www.reddit.com/gallery/1vds6fa)**  
+   score `296` · comments `15` · `2026-08-02` · [reddit](https://reddit.com/r/coolgithubprojects/comments/1vds6fa/use_your_old_smartphone_as_a_desk_widgit_say/)
 
 - **[Drop your repo, get a free product](https://www.reddit.com/gallery/1v3bujh)**  
    score `283` · comments `392` · `2026-07-22` · [reddit](https://reddit.com/r/coolgithubprojects/comments/1v3bujh/drop_your_repo_get_a_free_product/)
@@ -1199,13 +1202,10 @@
 - **[SUB/WAVE - self-hosted internet radio station with an AI DJ that plays your own music library](https://www.reddit.com/gallery/1v0x9dj)**  
    score `168` · comments `29` · `2026-07-19` · [reddit](https://reddit.com/r/coolgithubprojects/comments/1v0x9dj/subwave_selfhosted_internet_radio_station_with_an/)
 
+- **[Falco - a browser engine written from scratch in ~36k lines of Rust](https://i.redd.it/yp9c5647sxgh1.png)**  
+   score `168` · comments `117` · `2026-08-02` · [reddit](https://reddit.com/r/coolgithubprojects/comments/1vdebiw/falco_a_browser_engine_written_from_scratch_in/)
+
 - **[A directory of over 200+ open-source projects you can use instantly in your browser! No sign ups, no downloads!](https://i.redd.it/seesj23y2odh1.png)**  
    score `167` · comments `18` · `2026-07-16` · [reddit](https://reddit.com/r/coolgithubprojects/comments/1uyhdnp/a_directory_of_over_200_opensource_projects_you/)
-
-- **[Timelines Studio: a free, open-source desktop app for creating interactive timelines with Markdown notes and a map view](https://www.reddit.com/gallery/1v47l2z)**  
-   score `167` · comments `21` · `2026-07-23` · [reddit](https://reddit.com/r/coolgithubprojects/comments/1v47l2z/timelines_studio_a_free_opensource_desktop_app/)
-
-- **[Major update Sigma File Manager v2.0.0-beta.3 is published](https://www.reddit.com/gallery/1sn00i8)** `OTHER`  
-   score `166` · comments `29` · `2026-04-16` · [reddit](https://reddit.com/r/coolgithubprojects/comments/1sn00i8/major_update_sigma_file_manager_v200beta3_is/)
 
 

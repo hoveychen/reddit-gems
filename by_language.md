@@ -1,6 +1,6 @@
 # r/coolgithubprojects — Top by Language Flair
 
-## OTHER (14511 posts)
+## OTHER (14550 posts)
 
 - **[Actress Milla Jovovich just released a free open-source AI memory system](https://i.redd.it/fjzunvsr85ug1.png)** `OTHER`  
    score `933` · comments `101` · `2026-04-09` · [reddit](https://reddit.com/r/coolgithubprojects/comments/1sgm27k/actress_milla_jovovich_just_released_a_free/)
@@ -34,6 +34,9 @@
 
 - **[Finally! Cate v1.0 is out: The Infinite canvas workspace for developers](https://www.reddit.com/gallery/1tmef9f)**  
    score `321` · comments `81` · `2026-05-24` · [reddit](https://reddit.com/r/coolgithubprojects/comments/1tmef9f/finally_cate_v10_is_out_the_infinite_canvas/)
+
+- **[Use your old smartphone as a desk widgit. Say hello! to Desko](https://www.reddit.com/gallery/1vds6fa)**  
+   score `296` · comments `15` · `2026-08-02` · [reddit](https://reddit.com/r/coolgithubprojects/comments/1vds6fa/use_your_old_smartphone_as_a_desk_widgit_say/)
 
 - **[I made a chrome extension that lets you view the Reddit comments of any YouTube Video or Webpage.](https://v.redd.it/ecaxzbteu3471)**  
    score `289` · comments `23` · `2021-06-08` · [reddit](https://reddit.com/r/coolgithubprojects/comments/nve864/i_made_a_chrome_extension_that_lets_you_view_the/)
@@ -73,9 +76,6 @@
 
 - **[I built a TikTok-style feed for discovering GitHub projects](https://i.redd.it/rd4odlyo15fh1.png)**  
    score `190` · comments `53` · `2026-07-24` · [reddit](https://reddit.com/r/coolgithubprojects/comments/1v55k5e/i_built_a_tiktokstyle_feed_for_discovering_github/)
-
-- **[cosmo-tui: live NASA data (wildfires, asteroids, ISS, APOD) in your terminal](https://i.redd.it/gfzf1tw4qxxg1.png)** `OTHER`  
-   score `188` · comments `16` · `2026-04-28` · [reddit](https://reddit.com/r/coolgithubprojects/comments/1sy1spv/cosmotui_live_nasa_data_wildfires_asteroids_iss/)
 
 
 ## PYTHON (4153 posts)
