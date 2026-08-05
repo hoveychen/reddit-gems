@@ -1116,7 +1116,7 @@
    score `17` · comments `5` · `2025-06-11` · [reddit](https://reddit.com/r/coolgithubprojects/comments/1l8ytsr/congressmcp_an_mcp_server_to_interact_with/)
 
 
-## 2026 (6489 posts)
+## 2026 (6537 posts)
 
 - **[Actress Milla Jovovich just released a free open-source AI memory system](https://i.redd.it/fjzunvsr85ug1.png)** `OTHER`  
    score `933` · comments `101` · `2026-04-09` · [reddit](https://reddit.com/r/coolgithubprojects/comments/1sgm27k/actress_milla_jovovich_just_released_a_free/)
@@ -1178,6 +1178,9 @@
 - **[I got tired of alt-tabbing, so I built a Figma-style canvas IDE](https://www.reddit.com/gallery/1tdt4qt)**  
    score `225` · comments `52` · `2026-05-15` · [reddit](https://reddit.com/r/coolgithubprojects/comments/1tdt4qt/i_got_tired_of_alttabbing_so_i_built_a_figmastyle/)
 
+- **[I did it, I made a working exe by manually typing binary!](https://github.com/SubatomicPlanets/HelloBinary)**  
+   score `213` · comments `26` · `2026-08-03` · [reddit](https://reddit.com/r/coolgithubprojects/comments/1vebtmk/i_did_it_i_made_a_working_exe_by_manually_typing/)
+
 - **[I built a desktop app that turns any Spotify/Apple Music/Amazon Music/SoundCloud playlist into a local FLAC library, and v1.1.0 is out](https://www.reddit.com/gallery/1si0ebr)** `OTHER`  
    score `198` · comments `38` · `2026-04-10` · [reddit](https://reddit.com/r/coolgithubprojects/comments/1si0ebr/i_built_a_desktop_app_that_turns_any_spotifyapple/)
 
@@ -1204,8 +1207,5 @@
 
 - **[Falco - a browser engine written from scratch in ~36k lines of Rust](https://i.redd.it/yp9c5647sxgh1.png)**  
    score `168` · comments `117` · `2026-08-02` · [reddit](https://reddit.com/r/coolgithubprojects/comments/1vdebiw/falco_a_browser_engine_written_from_scratch_in/)
-
-- **[A directory of over 200+ open-source projects you can use instantly in your browser! No sign ups, no downloads!](https://i.redd.it/seesj23y2odh1.png)**  
-   score `167` · comments `18` · `2026-07-16` · [reddit](https://reddit.com/r/coolgithubprojects/comments/1uyhdnp/a_directory_of_over_200_opensource_projects_you/)
 
 
