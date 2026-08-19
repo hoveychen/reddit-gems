@@ -1116,7 +1116,7 @@
    score `17` · comments `5` · `2025-06-11` · [reddit](https://reddit.com/r/coolgithubprojects/comments/1l8ytsr/congressmcp_an_mcp_server_to_interact_with/)
 
 
-## 2026 (7142 posts)
+## 2026 (7204 posts)
 
 - **[Actress Milla Jovovich just released a free open-source AI memory system](https://i.redd.it/fjzunvsr85ug1.png)** `OTHER`  
    score `933` · comments `101` · `2026-04-09` · [reddit](https://reddit.com/r/coolgithubprojects/comments/1sgm27k/actress_milla_jovovich_just_released_a_free/)
@@ -1187,6 +1187,9 @@
 - **[I built a desktop app that turns any Spotify/Apple Music/Amazon Music/SoundCloud playlist into a local FLAC library, and v1.1.0 is out](https://www.reddit.com/gallery/1si0ebr)** `OTHER`  
    score `198` · comments `38` · `2026-04-10` · [reddit](https://reddit.com/r/coolgithubprojects/comments/1si0ebr/i_built_a_desktop_app_that_turns_any_spotifyapple/)
 
+- **[built blobatar, get deterministic avatars from any string, zero deps, ~3.7 KB](https://i.redd.it/i20fb0laetjh1.jpeg)**  
+   score `194` · comments `20` · `2026-08-16` · [reddit](https://reddit.com/r/coolgithubprojects/comments/1vqauim/built_blobatar_get_deterministic_avatars_from_any/)
+
 - **[I built a TikTok-style feed for discovering GitHub projects](https://i.redd.it/rd4odlyo15fh1.png)**  
    score `190` · comments `53` · `2026-07-24` · [reddit](https://reddit.com/r/coolgithubprojects/comments/1v55k5e/i_built_a_tiktokstyle_feed_for_discovering_github/)
 
@@ -1204,8 +1207,5 @@
 
 - **[The ultimate multi-pane agentic markdown workspace](https://www.reddit.com/gallery/1t46swq)** `OTHER`  
    score `176` · comments `32` · `2026-05-05` · [reddit](https://reddit.com/r/coolgithubprojects/comments/1t46swq/the_ultimate_multipane_agentic_markdown_workspace/)
-
-- **[Follow football matches in your terminal](https://www.reddit.com/gallery/1t5bz6y)** `OTHER`  
-   score `174` · comments `23` · `2026-05-06` · [reddit](https://reddit.com/r/coolgithubprojects/comments/1t5bz6y/follow_football_matches_in_your_terminal/)
 
 
