@@ -1116,7 +1116,7 @@
    score `17` · comments `5` · `2025-06-11` · [reddit](https://reddit.com/r/coolgithubprojects/comments/1l8ytsr/congressmcp_an_mcp_server_to_interact_with/)
 
 
-## 2026 (7524 posts)
+## 2026 (7592 posts)
 
 - **[Actress Milla Jovovich just released a free open-source AI memory system](https://i.redd.it/fjzunvsr85ug1.png)** `OTHER`  
    score `933` · comments `101` · `2026-04-09` · [reddit](https://reddit.com/r/coolgithubprojects/comments/1sgm27k/actress_milla_jovovich_just_released_a_free/)
@@ -1135,6 +1135,9 @@
 
 - **[Own your music: I built a terminal app that downloads your YouTube, SoundCloud, and Spotify libraries to real local files and plays them offline](https://www.reddit.com/gallery/1u3keiv)**  
    score `473` · comments `48` · `2026-06-12` · [reddit](https://reddit.com/r/coolgithubprojects/comments/1u3keiv/own_your_music_i_built_a_terminal_app_that/)
+
+- **[xyOps just crossed 5,000 GitHub stars. Thank you!](https://i.redd.it/n1i512r89elh1.png)**  
+   score `401` · comments `28` · `2026-08-24` · [reddit](https://reddit.com/r/coolgithubprojects/comments/1vxgqwd/xyops_just_crossed_5000_github_stars_thank_you/)
 
 - **[I updated my GitHub profile!](https://www.reddit.com/gallery/1scedk0)** `OTHER`  
    score `386` · comments `24` · `2026-04-04` · [reddit](https://reddit.com/r/coolgithubprojects/comments/1scedk0/i_updated_my_github_profile/)
@@ -1202,10 +1205,7 @@
 - **[git-calendar.org - An open-source, decentralized, e2ee calendar using Git as the backend](https://i.redd.it/n1xjc5rnyjjh1.png)**  
    score `185` · comments `25` · `2026-08-15` · [reddit](https://reddit.com/r/coolgithubprojects/comments/1vp4xom/gitcalendarorg_an_opensource_decentralized_e2ee/)
 
-- **[Antra - desktop app to download lossless audio from Spotify, Apple Music and Amazon Music URLs](https://i.redd.it/mp90x28ik1wg1.png)** `PYTHON`  
-   score `177` · comments `15` · `2026-04-19` · [reddit](https://reddit.com/r/coolgithubprojects/comments/1spe3iv/antra_desktop_app_to_download_lossless_audio_from/)
-
-- **[The ultimate multi-pane agentic markdown workspace](https://www.reddit.com/gallery/1t46swq)** `OTHER`  
-   score `176` · comments `32` · `2026-05-05` · [reddit](https://reddit.com/r/coolgithubprojects/comments/1t46swq/the_ultimate_multipane_agentic_markdown_workspace/)
+- **[Mimik v1.1.0: open-source extension that turns your clicks into step-by-step guides — now with voice narration, video export and a screenshot editor](https://i.redd.it/cj35843rxilh1.gif)**  
+   score `184` · comments `25` · `2026-08-25` · [reddit](https://reddit.com/r/coolgithubprojects/comments/1vy08jp/mimik_v110_opensource_extension_that_turns_your/)
 
 
