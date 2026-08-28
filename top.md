@@ -1,7 +1,7 @@
 # r/coolgithubprojects — Top 500 by Score
 
-Total posts archived: **29655**  
-Range: 2014-04-21 → 2026-08-27
+Total posts archived: **29699**  
+Range: 2014-04-21 → 2026-08-28
 
 1. **[Actress Milla Jovovich just released a free open-source AI memory system](https://i.redd.it/fjzunvsr85ug1.png)** `OTHER`  
    score `933` · comments `101` · `2026-04-09` · [reddit](https://reddit.com/r/coolgithubprojects/comments/1sgm27k/actress_milla_jovovich_just_released_a_free/)
@@ -1500,6 +1500,6 @@ Range: 2014-04-21 → 2026-08-27
 499. **[nless — a vi-style terminal pager that turns CSVs, JSON, and logs into filterable, sortable tables](https://i.redd.it/z4zgdczj6aqg1.gif)**  
    score `63` · comments `11` · `2026-03-20` · [reddit](https://reddit.com/r/coolgithubprojects/comments/1rzb65y/nless_a_vistyle_terminal_pager_that_turns_csvs/)
 
-500. **[GitHub - PokemonGo-Map: Live visualization of all the pokemon in your area... and more!](https://github.com/AHAAAAAAA/PokemonGo-Map)** `PYTHON`  
-   score `62` · comments `5` · `2016-07-22` · [reddit](https://reddit.com/r/coolgithubprojects/comments/4u240y/github_pokemongomap_live_visualization_of_all_the/)
+500. **[Took me a decade to fully gamify quantum physics & computing](https://www.reddit.com/gallery/1vywagj)**  
+   score `63` · comments `12` · `2026-08-26` · [reddit](https://reddit.com/r/coolgithubprojects/comments/1vywagj/took_me_a_decade_to_fully_gamify_quantum_physics/)
 
