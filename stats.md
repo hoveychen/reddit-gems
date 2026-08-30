@@ -1,8 +1,8 @@
 # r/coolgithubprojects — Archive Stats
 
-- Total posts: **29726**
-- Unique GitHub repos: **16455**
-- Date range: 2014-04-21 → 2026-08-29
+- Total posts: **29775**
+- Unique GitHub repos: **16472**
+- Date range: 2014-04-21 → 2026-08-30
 
 ## Posts per Year
 
@@ -20,13 +20,13 @@
 | 2023 | 1769 |
 | 2024 | 1502 |
 | 2025 | 3209 |
-| 2026 | 7663 |
+| 2026 | 7712 |
 
 ## Top Language Flairs
 
 | Flair | Posts |
 |---|---|
-| — | 12482 |
+| — | 12531 |
 | PYTHON | 4153 |
 | OTHER | 3242 |
 | JAVASCRIPT | 2728 |
@@ -89,5 +89,5 @@
 | [user19870/cppsp](https://github.com/user19870/cppsp) | 14 |
 | [rdn87/cordova-plugin-gctouch-id](https://github.com/rdn87/cordova-plugin-gctouch-id) | 13 |
 | [evoluteur/isomorphic-table-cards](https://github.com/evoluteur/isomorphic-table-cards) | 13 |
+| [jon-mil-92/DisplayHotKeys](https://github.com/jon-mil-92/DisplayHotKeys) | 13 |
 | [sepandhaghighi/clox](https://github.com/sepandhaghighi/clox) | 13 |
-| [marketplace/actions](https://github.com/marketplace/actions) | 12 |
