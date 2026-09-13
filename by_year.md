@@ -837,7 +837,7 @@
    score `88` · comments `10` · `2022-11-05` · [reddit](https://reddit.com/r/coolgithubprojects/comments/ymtvrk/i_wrote_a_script_to_periodically_change_my/)
 
 
-## 2023 (1769 posts)
+## 2023 (1768 posts)
 
 - **[Apollo dev posts backend code to Git to disprove Reddit’s claims of scrapping and inefficiency](https://github.com/christianselig/apollo-backend)** `OTHER`  
    score `248` · comments `10` · `2023-06-09` · [reddit](https://reddit.com/r/coolgithubprojects/comments/144y8jl/apollo_dev_posts_backend_code_to_git_to_disprove/)
@@ -1116,7 +1116,7 @@
    score `17` · comments `5` · `2025-06-11` · [reddit](https://reddit.com/r/coolgithubprojects/comments/1l8ytsr/congressmcp_an_mcp_server_to_interact_with/)
 
 
-## 2026 (8257 posts)
+## 2026 (8297 posts)
 
 - **[Actress Milla Jovovich just released a free open-source AI memory system](https://i.redd.it/fjzunvsr85ug1.png)** `OTHER`  
    score `933` · comments `101` · `2026-04-09` · [reddit](https://reddit.com/r/coolgithubprojects/comments/1sgm27k/actress_milla_jovovich_just_released_a_free/)
