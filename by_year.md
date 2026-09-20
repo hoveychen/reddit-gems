@@ -465,7 +465,7 @@
    score `59` · comments `4` · `2018-11-18` · [reddit](https://reddit.com/r/coolgithubprojects/comments/9y26ac/a_small_tool_i_wrote_to_diff_motion_in_video/)
 
 
-## 2019 (1788 posts)
+## 2019 (1787 posts)
 
 - **[Clone a voice in 5 seconds to generate arbitrary speech in real time](https://github.com/CorentinJ/Real-Time-Voice-Cloning)** `PYTHON`  
    score `154` · comments `4` · `2019-06-22` · [reddit](https://reddit.com/r/coolgithubprojects/comments/c3pwym/clone_a_voice_in_5_seconds_to_generate_arbitrary/)
@@ -651,7 +651,7 @@
    score `73` · comments `14` · `2020-07-27` · [reddit](https://reddit.com/r/coolgithubprojects/comments/hz0npp/python_daemon_to_notify_you_when_you_should_plug/)
 
 
-## 2021 (2065 posts)
+## 2021 (2062 posts)
 
 - **[I made a chrome extension that lets you view the Reddit comments of any YouTube Video or Webpage.](https://v.redd.it/ecaxzbteu3471)**  
    score `289` · comments `23` · `2021-06-08` · [reddit](https://reddit.com/r/coolgithubprojects/comments/nve864/i_made_a_chrome_extension_that_lets_you_view_the/)
@@ -744,7 +744,7 @@
    score `94` · comments `14` · `2021-01-19` · [reddit](https://reddit.com/r/coolgithubprojects/comments/l0sb1v/script_to_transfer_whatsapp_chat_history_to_signal/)
 
 
-## 2022 (1726 posts)
+## 2022 (1725 posts)
 
 - **[Real Time Color ASCII Rendering in Python using NumPy Vectorization](https://v.redd.it/1bgop9ngbys81)**  
    score `251` · comments `8` · `2022-04-11` · [reddit](https://reddit.com/r/coolgithubprojects/comments/u1fd0u/real_time_color_ascii_rendering_in_python_using/)
@@ -821,9 +821,6 @@
 - **[Authentik is an open-source Identity Provider focused on flexibility and versatility \| https://goauthentik.io \| OAuth, SAML, LDAP & ProxyAuth](https://i.redd.it/3xklbof380s91.png)**  
    score `94` · comments `10` · `2022-10-05` · [reddit](https://reddit.com/r/coolgithubprojects/comments/xwdeo6/authentik_is_an_opensource_identity_provider/)
 
-- **[GitHub - Poor man's VPN (pay for only what you need)](https://github.com/amritb/poor-mans-vpn)** `OTHER`  
-   score `90` · comments `5` · `2022-01-13` · [reddit](https://reddit.com/r/coolgithubprojects/comments/s2r0bp/github_poor_mans_vpn_pay_for_only_what_you_need/)
-
 - **[Devzat: Discord but in the terminal and over SSH, with channels, DMs, emojis, syntax highlighting and even images](https://github.com/quackduck/devzat)** `GO`  
    score `90` · comments `4` · `2022-03-15` · [reddit](https://reddit.com/r/coolgithubprojects/comments/tecnpx/devzat_discord_but_in_the_terminal_and_over_ssh/)
 
@@ -835,6 +832,9 @@
 
 - **[I wrote a script to periodically change my Desktop background to live satellite images! Supports EVERY publicly available earthbound satellite and some solar ones too!](https://github.com/lennart-rth/Live-Earth-Wallpapers)**  
    score `88` · comments `10` · `2022-11-05` · [reddit](https://reddit.com/r/coolgithubprojects/comments/ymtvrk/i_wrote_a_script_to_periodically_change_my/)
+
+- **[🔌 A collective list of free APIs](https://github.com/public-apis/public-apis)**  
+   score `87` · comments `1` · `2022-11-30` · [reddit](https://reddit.com/r/coolgithubprojects/comments/z8ttaz/a_collective_list_of_free_apis/)
 
 
 ## 2023 (1768 posts)
@@ -1116,7 +1116,7 @@
    score `17` · comments `5` · `2025-06-11` · [reddit](https://reddit.com/r/coolgithubprojects/comments/1l8ytsr/congressmcp_an_mcp_server_to_interact_with/)
 
 
-## 2026 (8514 posts)
+## 2026 (8565 posts)
 
 - **[Actress Milla Jovovich just released a free open-source AI memory system](https://i.redd.it/fjzunvsr85ug1.png)** `OTHER`  
    score `933` · comments `101` · `2026-04-09` · [reddit](https://reddit.com/r/coolgithubprojects/comments/1sgm27k/actress_milla_jovovich_just_released_a_free/)

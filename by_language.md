@@ -1,6 +1,6 @@
 # r/coolgithubprojects — Top by Language Flair
 
-## OTHER (16574 posts)
+## OTHER (16623 posts)
 
 - **[Actress Milla Jovovich just released a free open-source AI memory system](https://i.redd.it/fjzunvsr85ug1.png)** `OTHER`  
    score `933` · comments `101` · `2026-04-09` · [reddit](https://reddit.com/r/coolgithubprojects/comments/1sgm27k/actress_milla_jovovich_just_released_a_free/)
@@ -78,7 +78,7 @@
    score `230` · comments `5` · `2026-07-21` · [reddit](https://reddit.com/r/coolgithubprojects/comments/1v2ffyz/ssh_latesh_clubhouse_inside_terminal_now_with/)
 
 
-## PYTHON (4153 posts)
+## PYTHON (4152 posts)
 
 - **[I built a steganography engine that hides files inside JPEGs, MP4s, and audio using ML — compiled into a single zero-dependency executable](https://i.redd.it/wdwtx5qbq4xg1.png)** `PYTHON`  
    score `354` · comments `13` · `2026-04-24` · [reddit](https://reddit.com/r/coolgithubprojects/comments/1sue17a/i_built_a_steganography_engine_that_hides_files/)
@@ -156,7 +156,7 @@
    score `84` · comments `1` · `2019-08-12` · [reddit](https://reddit.com/r/coolgithubprojects/comments/cp8trt/github_guardicoremonkey_infection_monkey_uses/)
 
 
-## JAVASCRIPT (2728 posts)
+## JAVASCRIPT (2726 posts)
 
 - **[I made a website that demonstrates how you're tracked even if you use a VPN, private mode, etc.](https://github.com/z0ccc/Vytal)** `JAVASCRIPT`  
    score `152` · comments `25` · `2021-09-30` · [reddit](https://reddit.com/r/coolgithubprojects/comments/pyag65/i_made_a_website_that_demonstrates_how_youre/)
