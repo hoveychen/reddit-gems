@@ -1,8 +1,8 @@
 # r/coolgithubprojects — Archive Stats
 
-- Total posts: **30622**
-- Unique GitHub repos: **16751**
-- Date range: 2014-04-21 → 2026-09-20
+- Total posts: **30672**
+- Unique GitHub repos: **16762**
+- Date range: 2014-04-21 → 2026-09-21
 
 ## Posts per Year
 
@@ -20,13 +20,13 @@
 | 2023 | 1768 |
 | 2024 | 1502 |
 | 2025 | 3209 |
-| 2026 | 8565 |
+| 2026 | 8615 |
 
 ## Top Language Flairs
 
 | Flair | Posts |
 |---|---|
-| — | 13383 |
+| — | 13433 |
 | PYTHON | 4152 |
 | OTHER | 3240 |
 | JAVASCRIPT | 2726 |
