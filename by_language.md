@@ -1,9 +1,12 @@
 # r/coolgithubprojects — Top by Language Flair
 
-## OTHER (17388 posts)
+## OTHER (17807 posts)
 
 - **[Actress Milla Jovovich just released a free open-source AI memory system](https://i.redd.it/fjzunvsr85ug1.png)** `OTHER`  
    score `933` · comments `101` · `2026-04-09` · [reddit](https://reddit.com/r/coolgithubprojects/comments/1sgm27k/actress_milla_jovovich_just_released_a_free/)
+
+- **[openGym hit 7.6k stars and our Buy Me a Coffee goal this week. I'm a bit speechless, so: thank you](https://i.redd.it/sv1v59nlu8uh1.png)**  
+   score `693` · comments `71` · `2026-10-08` · [reddit](https://reddit.com/r/coolgithubprojects/comments/1x0qouh/opengym_hit_76k_stars_and_our_buy_me_a_coffee/)
 
 - **[My flight finder hit 1.3k github stars.](https://www.reddit.com/gallery/1unyo4a)**  
    score `607` · comments `130` · `2026-07-05` · [reddit](https://reddit.com/r/coolgithubprojects/comments/1unyo4a/my_flight_finder_hit_13k_github_stars/)
@@ -44,6 +47,9 @@
 - **[Finally! Cate v1.0 is out: The Infinite canvas workspace for developers](https://www.reddit.com/gallery/1tmef9f)**  
    score `321` · comments `81` · `2026-05-24` · [reddit](https://reddit.com/r/coolgithubprojects/comments/1tmef9f/finally_cate_v10_is_out_the_infinite_canvas/)
 
+- **[I built Mediarium: a free, self-hosted app that does the Radarr + Sonarr + Prowlarr + SABnzbd job in one container](https://i.redd.it/re7si8naqsth1.png)**  
+   score `319` · comments `169` · `2026-10-06` · [reddit](https://reddit.com/r/coolgithubprojects/comments/1wyw1qj/i_built_mediarium_a_free_selfhosted_app_that_does/)
+
 - **[Use your old smartphone as a desk widgit. Say hello! to Desko](https://www.reddit.com/gallery/1vds6fa)**  
    score `296` · comments `15` · `2026-08-02` · [reddit](https://reddit.com/r/coolgithubprojects/comments/1vds6fa/use_your_old_smartphone_as_a_desk_widgit_say/)
 
@@ -70,12 +76,6 @@
 
 - **[Memoir (Git for AI Memory) - Memory your agents can explain, rewind, and branch.](https://i.redd.it/qxbx2j4nwjzg1.png)**  
    score `247` · comments `40` · `2026-05-06` · [reddit](https://reddit.com/r/coolgithubprojects/comments/1t5jh09/memoir_git_for_ai_memory_memory_your_agents_can/)
-
-- **[ssh late.sh - Clubhouse for Devs. Take a break, chat, chill, listen to music and play some games! :)](https://www.reddit.com/gallery/1t3qx76)** `OTHER`  
-   score `230` · comments `27` · `2026-05-04` · [reddit](https://reddit.com/r/coolgithubprojects/comments/1t3qx76/ssh_latesh_clubhouse_for_devs_take_a_break_chat/)
-
-- **[ssh late.sh - clubhouse inside terminal, now with NetHack, DCSS, voice chat, an IRC server, and a whole BBS door games wing :)](https://www.reddit.com/gallery/1v2ffyz)**  
-   score `230` · comments `5` · `2026-07-21` · [reddit](https://reddit.com/r/coolgithubprojects/comments/1v2ffyz/ssh_latesh_clubhouse_inside_terminal_now_with/)
 
 
 ## PYTHON (4152 posts)

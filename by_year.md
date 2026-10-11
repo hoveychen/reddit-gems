@@ -1116,10 +1116,13 @@
    score `17` · comments `5` · `2025-06-11` · [reddit](https://reddit.com/r/coolgithubprojects/comments/1l8ytsr/congressmcp_an_mcp_server_to_interact_with/)
 
 
-## 2026 (9331 posts)
+## 2026 (9750 posts)
 
 - **[Actress Milla Jovovich just released a free open-source AI memory system](https://i.redd.it/fjzunvsr85ug1.png)** `OTHER`  
    score `933` · comments `101` · `2026-04-09` · [reddit](https://reddit.com/r/coolgithubprojects/comments/1sgm27k/actress_milla_jovovich_just_released_a_free/)
+
+- **[openGym hit 7.6k stars and our Buy Me a Coffee goal this week. I'm a bit speechless, so: thank you](https://i.redd.it/sv1v59nlu8uh1.png)**  
+   score `693` · comments `71` · `2026-10-08` · [reddit](https://reddit.com/r/coolgithubprojects/comments/1x0qouh/opengym_hit_76k_stars_and_our_buy_me_a_coffee/)
 
 - **[My flight finder hit 1.3k github stars.](https://www.reddit.com/gallery/1unyo4a)**  
    score `607` · comments `130` · `2026-07-05` · [reddit](https://reddit.com/r/coolgithubprojects/comments/1unyo4a/my_flight_finder_hit_13k_github_stars/)
@@ -1163,6 +1166,9 @@
 - **[Finally! Cate v1.0 is out: The Infinite canvas workspace for developers](https://www.reddit.com/gallery/1tmef9f)**  
    score `321` · comments `81` · `2026-05-24` · [reddit](https://reddit.com/r/coolgithubprojects/comments/1tmef9f/finally_cate_v10_is_out_the_infinite_canvas/)
 
+- **[I built Mediarium: a free, self-hosted app that does the Radarr + Sonarr + Prowlarr + SABnzbd job in one container](https://i.redd.it/re7si8naqsth1.png)**  
+   score `319` · comments `169` · `2026-10-06` · [reddit](https://reddit.com/r/coolgithubprojects/comments/1wyw1qj/i_built_mediarium_a_free_selfhosted_app_that_does/)
+
 - **[Use your old smartphone as a desk widgit. Say hello! to Desko](https://www.reddit.com/gallery/1vds6fa)**  
    score `296` · comments `15` · `2026-08-02` · [reddit](https://reddit.com/r/coolgithubprojects/comments/1vds6fa/use_your_old_smartphone_as_a_desk_widgit_say/)
 
@@ -1201,11 +1207,5 @@
 
 - **[I built a TikTok-style feed for discovering GitHub projects](https://i.redd.it/rd4odlyo15fh1.png)**  
    score `190` · comments `53` · `2026-07-24` · [reddit](https://reddit.com/r/coolgithubprojects/comments/1v55k5e/i_built_a_tiktokstyle_feed_for_discovering_github/)
-
-- **[cosmo-tui: live NASA data (wildfires, asteroids, ISS, APOD) in your terminal](https://i.redd.it/gfzf1tw4qxxg1.png)** `OTHER`  
-   score `188` · comments `16` · `2026-04-28` · [reddit](https://reddit.com/r/coolgithubprojects/comments/1sy1spv/cosmotui_live_nasa_data_wildfires_asteroids_iss/)
-
-- **[Built a CLI that cuts AI coding token usage  by 97% — 10k downloads, looking for feedback](https://i.redd.it/q16i0aq2qszg1.jpeg)**  
-   score `185` · comments `64` · `2026-05-07` · [reddit](https://reddit.com/r/coolgithubprojects/comments/1t6qd9q/built_a_cli_that_cuts_ai_coding_token_usage_by_97/)
 
 
