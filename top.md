@@ -1,7 +1,7 @@
 # r/coolgithubprojects — Top 500 by Score
 
-Total posts archived: **31882**  
-Range: 2014-04-21 → 2026-10-12
+Total posts archived: **31963**  
+Range: 2014-04-21 → 2026-10-13
 
 1. **[Actress Milla Jovovich just released a free open-source AI memory system](https://i.redd.it/fjzunvsr85ug1.png)** `OTHER`  
    score `933` · comments `101` · `2026-04-09` · [reddit](https://reddit.com/r/coolgithubprojects/comments/1sgm27k/actress_milla_jovovich_just_released_a_free/)
@@ -804,89 +804,89 @@ Range: 2014-04-21 → 2026-10-12
 267. **[Notepads - A modern, lightweight text editor with a minimalist design](https://github.com/JasonStein/Notepads)** `CSHARP`  
    score `85` · comments `10` · `2020-07-31` · [reddit](https://reddit.com/r/coolgithubprojects/comments/i1cbhi/notepads_a_modern_lightweight_text_editor_with_a/)
 
-268. **[Week 01 - /r/coolgithubprojects/ is alive!](http://www.reddit.com/r/coolgithubprojects/comments/244swm/week_01_rcoolgithubprojects_is_alive/)**  
+268. **[I built an open-source music player where you can explore your library as a map and build routes between songs](https://www.reddit.com/gallery/1x29jlk)**  
+   score `85` · comments `22` · `2026-10-10` · [reddit](https://reddit.com/r/coolgithubprojects/comments/1x29jlk/i_built_an_opensource_music_player_where_you_can/)
+
+269. **[Week 01 - /r/coolgithubprojects/ is alive!](http://www.reddit.com/r/coolgithubprojects/comments/244swm/week_01_rcoolgithubprojects_is_alive/)**  
    score `84` · comments `13` · `2014-04-27` · [reddit](https://reddit.com/r/coolgithubprojects/comments/244swm/week_01_rcoolgithubprojects_is_alive/)
 
-269. **[Cosmos Browser – Connect to the Internet via SMS, no data or wifi required](https://github.com/ColdSauce/CosmosBrowserAndroid)** `JAVA`  
+270. **[Cosmos Browser – Connect to the Internet via SMS, no data or wifi required](https://github.com/ColdSauce/CosmosBrowserAndroid)** `JAVA`  
    score `84` · comments `21` · `2014-09-12` · [reddit](https://reddit.com/r/coolgithubprojects/comments/2g5v49/cosmos_browser_connect_to_the_internet_via_sms_no/)
 
-270. **[GitHub - guardicore/monkey: Infection Monkey uses various methods to self propagate across a data center and try to discover security holes using Predefined passwords, Common logical exploits, Password stealing using Mimikatz etc](https://github.com/guardicore/monkey)** `PYTHON`  
+271. **[GitHub - guardicore/monkey: Infection Monkey uses various methods to self propagate across a data center and try to discover security holes using Predefined passwords, Common logical exploits, Password stealing using Mimikatz etc](https://github.com/guardicore/monkey)** `PYTHON`  
    score `84` · comments `1` · `2019-08-12` · [reddit](https://reddit.com/r/coolgithubprojects/comments/cp8trt/github_guardicoremonkey_infection_monkey_uses/)
 
-271. **[Use mobile as a low latency mic on Linux (Pipewire + Pulseaudio support)](https://github.com/siddhpant/broo)**  
+272. **[Use mobile as a low latency mic on Linux (Pipewire + Pulseaudio support)](https://github.com/siddhpant/broo)**  
    score `84` · comments `16` · `2022-04-02` · [reddit](https://reddit.com/r/coolgithubprojects/comments/tulghv/use_mobile_as_a_low_latency_mic_on_linux_pipewire/)
 
-272. **[Browser extension that lets you view the Reddit comments of any YouTube video or web page](https://v.redd.it/iqrhe95rie991)**  
+273. **[Browser extension that lets you view the Reddit comments of any YouTube video or web page](https://v.redd.it/iqrhe95rie991)**  
    score `84` · comments `5` · `2022-07-03` · [reddit](https://reddit.com/r/coolgithubprojects/comments/vqpw7o/browser_extension_that_lets_you_view_the_reddit/)
 
-273. **[My GitHub Social circle, pretty interesting to see who you collaborate with mostly.](https://i.redd.it/mz0ch1ia7rf91.jpg)**  
+274. **[My GitHub Social circle, pretty interesting to see who you collaborate with mostly.](https://i.redd.it/mz0ch1ia7rf91.jpg)**  
    score `84` · comments `7` · `2022-08-04` · [reddit](https://reddit.com/r/coolgithubprojects/comments/wgawhf/my_github_social_circle_pretty_interesting_to_see/)
 
-274. **[Awesome list of open-source Startup Alternatives to well-known SaaS products 🚀](https://github.com/RunaCapital/awesome-oss-alternatives)**  
+275. **[Awesome list of open-source Startup Alternatives to well-known SaaS products 🚀](https://github.com/RunaCapital/awesome-oss-alternatives)**  
    score `84` · comments `0` · `2022-09-21` · [reddit](https://reddit.com/r/coolgithubprojects/comments/xketrq/awesome_list_of_opensource_startup_alternatives/)
 
-275. **[I made this game about 2 years ago. I was a big noob, so it has dirty code. But at all, game isn't bad. I designed repository, so now dirty code has pretty cover. Try it (link in comments).](https://v.redd.it/xxeen2g9mp4a1)**  
+276. **[I made this game about 2 years ago. I was a big noob, so it has dirty code. But at all, game isn't bad. I designed repository, so now dirty code has pretty cover. Try it (link in comments).](https://v.redd.it/xxeen2g9mp4a1)**  
    score `84` · comments `4` · `2022-12-08` · [reddit](https://reddit.com/r/coolgithubprojects/comments/zg5liu/i_made_this_game_about_2_years_ago_i_was_a_big/)
 
-276. **[An attempt to significantly reduce homelessness and poverty: I made an open source web application that helps people who are struggling find social services and donators in their area that will help them.](https://github.com/stdepaul/stdepaul)**  
+277. **[An attempt to significantly reduce homelessness and poverty: I made an open source web application that helps people who are struggling find social services and donators in their area that will help them.](https://github.com/stdepaul/stdepaul)**  
    score `84` · comments `5` · `2022-12-27` · [reddit](https://reddit.com/r/coolgithubprojects/comments/zwubgq/an_attempt_to_significantly_reduce_homelessness/)
 
-277. **[My Theme Sensitive GitHub Readme](https://www.reddit.com/gallery/1sgrri8)**  
+278. **[My Theme Sensitive GitHub Readme](https://www.reddit.com/gallery/1sgrri8)**  
    score `84` · comments `5` · `2026-04-09` · [reddit](https://reddit.com/r/coolgithubprojects/comments/1sgrri8/my_theme_sensitive_github_readme/)
 
-278. **[I built a tool to see what’s using your ports and kill it instantly (no more “port already in use”)](https://www.reddit.com/gallery/1siqalg)** `TYPESCRIPT`  
+279. **[I built a tool to see what’s using your ports and kill it instantly (no more “port already in use”)](https://www.reddit.com/gallery/1siqalg)** `TYPESCRIPT`  
    score `84` · comments `27` · `2026-04-11` · [reddit](https://reddit.com/r/coolgithubprojects/comments/1siqalg/i_built_a_tool_to_see_whats_using_your_ports_and/)
 
-279. **[I built LiveArch – it draws your architecture diagram live as you code (no manual input)](https://i.redd.it/sqkj2ujutoch1.gif)**  
+280. **[I built LiveArch – it draws your architecture diagram live as you code (no manual input)](https://i.redd.it/sqkj2ujutoch1.gif)**  
    score `84` · comments `12` · `2026-07-11` · [reddit](https://reddit.com/r/coolgithubprojects/comments/1utzekr/i_built_livearch_it_draws_your_architecture/)
 
-280. **[WikiCrawl - An interactive Wikipedia crawler that builds knowledge graphs](https://i.redd.it/3vmbmnom2wrh1.png)**  
+281. **[WikiCrawl - An interactive Wikipedia crawler that builds knowledge graphs](https://i.redd.it/3vmbmnom2wrh1.png)**  
    score `84` · comments `3` · `2026-09-26` · [reddit](https://reddit.com/r/coolgithubprojects/comments/1wque96/wikicrawl_an_interactive_wikipedia_crawler_that/)
 
-281. **[💊 Awesome Falsehood - Curated list of falsehoods programmers believe in](https://github.com/kdeldycke/awesome-falsehood)** `OTHER`  
+282. **[💊 Awesome Falsehood - Curated list of falsehoods programmers believe in](https://github.com/kdeldycke/awesome-falsehood)** `OTHER`  
    score `83` · comments `0` · `2018-04-29` · [reddit](https://reddit.com/r/coolgithubprojects/comments/8fqzan/awesome_falsehood_curated_list_of_falsehoods/)
 
-282. **[Budibase - Design, build and automate business apps in minutes [Open-source Retool and PowerApps alternative, 10,000 stars ✨ and counting]](https://github.com/Budibase/budibase)** `JAVASCRIPT`  
+283. **[Budibase - Design, build and automate business apps in minutes [Open-source Retool and PowerApps alternative, 10,000 stars ✨ and counting]](https://github.com/Budibase/budibase)** `JAVASCRIPT`  
    score `83` · comments `6` · `2022-03-18` · [reddit](https://reddit.com/r/coolgithubprojects/comments/tgxr3u/budibase_design_build_and_automate_business_apps/)
 
-283. **[oh-my-git: An interactive Git learning game!](https://github.com/git-learning-game/oh-my-git)**  
+284. **[oh-my-git: An interactive Git learning game!](https://github.com/git-learning-game/oh-my-git)**  
    score `83` · comments `1` · `2022-06-27` · [reddit](https://reddit.com/r/coolgithubprojects/comments/vm32ir/ohmygit_an_interactive_git_learning_game/)
 
-284. **[GitHub - FauxPilot - an open-source GitHub Copilot server](https://github.com/moyix/fauxpilot)**  
+285. **[GitHub - FauxPilot - an open-source GitHub Copilot server](https://github.com/moyix/fauxpilot)**  
    score `83` · comments `2` · `2022-08-22` · [reddit](https://reddit.com/r/coolgithubprojects/comments/wult7p/github_fauxpilot_an_opensource_github_copilot/)
 
-285. **[avail: CLI tool to determine availability for scheduling](https://i.redd.it/ytx4mn0wnx9a1.gif)**  
+286. **[avail: CLI tool to determine availability for scheduling](https://i.redd.it/ytx4mn0wnx9a1.gif)**  
    score `83` · comments `4` · `2023-01-04` · [reddit](https://reddit.com/r/coolgithubprojects/comments/102qm6t/avail_cli_tool_to_determine_availability_for/)
 
-286. **[ಠ_ಠ Vim plugin to disapprove deeply indented code. ಠ_ಠ](https://github.com/dodie/vim-disapprove-deep-indentation)** `OTHER`  
+287. **[ಠ_ಠ Vim plugin to disapprove deeply indented code. ಠ_ಠ](https://github.com/dodie/vim-disapprove-deep-indentation)** `OTHER`  
    score `82` · comments `1` · `2017-03-05` · [reddit](https://reddit.com/r/coolgithubprojects/comments/5xpb2j/ಠ_ಠ_vim_plugin_to_disapprove_deeply_indented_code/)
 
-287. **[Algorithms that run our universe \| Your personal library of every algorithm and data structure code that you will ever encounter](https://github.com/OpenGenus/cosmos)** `CPP`  
+288. **[Algorithms that run our universe \| Your personal library of every algorithm and data structure code that you will ever encounter](https://github.com/OpenGenus/cosmos)** `CPP`  
    score `82` · comments `2` · `2018-05-05` · [reddit](https://reddit.com/r/coolgithubprojects/comments/8havwi/algorithms_that_run_our_universe_your_personal/)
 
-288. **[Awesome Personal Security Checklist 🌈🔐 [GitHub]](https://github.com/Lissy93/personal-security-checklist)** `OTHER`  
+289. **[Awesome Personal Security Checklist 🌈🔐 [GitHub]](https://github.com/Lissy93/personal-security-checklist)** `OTHER`  
    score `82` · comments `8` · `2020-03-05` · [reddit](https://reddit.com/r/coolgithubprojects/comments/fe44z6/awesome_personal_security_checklist_github/)
 
-289. **[GitHub - jorisschellekens/borb: borb is a library for reading, creating and manipulating PDF files in python.](https://github.com/jorisschellekens/borb)** `PYTHON`  
+290. **[GitHub - jorisschellekens/borb: borb is a library for reading, creating and manipulating PDF files in python.](https://github.com/jorisschellekens/borb)** `PYTHON`  
    score `82` · comments `6` · `2021-07-25` · [reddit](https://reddit.com/r/coolgithubprojects/comments/ori1s0/github_jorisschellekensborb_borb_is_a_library_for/)
 
-290. **[A curated list of articles, videos, and other resources to learn and practice software architecture, patterns, and principles.](https://github.com/mehdihadeli/awesome-software-architecture)**  
+291. **[A curated list of articles, videos, and other resources to learn and practice software architecture, patterns, and principles.](https://github.com/mehdihadeli/awesome-software-architecture)**  
    score `82` · comments `3` · `2022-06-15` · [reddit](https://reddit.com/r/coolgithubprojects/comments/vcsbef/a_curated_list_of_articles_videos_and_other/)
 
-291. **[I built a GitHub Profile README generator — wanna have more Ideas!](https://www.reddit.com/gallery/1rxers1)** `OTHER`  
+292. **[I built a GitHub Profile README generator — wanna have more Ideas!](https://www.reddit.com/gallery/1rxers1)** `OTHER`  
    score `82` · comments `12` · `2026-03-18` · [reddit](https://reddit.com/r/coolgithubprojects/comments/1rxers1/i_built_a_github_profile_readme_generator_wanna/)
 
-292. **[I built a C compiler from scratch, and it accidentally became faster than TCC.](https://i.redd.it/xr6we8wd63vg1.jpeg)**  
+293. **[I built a C compiler from scratch, and it accidentally became faster than TCC.](https://i.redd.it/xr6we8wd63vg1.jpeg)**  
    score `82` · comments `8` · `2026-04-14` · [reddit](https://reddit.com/r/coolgithubprojects/comments/1skyrud/i_built_a_c_compiler_from_scratch_and_it/)
 
-293. **[I made a CLI that turns your git history into a Victorian newspaper](https://i.redd.it/6q5rcrvhp7wg1.png)** `JAVASCRIPT`  
+294. **[I made a CLI that turns your git history into a Victorian newspaper](https://i.redd.it/6q5rcrvhp7wg1.png)** `JAVASCRIPT`  
    score `82` · comments `6` · `2026-04-19` · [reddit](https://reddit.com/r/coolgithubprojects/comments/1sq55ev/i_made_a_cli_that_turns_your_git_history_into_a/)
 
-294. **[A dev got so bad at taking breaks that he built a black hole to force himself.](https://i.redd.it/9zszfie67w6h1.png)**  
+295. **[A dev got so bad at taking breaks that he built a black hole to force himself.](https://i.redd.it/9zszfie67w6h1.png)**  
    score `82` · comments `4` · `2026-06-12` · [reddit](https://reddit.com/r/coolgithubprojects/comments/1u4361c/a_dev_got_so_bad_at_taking_breaks_that_he_built_a/)
-
-295. **[I built an open-source music player where you can explore your library as a map and build routes between songs](https://www.reddit.com/gallery/1x29jlk)**  
-   score `82` · comments `22` · `2026-10-10` · [reddit](https://reddit.com/r/coolgithubprojects/comments/1x29jlk/i_built_an_opensource_music_player_where_you_can/)
 
 296. **[WTF-Python: A collection of surprising Python snippets and lesser-known features.](https://github.com/satwikkansal/wtfpython)** `PYTHON`  
    score `81` · comments `15` · `2018-12-07` · [reddit](https://reddit.com/r/coolgithubprojects/comments/a3zlit/wtfpython_a_collection_of_surprising_python/)
@@ -1386,120 +1386,120 @@ Range: 2014-04-21 → 2026-10-12
 461. **[I spent 5 months building a free, open source coding agent that does more with fewer tokens and executes your tasks directly along an optimal path, with better visibility](https://i.redd.it/mhocqe96stsh1.gif)**  
    score `67` · comments `22` · `2026-10-01` · [reddit](https://reddit.com/r/coolgithubprojects/comments/1wuv0s7/i_spent_5_months_building_a_free_open_source/)
 
-462. **[A simple Minecraft clone written in C using modern OpenGL (shaders) - fogleman/Craft](https://github.com/fogleman/Craft)** `C`  
+462. **[Manim, rewritten in Rust and wgpu, now 90x faster](https://manimgx.academa.ai)**  
+   score `67` · comments `8` · `2026-10-11` · [reddit](https://reddit.com/r/coolgithubprojects/comments/1x3m4iu/manim_rewritten_in_rust_and_wgpu_now_90x_faster/)
+
+463. **[A simple Minecraft clone written in C using modern OpenGL (shaders) - fogleman/Craft](https://github.com/fogleman/Craft)** `C`  
    score `66` · comments `3` · `2014-10-01` · [reddit](https://reddit.com/r/coolgithubprojects/comments/2i1bq4/a_simple_minecraft_clone_written_in_c_using/)
 
-463. **[osquery - a tool from Facebook that exposes operating system info as a relational database](https://github.com/facebook/osquery)** `CPP`  
+464. **[osquery - a tool from Facebook that exposes operating system info as a relational database](https://github.com/facebook/osquery)** `CPP`  
    score `66` · comments `3` · `2018-02-04` · [reddit](https://reddit.com/r/coolgithubprojects/comments/7v87fo/osquery_a_tool_from_facebook_that_exposes/)
 
-464. **[Windows 95 in Electron - runs on macOS, Linux, and Windows](https://github.com/felixrieseberg/windows95)** `JAVASCRIPT`  
+465. **[Windows 95 in Electron - runs on macOS, Linux, and Windows](https://github.com/felixrieseberg/windows95)** `JAVASCRIPT`  
    score `66` · comments `8` · `2018-08-27` · [reddit](https://reddit.com/r/coolgithubprojects/comments/9amecl/windows_95_in_electron_runs_on_macos_linux_and/)
 
-465. **[Created an end-to-end encrypted GPS tracking system for either self-hosting or usable as service (Android apps available)](https://github.com/sqall01/chasr-server)** `PYTHON`  
+466. **[Created an end-to-end encrypted GPS tracking system for either self-hosting or usable as service (Android apps available)](https://github.com/sqall01/chasr-server)** `PYTHON`  
    score `66` · comments `14` · `2019-07-30` · [reddit](https://reddit.com/r/coolgithubprojects/comments/cjp9xg/created_an_endtoend_encrypted_gps_tracking_system/)
 
-466. **[Airshare -Transfer files over WiFi back and forth all devices from your terminal](https://github.com/KuroLabs/Airshare)** `OTHER`  
+467. **[Airshare -Transfer files over WiFi back and forth all devices from your terminal](https://github.com/KuroLabs/Airshare)** `OTHER`  
    score `66` · comments `4` · `2020-06-24` · [reddit](https://reddit.com/r/coolgithubprojects/comments/hewk2a/airshare_transfer_files_over_wifi_back_and_forth/)
 
-467. **[foam - A personal knowledge management and sharing system for VSCode](https://github.com/foambubble/foam)** `CSS`  
+468. **[foam - A personal knowledge management and sharing system for VSCode](https://github.com/foambubble/foam)** `CSS`  
    score `66` · comments `7` · `2020-06-28` · [reddit](https://reddit.com/r/coolgithubprojects/comments/hhh0t3/foam_a_personal_knowledge_management_and_sharing/)
 
-468. **[Change all links in Stack Exchange and Stack Overflow answers to their archive.org snapshot on the date the answer was posted](https://github.com/alexyorke/se_archiveorg_link_restorer)** `JAVASCRIPT`  
+469. **[Change all links in Stack Exchange and Stack Overflow answers to their archive.org snapshot on the date the answer was posted](https://github.com/alexyorke/se_archiveorg_link_restorer)** `JAVASCRIPT`  
    score `66` · comments `4` · `2020-07-13` · [reddit](https://reddit.com/r/coolgithubprojects/comments/hq6z6p/change_all_links_in_stack_exchange_and_stack/)
 
-469. **[ByteDance open-sourced IconPark on GitHub - Transform an SVG icon into multiple themes, and generate React icons, Vue icons, SVG icons. IconPark gives access to more than 1,200 high-quality icons and introduces an interface for customizing your icons.](https://github.com/bytedance/IconPark)** `TYPESCRIPT`  
+470. **[ByteDance open-sourced IconPark on GitHub - Transform an SVG icon into multiple themes, and generate React icons, Vue icons, SVG icons. IconPark gives access to more than 1,200 high-quality icons and introduces an interface for customizing your icons.](https://github.com/bytedance/IconPark)** `TYPESCRIPT`  
    score `66` · comments `0` · `2020-09-29` · [reddit](https://reddit.com/r/coolgithubprojects/comments/j1vnk6/bytedance_opensourced_iconpark_on_github/)
 
-470. **[𝗴𝗿𝗳𝗻: 🦅 A tiny (~400B) utility that executes a dependency graph of async functions as concurrently as possible!](https://github.com/TomerAberbach/grfn)** `JAVASCRIPT`  
+471. **[𝗴𝗿𝗳𝗻: 🦅 A tiny (~400B) utility that executes a dependency graph of async functions as concurrently as possible!](https://github.com/TomerAberbach/grfn)** `JAVASCRIPT`  
    score `66` · comments `1` · `2021-01-14` · [reddit](https://reddit.com/r/coolgithubprojects/comments/kxaiww/𝗴𝗿𝗳𝗻_a_tiny_400b_utility_that_executes_a/)
 
-471. **[Symbology.js - generate 50+ types of 1D or 2D Barcode in png, svg, or eps formats](https://github.com/jshor/symbology)** `OTHER`  
+472. **[Symbology.js - generate 50+ types of 1D or 2D Barcode in png, svg, or eps formats](https://github.com/jshor/symbology)** `OTHER`  
    score `66` · comments `0` · `2021-04-04` · [reddit](https://reddit.com/r/coolgithubprojects/comments/mjy4s0/symbologyjs_generate_50_types_of_1d_or_2d_barcode/)
 
-472. **[Customise Zathura: at your fingertips](https://i.redd.it/o5y4c70t0f571.gif)**  
+473. **[Customise Zathura: at your fingertips](https://i.redd.it/o5y4c70t0f571.gif)**  
    score `66` · comments `9` · `2021-06-15` · [reddit](https://reddit.com/r/coolgithubprojects/comments/o0c6wn/customise_zathura_at_your_fingertips/)
 
-473. **[scrcpy: display and control of Android devices connected via USB (or over TCP/IP), does not require root, GNU/Linux, Windows and macOS](https://github.com/Genymobile/scrcpy)** `C`  
+474. **[scrcpy: display and control of Android devices connected via USB (or over TCP/IP), does not require root, GNU/Linux, Windows and macOS](https://github.com/Genymobile/scrcpy)** `C`  
    score `66` · comments `2` · `2021-11-17` · [reddit](https://reddit.com/r/coolgithubprojects/comments/qw5uw2/scrcpy_display_and_control_of_android_devices/)
 
-474. **[Paperback - An Encrypted Paper-based Backup Solution](https://github.com/cyphar/paperback)** `RUST`  
+475. **[Paperback - An Encrypted Paper-based Backup Solution](https://github.com/cyphar/paperback)** `RUST`  
    score `66` · comments `6` · `2021-12-29` · [reddit](https://reddit.com/r/coolgithubprojects/comments/rrm18f/paperback_an_encrypted_paperbased_backup_solution/)
 
-475. **[YouTube Cast Receiver - Cast YouTube content from your phone to any computer](https://github.com/GarrettBlackmon/youtube-cast-receiver)** `JAVASCRIPT`  
+476. **[YouTube Cast Receiver - Cast YouTube content from your phone to any computer](https://github.com/GarrettBlackmon/youtube-cast-receiver)** `JAVASCRIPT`  
    score `66` · comments `7` · `2022-03-04` · [reddit](https://reddit.com/r/coolgithubprojects/comments/t6bc53/youtube_cast_receiver_cast_youtube_content_from/)
 
-476. **[Rox v0.3: Making Programmable Voice Accessible to Everybody](https://v.redd.it/3lnhcufquby81)**  
+477. **[Rox v0.3: Making Programmable Voice Accessible to Everybody](https://v.redd.it/3lnhcufquby81)**  
    score `66` · comments `1` · `2022-05-08` · [reddit](https://reddit.com/r/coolgithubprojects/comments/ulcr3j/rox_v03_making_programmable_voice_accessible_to/)
 
-477. **[RustDesk - Open Source TeamViewer Alternative](https://github.com/rustdesk/rustdesk)**  
+478. **[RustDesk - Open Source TeamViewer Alternative](https://github.com/rustdesk/rustdesk)**  
    score `66` · comments `6` · `2022-05-27` · [reddit](https://reddit.com/r/coolgithubprojects/comments/uyqfoc/rustdesk_open_source_teamviewer_alternative/)
 
-478. **[ramfetch, A fetch which displays memory info using /proc/meminfo.](https://i.redd.it/mtjd0xb3do7a1.png)**  
+479. **[ramfetch, A fetch which displays memory info using /proc/meminfo.](https://i.redd.it/mtjd0xb3do7a1.png)**  
    score `66` · comments `2` · `2022-12-23` · [reddit](https://reddit.com/r/coolgithubprojects/comments/ztljvo/ramfetch_a_fetch_which_displays_memory_info_using/)
 
-479. **[I built a chatbot that helps you debug your code](https://v.redd.it/8pf74ya1xxla1)**  
+480. **[I built a chatbot that helps you debug your code](https://v.redd.it/8pf74ya1xxla1)**  
    score `66` · comments `8` · `2023-03-05` · [reddit](https://reddit.com/r/coolgithubprojects/comments/11izxru/i_built_a_chatbot_that_helps_you_debug_your_code/)
 
-480. **[GitHub - Relaticle/relaticle: The Next-Generation Open-Source CRM Platform written with Laravel and Filament](https://github.com/Relaticle/relaticle)** `PHP`  
+481. **[GitHub - Relaticle/relaticle: The Next-Generation Open-Source CRM Platform written with Laravel and Filament](https://github.com/Relaticle/relaticle)** `PHP`  
    score `66` · comments `0` · `2025-08-09` · [reddit](https://reddit.com/r/coolgithubprojects/comments/1mlv5rq/github_relaticlerelaticle_the_nextgeneration/)
 
-481. **[I built a free, browser-based wing aerodynamics simulator — no install, open source](https://i.redd.it/er6i64emr3yg1.gif)** `OTHER`  
+482. **[I built a free, browser-based wing aerodynamics simulator — no install, open source](https://i.redd.it/er6i64emr3yg1.gif)** `OTHER`  
    score `66` · comments `6` · `2026-04-29` · [reddit](https://reddit.com/r/coolgithubprojects/comments/1syuc1j/i_built_a_free_browserbased_wing_aerodynamics/)
 
-482. **[NASSCAD, a 100% local browser CAD. No login, C++ CSG engine, and a complete STEP AP242 B-Rep pipeline running in a single HTML file.](https://i.redd.it/e6irletgr19h1.jpeg)**  
+483. **[NASSCAD, a 100% local browser CAD. No login, C++ CSG engine, and a complete STEP AP242 B-Rep pipeline running in a single HTML file.](https://i.redd.it/e6irletgr19h1.jpeg)**  
    score `66` · comments `6` · `2026-06-23` · [reddit](https://reddit.com/r/coolgithubprojects/comments/1udjlyp/nasscad_a_100_local_browser_cad_no_login_c_csg/)
 
-483. **[Mouzi v0.1.6 - an open-source Downloads folder organizer for Windows and Linux](https://www.reddit.com/gallery/1vzr2xj)**  
+484. **[Mouzi v0.1.6 - an open-source Downloads folder organizer for Windows and Linux](https://www.reddit.com/gallery/1vzr2xj)**  
    score `66` · comments `14` · `2026-08-27` · [reddit](https://reddit.com/r/coolgithubprojects/comments/1vzr2xj/mouzi_v016_an_opensource_downloads_folder/)
 
-484. **[Awesome APIs - A curated list of common and obscure APIs from round the web.](https://github.com/Abhishaker17/Awesome-APIs)**  
+485. **[Awesome APIs - A curated list of common and obscure APIs from round the web.](https://github.com/Abhishaker17/Awesome-APIs)**  
    score `65` · comments `5` · `2016-03-03` · [reddit](https://reddit.com/r/coolgithubprojects/comments/48qj03/awesome_apis_a_curated_list_of_common_and_obscure/)
 
-485. **[No More Secrets - "A tool set to recreate the famous 'decrypting text' effect as seen in the 1992 movie Sneakers"](https://github.com/bartobri/no-more-secrets)** `C`  
+486. **[No More Secrets - "A tool set to recreate the famous 'decrypting text' effect as seen in the 1992 movie Sneakers"](https://github.com/bartobri/no-more-secrets)** `C`  
    score `65` · comments `2` · `2016-04-28` · [reddit](https://reddit.com/r/coolgithubprojects/comments/4grlyy/no_more_secrets_a_tool_set_to_recreate_the_famous/)
 
-486. **[Church is a library to generate fake data. It's very useful when you need to bootstrap your database.](https://github.com/lk-geimfari/church)** `PYTHON`  
+487. **[Church is a library to generate fake data. It's very useful when you need to bootstrap your database.](https://github.com/lk-geimfari/church)** `PYTHON`  
    score `65` · comments `18` · `2016-10-17` · [reddit](https://reddit.com/r/coolgithubprojects/comments/57zlbc/church_is_a_library_to_generate_fake_data_its/)
 
-487. **[Announcing the 1.0.0 release of my completely free and open source project, Social Amnesia! This tool lets you wipe out old reddit and twitter items, automatically and on a schedule, with configuration tools to save the items you care about.](https://github.com/Nick-Gottschlich/Social-Amnesia)** `PYTHON`  
+488. **[Announcing the 1.0.0 release of my completely free and open source project, Social Amnesia! This tool lets you wipe out old reddit and twitter items, automatically and on a schedule, with configuration tools to save the items you care about.](https://github.com/Nick-Gottschlich/Social-Amnesia)** `PYTHON`  
    score `65` · comments `13` · `2019-01-20` · [reddit](https://reddit.com/r/coolgithubprojects/comments/ai2yn0/announcing_the_100_release_of_my_completely_free/)
 
-488. **[I'm working in an open source alternative to Twilio](https://github.com/fonoster/yaps)** `JAVASCRIPT`  
+489. **[I'm working in an open source alternative to Twilio](https://github.com/fonoster/yaps)** `JAVASCRIPT`  
    score `65` · comments `6` · `2019-02-17` · [reddit](https://reddit.com/r/coolgithubprojects/comments/arl5tt/im_working_in_an_open_source_alternative_to_twilio/)
 
-489. **[TermTrack - Track orbiting objects (like the ISS) in your Terminal! 🛰️ [Not Mine]](https://github.com/trehn/termtrack)** `PYTHON`  
+490. **[TermTrack - Track orbiting objects (like the ISS) in your Terminal! 🛰️ [Not Mine]](https://github.com/trehn/termtrack)** `PYTHON`  
    score `65` · comments `2` · `2019-04-23` · [reddit](https://reddit.com/r/coolgithubprojects/comments/bgjhfq/termtrack_track_orbiting_objects_like_the_iss_in/)
 
-490. **[tinyflow: Tutorial code on how to build your own Deep Learning System in 2k Lines](https://github.com/tqchen/tinyflow)** `CPP`  
+491. **[tinyflow: Tutorial code on how to build your own Deep Learning System in 2k Lines](https://github.com/tqchen/tinyflow)** `CPP`  
    score `65` · comments `0` · `2019-05-28` · [reddit](https://reddit.com/r/coolgithubprojects/comments/bttf9k/tinyflow_tutorial_code_on_how_to_build_your_own/)
 
-491. **[A REST API for random Kanye West quotes (Kanye as a Service)](https://github.com/ajzbc/kanye.rest)** `JAVASCRIPT`  
+492. **[A REST API for random Kanye West quotes (Kanye as a Service)](https://github.com/ajzbc/kanye.rest)** `JAVASCRIPT`  
    score `65` · comments `4` · `2019-08-27` · [reddit](https://reddit.com/r/coolgithubprojects/comments/cvy1nr/a_rest_api_for_random_kanye_west_quotes_kanye_as/)
 
-492. **[typist is a simple, terminal typing speed test using only the standard c libraries](https://github.com/ny64/typist)** `C`  
+493. **[typist is a simple, terminal typing speed test using only the standard c libraries](https://github.com/ny64/typist)** `C`  
    score `65` · comments `1` · `2020-12-25` · [reddit](https://reddit.com/r/coolgithubprojects/comments/kjx2lw/typist_is_a_simple_terminal_typing_speed_test/)
 
-493. **[A distributed key value store in under 1000 lines open-sourced by comma.ai](https://github.com/geohot/minikeyvalue)** `GO`  
+494. **[A distributed key value store in under 1000 lines open-sourced by comma.ai](https://github.com/geohot/minikeyvalue)** `GO`  
    score `65` · comments `1` · `2021-01-05` · [reddit](https://reddit.com/r/coolgithubprojects/comments/kr1h38/a_distributed_key_value_store_in_under_1000_lines/)
 
-494. **[Outrun - Execute a local command using the processing power of another Linux machine.](https://github.com/Overv/outrun)** `PYTHON`  
+495. **[Outrun - Execute a local command using the processing power of another Linux machine.](https://github.com/Overv/outrun)** `PYTHON`  
    score `65` · comments `4` · `2021-03-18` · [reddit](https://reddit.com/r/coolgithubprojects/comments/m7ywra/outrun_execute_a_local_command_using_the/)
 
-495. **[When life gets too busy I tend to lose track of people, so I made this to keep track, and as a bit of a distraction while I battled the flu. Hope you like it. Src is in the OP comments](https://v.redd.it/ndly0odn5jta1)**  
+496. **[When life gets too busy I tend to lose track of people, so I made this to keep track, and as a bit of a distraction while I battled the flu. Hope you like it. Src is in the OP comments](https://v.redd.it/ndly0odn5jta1)**  
    score `65` · comments `4` · `2023-04-18` · [reddit](https://reddit.com/r/coolgithubprojects/comments/12qqgm6/when_life_gets_too_busy_i_tend_to_lose_track_of/)
 
-496. **[You can play pokemon in this person's github profile](https://github.com/HFO4)**  
+497. **[You can play pokemon in this person's github profile](https://github.com/HFO4)**  
    score `65` · comments `11` · `2023-04-30` · [reddit](https://reddit.com/r/coolgithubprojects/comments/133u6ez/you_can_play_pokemon_in_this_persons_github/)
 
-497. **[[OC] Built a terminal-style new tab page for the browser — 20+ themes including Matrix, Nord, Tokyo Night](https://i.redd.it/iwg8zxitn1qg1.png)** `TYPESCRIPT`  
+498. **[[OC] Built a terminal-style new tab page for the browser — 20+ themes including Matrix, Nord, Tokyo Night](https://i.redd.it/iwg8zxitn1qg1.png)** `TYPESCRIPT`  
    score `65` · comments `3` · `2026-03-19` · [reddit](https://reddit.com/r/coolgithubprojects/comments/1ry8a58/oc_built_a_terminalstyle_new_tab_page_for_the/)
 
-498. **[One prompt. Turn any data file into a fully functional dashboard or table.](https://i.redd.it/3q6pwtpb4iah1.gif)**  
+499. **[One prompt. Turn any data file into a fully functional dashboard or table.](https://i.redd.it/3q6pwtpb4iah1.gif)**  
    score `65` · comments `7` · `2026-06-30` · [reddit](https://reddit.com/r/coolgithubprojects/comments/1uk4ofq/one_prompt_turn_any_data_file_into_a_fully/)
 
-499. **[Time to throw Windows Terminal out.](https://www.reddit.com/gallery/1vhueii)**  
+500. **[Time to throw Windows Terminal out.](https://www.reddit.com/gallery/1vhueii)**  
    score `65` · comments `14` · `2026-08-07` · [reddit](https://reddit.com/r/coolgithubprojects/comments/1vhueii/time_to_throw_windows_terminal_out/)
-
-500. **[FlokinMD: an open-source local database layer for Markdown folders](https://i.redd.it/8w6oa9p8tooh1.png)**  
-   score `65` · comments `5` · `2026-09-10` · [reddit](https://reddit.com/r/coolgithubprojects/comments/1wchx5i/flokinmd_an_opensource_local_database_layer_for/)
 
