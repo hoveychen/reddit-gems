@@ -1116,7 +1116,7 @@
    score `17` · comments `5` · `2025-06-11` · [reddit](https://reddit.com/r/coolgithubprojects/comments/1l8ytsr/congressmcp_an_mcp_server_to_interact_with/)
 
 
-## 2026 (10638 posts)
+## 2026 (10732 posts)
 
 - **[openGym hit 7.6k stars and our Buy Me a Coffee goal this week. I'm a bit speechless, so: thank you](https://i.redd.it/sv1v59nlu8uh1.png)**  
    score `1134` · comments `108` · `2026-10-08` · [reddit](https://reddit.com/r/coolgithubprojects/comments/1x0qouh/opengym_hit_76k_stars_and_our_buy_me_a_coffee/)
@@ -1147,6 +1147,9 @@
 
 - **[xyOps just crossed 5,000 GitHub stars. Thank you!](https://i.redd.it/n1i512r89elh1.png)**  
    score `401` · comments `28` · `2026-08-24` · [reddit](https://reddit.com/r/coolgithubprojects/comments/1vxgqwd/xyops_just_crossed_5000_github_stars_thank_you/)
+
+- **[I built Kept, a self-hosted home inventory. Keep track of what you own, where it is, and what's due: warranties, services, loans. With a 3D map of your home, storage unit and more!](https://www.reddit.com/gallery/1xaqwkj)**  
+   score `399` · comments `43` · `2026-10-20` · [reddit](https://reddit.com/r/coolgithubprojects/comments/1xaqwkj/i_built_kept_a_selfhosted_home_inventory_keep/)
 
 - **[I updated my GitHub profile!](https://www.reddit.com/gallery/1scedk0)** `OTHER`  
    score `386` · comments `24` · `2026-04-04` · [reddit](https://reddit.com/r/coolgithubprojects/comments/1scedk0/i_updated_my_github_profile/)
@@ -1204,8 +1207,5 @@
 
 - **[built blobatar, get deterministic avatars from any string, zero deps, ~3.7 KB](https://i.redd.it/i20fb0laetjh1.jpeg)**  
    score `194` · comments `20` · `2026-08-16` · [reddit](https://reddit.com/r/coolgithubprojects/comments/1vqauim/built_blobatar_get_deterministic_avatars_from_any/)
-
-- **[I built a TikTok-style feed for discovering GitHub projects](https://i.redd.it/rd4odlyo15fh1.png)**  
-   score `190` · comments `53` · `2026-07-24` · [reddit](https://reddit.com/r/coolgithubprojects/comments/1v55k5e/i_built_a_tiktokstyle_feed_for_discovering_github/)
 
 

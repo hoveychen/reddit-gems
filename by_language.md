@@ -1,6 +1,6 @@
 # r/coolgithubprojects — Top by Language Flair
 
-## OTHER (18695 posts)
+## OTHER (18789 posts)
 
 - **[openGym hit 7.6k stars and our Buy Me a Coffee goal this week. I'm a bit speechless, so: thank you](https://i.redd.it/sv1v59nlu8uh1.png)**  
    score `1134` · comments `108` · `2026-10-08` · [reddit](https://reddit.com/r/coolgithubprojects/comments/1x0qouh/opengym_hit_76k_stars_and_our_buy_me_a_coffee/)
@@ -31,6 +31,9 @@
 
 - **[xyOps just crossed 5,000 GitHub stars. Thank you!](https://i.redd.it/n1i512r89elh1.png)**  
    score `401` · comments `28` · `2026-08-24` · [reddit](https://reddit.com/r/coolgithubprojects/comments/1vxgqwd/xyops_just_crossed_5000_github_stars_thank_you/)
+
+- **[I built Kept, a self-hosted home inventory. Keep track of what you own, where it is, and what's due: warranties, services, loans. With a 3D map of your home, storage unit and more!](https://www.reddit.com/gallery/1xaqwkj)**  
+   score `399` · comments `43` · `2026-10-20` · [reddit](https://reddit.com/r/coolgithubprojects/comments/1xaqwkj/i_built_kept_a_selfhosted_home_inventory_keep/)
 
 - **[I updated my GitHub profile!](https://www.reddit.com/gallery/1scedk0)** `OTHER`  
    score `386` · comments `24` · `2026-04-04` · [reddit](https://reddit.com/r/coolgithubprojects/comments/1scedk0/i_updated_my_github_profile/)
@@ -73,9 +76,6 @@
 
 - **[Cool GitHub profile visualizer (403 stars on github) that you can share](https://i.redd.it/vtahg0urh2zg1.png)** `OTHER`  
    score `247` · comments `13` · `2026-05-04` · [reddit](https://reddit.com/r/coolgithubprojects/comments/1t3a0rz/cool_github_profile_visualizer_403_stars_on/)
-
-- **[Memoir (Git for AI Memory) - Memory your agents can explain, rewind, and branch.](https://i.redd.it/qxbx2j4nwjzg1.png)**  
-   score `247` · comments `40` · `2026-05-06` · [reddit](https://reddit.com/r/coolgithubprojects/comments/1t5jh09/memoir_git_for_ai_memory_memory_your_agents_can/)
 
 
 ## PYTHON (4152 posts)
