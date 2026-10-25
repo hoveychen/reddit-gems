@@ -1116,7 +1116,7 @@
    score `17` · comments `5` · `2025-06-11` · [reddit](https://reddit.com/r/coolgithubprojects/comments/1l8ytsr/congressmcp_an_mcp_server_to_interact_with/)
 
 
-## 2026 (10928 posts)
+## 2026 (11027 posts)
 
 - **[openGym hit 7.6k stars and our Buy Me a Coffee goal this week. I'm a bit speechless, so: thank you](https://i.redd.it/sv1v59nlu8uh1.png)**  
    score `1134` · comments `108` · `2026-10-08` · [reddit](https://reddit.com/r/coolgithubprojects/comments/1x0qouh/opengym_hit_76k_stars_and_our_buy_me_a_coffee/)
@@ -1202,10 +1202,10 @@
 - **[I did it, I made a working exe by manually typing binary!](https://github.com/SubatomicPlanets/HelloBinary)**  
    score `213` · comments `26` · `2026-08-03` · [reddit](https://reddit.com/r/coolgithubprojects/comments/1vebtmk/i_did_it_i_made_a_working_exe_by_manually_typing/)
 
+- **[Arrmada](https://i.redd.it/keexicx2mdvh1.png)**  
+   score `210` · comments `48` · `2026-10-14` · [reddit](https://reddit.com/r/coolgithubprojects/comments/1x5jwkl/arrmada/)
+
 - **[I made a CLI that lets anyone check if I'm still a virgin in real time](https://i.redd.it/9vt7jc249jmh1.gif)**  
    score `206` · comments `27` · `2026-08-30` · [reddit](https://reddit.com/r/coolgithubprojects/comments/1w2ky9n/i_made_a_cli_that_lets_anyone_check_if_im_still_a/)
-
-- **[I built a desktop app that turns any Spotify/Apple Music/Amazon Music/SoundCloud playlist into a local FLAC library, and v1.1.0 is out](https://www.reddit.com/gallery/1si0ebr)** `OTHER`  
-   score `198` · comments `38` · `2026-04-10` · [reddit](https://reddit.com/r/coolgithubprojects/comments/1si0ebr/i_built_a_desktop_app_that_turns_any_spotifyapple/)
 
 
