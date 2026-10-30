@@ -1,6 +1,6 @@
 # r/coolgithubprojects — Top by Language Flair
 
-## OTHER (19517 posts)
+## OTHER (19624 posts)
 
 - **[openGym hit 7.6k stars and our Buy Me a Coffee goal this week. I'm a bit speechless, so: thank you](https://i.redd.it/sv1v59nlu8uh1.png)**  
    score `1134` · comments `108` · `2026-10-08` · [reddit](https://reddit.com/r/coolgithubprojects/comments/1x0qouh/opengym_hit_76k_stars_and_our_buy_me_a_coffee/)
@@ -10,6 +10,9 @@
 
 - **[My flight finder hit 1.3k github stars.](https://www.reddit.com/gallery/1unyo4a)**  
    score `607` · comments `130` · `2026-07-05` · [reddit](https://reddit.com/r/coolgithubprojects/comments/1unyo4a/my_flight_finder_hit_13k_github_stars/)
+
+- **[CleanYourTV: one prompt for your AI coding agent removes the ads from any Android TV / Google TV over Wi-Fi. No root, reversible, ~150 TV models](https://github.com/Gathin23/cleanyourtv)**  
+   score `596` · comments `157` · `2026-10-22` · [reddit](https://reddit.com/r/coolgithubprojects/comments/1xcjedm/cleanyourtv_one_prompt_for_your_ai_coding_agent/)
 
 - **[I built Mediarium: a free, self-hosted app that does the Radarr + Sonarr + Prowlarr + SABnzbd job in one container](https://i.redd.it/re7si8naqsth1.png)**  
    score `573` · comments `218` · `2026-10-06` · [reddit](https://reddit.com/r/coolgithubprojects/comments/1wyw1qj/i_built_mediarium_a_free_selfhosted_app_that_does/)
@@ -25,9 +28,6 @@
 
 - **[openGym hit 15,000 stars, your donations paid for every licence, and it's now in the App Store. Thank you! 💚](https://i.redd.it/zowhtgikmnxh1.png)**  
    score `520` · comments `74` · `2026-10-25` · [reddit](https://reddit.com/r/coolgithubprojects/comments/1xf9g8k/opengym_hit_15000_stars_your_donations_paid_for/)
-
-- **[CleanYourTV: one prompt for your AI coding agent removes the ads from any Android TV / Google TV over Wi-Fi. No root, reversible, ~150 TV models](https://github.com/Gathin23/cleanyourtv)**  
-   score `508` · comments `96` · `2026-10-22` · [reddit](https://reddit.com/r/coolgithubprojects/comments/1xcjedm/cleanyourtv_one_prompt_for_your_ai_coding_agent/)
 
 - **[undo, revert what the last shell command did to your filesystem](https://i.redd.it/53lylsnfmefh1.gif)**  
    score `504` · comments `81` · `2026-07-25` · [reddit](https://reddit.com/r/coolgithubprojects/comments/1v6d5d5/undo_revert_what_the_last_shell_command_did_to/)

@@ -1116,7 +1116,7 @@
    score `17` · comments `5` · `2025-06-11` · [reddit](https://reddit.com/r/coolgithubprojects/comments/1l8ytsr/congressmcp_an_mcp_server_to_interact_with/)
 
 
-## 2026 (11460 posts)
+## 2026 (11567 posts)
 
 - **[openGym hit 7.6k stars and our Buy Me a Coffee goal this week. I'm a bit speechless, so: thank you](https://i.redd.it/sv1v59nlu8uh1.png)**  
    score `1134` · comments `108` · `2026-10-08` · [reddit](https://reddit.com/r/coolgithubprojects/comments/1x0qouh/opengym_hit_76k_stars_and_our_buy_me_a_coffee/)
@@ -1126,6 +1126,9 @@
 
 - **[My flight finder hit 1.3k github stars.](https://www.reddit.com/gallery/1unyo4a)**  
    score `607` · comments `130` · `2026-07-05` · [reddit](https://reddit.com/r/coolgithubprojects/comments/1unyo4a/my_flight_finder_hit_13k_github_stars/)
+
+- **[CleanYourTV: one prompt for your AI coding agent removes the ads from any Android TV / Google TV over Wi-Fi. No root, reversible, ~150 TV models](https://github.com/Gathin23/cleanyourtv)**  
+   score `596` · comments `157` · `2026-10-22` · [reddit](https://reddit.com/r/coolgithubprojects/comments/1xcjedm/cleanyourtv_one_prompt_for_your_ai_coding_agent/)
 
 - **[I built Mediarium: a free, self-hosted app that does the Radarr + Sonarr + Prowlarr + SABnzbd job in one container](https://i.redd.it/re7si8naqsth1.png)**  
    score `573` · comments `218` · `2026-10-06` · [reddit](https://reddit.com/r/coolgithubprojects/comments/1wyw1qj/i_built_mediarium_a_free_selfhosted_app_that_does/)
@@ -1141,9 +1144,6 @@
 
 - **[openGym hit 15,000 stars, your donations paid for every licence, and it's now in the App Store. Thank you! 💚](https://i.redd.it/zowhtgikmnxh1.png)**  
    score `520` · comments `74` · `2026-10-25` · [reddit](https://reddit.com/r/coolgithubprojects/comments/1xf9g8k/opengym_hit_15000_stars_your_donations_paid_for/)
-
-- **[CleanYourTV: one prompt for your AI coding agent removes the ads from any Android TV / Google TV over Wi-Fi. No root, reversible, ~150 TV models](https://github.com/Gathin23/cleanyourtv)**  
-   score `508` · comments `96` · `2026-10-22` · [reddit](https://reddit.com/r/coolgithubprojects/comments/1xcjedm/cleanyourtv_one_prompt_for_your_ai_coding_agent/)
 
 - **[undo, revert what the last shell command did to your filesystem](https://i.redd.it/53lylsnfmefh1.gif)**  
    score `504` · comments `81` · `2026-07-25` · [reddit](https://reddit.com/r/coolgithubprojects/comments/1v6d5d5/undo_revert_what_the_last_shell_command_did_to/)
@@ -1190,6 +1190,9 @@
 - **[GitFut – your GitHub stats as a World Cup player card, out of 99](https://i.redd.it/a3izqipg4bah1.gif)**  
    score `272` · comments `70` · `2026-06-29` · [reddit](https://reddit.com/r/coolgithubprojects/comments/1uj8one/gitfut_your_github_stats_as_a_world_cup_player/)
 
+- **[I built a file search that reads text inside screenshots. Under 9 MB. Fast and lightweight.](https://i.redd.it/m86u3vgh2ayh1.gif)**  
+   score `249` · comments `37` · `2026-10-28` · [reddit](https://reddit.com/r/coolgithubprojects/comments/1xi1kom/i_built_a_file_search_that_reads_text_inside/)
+
 - **[Cool GitHub profile visualizer (403 stars on github) that you can share](https://i.redd.it/vtahg0urh2zg1.png)** `OTHER`  
    score `247` · comments `13` · `2026-05-04` · [reddit](https://reddit.com/r/coolgithubprojects/comments/1t3a0rz/cool_github_profile_visualizer_403_stars_on/)
 
@@ -1204,8 +1207,5 @@
 
 - **[I got tired of alt-tabbing, so I built a Figma-style canvas IDE](https://www.reddit.com/gallery/1tdt4qt)**  
    score `225` · comments `52` · `2026-05-15` · [reddit](https://reddit.com/r/coolgithubprojects/comments/1tdt4qt/i_got_tired_of_alttabbing_so_i_built_a_figmastyle/)
-
-- **[I did it, I made a working exe by manually typing binary!](https://github.com/SubatomicPlanets/HelloBinary)**  
-   score `213` · comments `26` · `2026-08-03` · [reddit](https://reddit.com/r/coolgithubprojects/comments/1vebtmk/i_did_it_i_made_a_working_exe_by_manually_typing/)
 
 
