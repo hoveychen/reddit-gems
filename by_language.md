@@ -1,6 +1,6 @@
 # r/coolgithubprojects — Top by Language Flair
 
-## OTHER (19735 posts)
+## OTHER (19851 posts)
 
 - **[openGym hit 7.6k stars and our Buy Me a Coffee goal this week. I'm a bit speechless, so: thank you](https://i.redd.it/sv1v59nlu8uh1.png)**  
    score `1134` · comments `108` · `2026-10-08` · [reddit](https://reddit.com/r/coolgithubprojects/comments/1x0qouh/opengym_hit_76k_stars_and_our_buy_me_a_coffee/)
@@ -62,6 +62,12 @@
 - **[Finally! Cate v1.0 is out: The Infinite canvas workspace for developers](https://www.reddit.com/gallery/1tmef9f)**  
    score `321` · comments `81` · `2026-05-24` · [reddit](https://reddit.com/r/coolgithubprojects/comments/1tmef9f/finally_cate_v10_is_out_the_infinite_canvas/)
 
+- **[I built a free and open-source alternative to proprietary piano-learning software](https://i.redd.it/t5zjmw1davyh1.png)**  
+   score `310` · comments `23` · `2026-10-31` · [reddit](https://reddit.com/r/coolgithubprojects/comments/1xklaxs/i_built_a_free_and_opensource_alternative_to/)
+
+- **[I made a free, open-source phone app that debloats your Google TV over Wi-Fi: no PC, no root](https://www.reddit.com/gallery/1xek32w)**  
+   score `309` · comments `84` · `2026-10-24` · [reddit](https://reddit.com/r/coolgithubprojects/comments/1xek32w/i_made_a_free_opensource_phone_app_that_debloats/)
+
 - **[Use your old smartphone as a desk widgit. Say hello! to Desko](https://www.reddit.com/gallery/1vds6fa)**  
    score `296` · comments `15` · `2026-08-02` · [reddit](https://reddit.com/r/coolgithubprojects/comments/1vds6fa/use_your_old_smartphone_as_a_desk_widgit_say/)
 
@@ -70,12 +76,6 @@
 
 - **[Drop your repo, get a free product](https://www.reddit.com/gallery/1v3bujh)**  
    score `283` · comments `392` · `2026-07-22` · [reddit](https://reddit.com/r/coolgithubprojects/comments/1v3bujh/drop_your_repo_get_a_free_product/)
-
-- **[GitFut – your GitHub stats as a World Cup player card, out of 99](https://i.redd.it/a3izqipg4bah1.gif)**  
-   score `272` · comments `70` · `2026-06-29` · [reddit](https://reddit.com/r/coolgithubprojects/comments/1uj8one/gitfut_your_github_stats_as_a_world_cup_player/)
-
-- **[NEW VSCode extension "Blockman" to highlight nested code blocks](https://i.redd.it/a5i33yhzjg971.png)**  
-   score `252` · comments `27` · `2021-07-05` · [reddit](https://reddit.com/r/coolgithubprojects/comments/oeg6tb/new_vscode_extension_blockman_to_highlight_nested/)
 
 
 ## PYTHON (4152 posts)

@@ -1116,7 +1116,7 @@
    score `17` · comments `5` · `2025-06-11` · [reddit](https://reddit.com/r/coolgithubprojects/comments/1l8ytsr/congressmcp_an_mcp_server_to_interact_with/)
 
 
-## 2026 (11678 posts)
+## 2026 (11794 posts)
 
 - **[openGym hit 7.6k stars and our Buy Me a Coffee goal this week. I'm a bit speechless, so: thank you](https://i.redd.it/sv1v59nlu8uh1.png)**  
    score `1134` · comments `108` · `2026-10-08` · [reddit](https://reddit.com/r/coolgithubprojects/comments/1x0qouh/opengym_hit_76k_stars_and_our_buy_me_a_coffee/)
@@ -1181,6 +1181,12 @@
 - **[Finally! Cate v1.0 is out: The Infinite canvas workspace for developers](https://www.reddit.com/gallery/1tmef9f)**  
    score `321` · comments `81` · `2026-05-24` · [reddit](https://reddit.com/r/coolgithubprojects/comments/1tmef9f/finally_cate_v10_is_out_the_infinite_canvas/)
 
+- **[I built a free and open-source alternative to proprietary piano-learning software](https://i.redd.it/t5zjmw1davyh1.png)**  
+   score `310` · comments `23` · `2026-10-31` · [reddit](https://reddit.com/r/coolgithubprojects/comments/1xklaxs/i_built_a_free_and_opensource_alternative_to/)
+
+- **[I made a free, open-source phone app that debloats your Google TV over Wi-Fi: no PC, no root](https://www.reddit.com/gallery/1xek32w)**  
+   score `309` · comments `84` · `2026-10-24` · [reddit](https://reddit.com/r/coolgithubprojects/comments/1xek32w/i_made_a_free_opensource_phone_app_that_debloats/)
+
 - **[Use your old smartphone as a desk widgit. Say hello! to Desko](https://www.reddit.com/gallery/1vds6fa)**  
    score `296` · comments `15` · `2026-08-02` · [reddit](https://reddit.com/r/coolgithubprojects/comments/1vds6fa/use_your_old_smartphone_as_a_desk_widgit_say/)
 
@@ -1201,11 +1207,5 @@
 
 - **[ssh late.sh - Clubhouse for Devs. Take a break, chat, chill, listen to music and play some games! :)](https://www.reddit.com/gallery/1t3qx76)** `OTHER`  
    score `230` · comments `27` · `2026-05-04` · [reddit](https://reddit.com/r/coolgithubprojects/comments/1t3qx76/ssh_latesh_clubhouse_for_devs_take_a_break_chat/)
-
-- **[ssh late.sh - clubhouse inside terminal, now with NetHack, DCSS, voice chat, an IRC server, and a whole BBS door games wing :)](https://www.reddit.com/gallery/1v2ffyz)**  
-   score `230` · comments `5` · `2026-07-21` · [reddit](https://reddit.com/r/coolgithubprojects/comments/1v2ffyz/ssh_latesh_clubhouse_inside_terminal_now_with/)
-
-- **[I got tired of alt-tabbing, so I built a Figma-style canvas IDE](https://www.reddit.com/gallery/1tdt4qt)**  
-   score `225` · comments `52` · `2026-05-15` · [reddit](https://reddit.com/r/coolgithubprojects/comments/1tdt4qt/i_got_tired_of_alttabbing_so_i_built_a_figmastyle/)
 
 
