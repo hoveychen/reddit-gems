@@ -1,12 +1,18 @@
 # r/coolgithubprojects — Top by Language Flair
 
-## OTHER (19851 posts)
+## OTHER (19958 posts)
 
 - **[openGym hit 7.6k stars and our Buy Me a Coffee goal this week. I'm a bit speechless, so: thank you](https://i.redd.it/sv1v59nlu8uh1.png)**  
    score `1134` · comments `108` · `2026-10-08` · [reddit](https://reddit.com/r/coolgithubprojects/comments/1x0qouh/opengym_hit_76k_stars_and_our_buy_me_a_coffee/)
 
 - **[Actress Milla Jovovich just released a free open-source AI memory system](https://i.redd.it/fjzunvsr85ug1.png)** `OTHER`  
    score `933` · comments `101` · `2026-04-09` · [reddit](https://reddit.com/r/coolgithubprojects/comments/1sgm27k/actress_milla_jovovich_just_released_a_free/)
+
+- **[openGym hit 15,000 stars, your donations paid for every licence, and it's now in the App Store. Thank you! 💚](https://i.redd.it/zowhtgikmnxh1.png)**  
+   score `770` · comments `109` · `2026-10-25` · [reddit](https://reddit.com/r/coolgithubprojects/comments/1xf9g8k/opengym_hit_15000_stars_your_donations_paid_for/)
+
+- **[I built a free and open-source alternative to proprietary piano-learning software](https://i.redd.it/t5zjmw1davyh1.png)**  
+   score `709` · comments `45` · `2026-10-31` · [reddit](https://reddit.com/r/coolgithubprojects/comments/1xklaxs/i_built_a_free_and_opensource_alternative_to/)
 
 - **[My flight finder hit 1.3k github stars.](https://www.reddit.com/gallery/1unyo4a)**  
    score `607` · comments `130` · `2026-07-05` · [reddit](https://reddit.com/r/coolgithubprojects/comments/1unyo4a/my_flight_finder_hit_13k_github_stars/)
@@ -25,9 +31,6 @@
 
 - **[I built a free, open-source market terminal inspired by Bloomberg. and it uses zero paid APIs.](https://i.redd.it/qj3300kdr5oh1.png)**  
    score `545` · comments `38` · `2026-09-07` · [reddit](https://reddit.com/r/coolgithubprojects/comments/1wa3iq9/i_built_a_free_opensource_market_terminal/)
-
-- **[openGym hit 15,000 stars, your donations paid for every licence, and it's now in the App Store. Thank you! 💚](https://i.redd.it/zowhtgikmnxh1.png)**  
-   score `520` · comments `74` · `2026-10-25` · [reddit](https://reddit.com/r/coolgithubprojects/comments/1xf9g8k/opengym_hit_15000_stars_your_donations_paid_for/)
 
 - **[undo, revert what the last shell command did to your filesystem](https://i.redd.it/53lylsnfmefh1.gif)**  
    score `504` · comments `81` · `2026-07-25` · [reddit](https://reddit.com/r/coolgithubprojects/comments/1v6d5d5/undo_revert_what_the_last_shell_command_did_to/)
@@ -61,9 +64,6 @@
 
 - **[Finally! Cate v1.0 is out: The Infinite canvas workspace for developers](https://www.reddit.com/gallery/1tmef9f)**  
    score `321` · comments `81` · `2026-05-24` · [reddit](https://reddit.com/r/coolgithubprojects/comments/1tmef9f/finally_cate_v10_is_out_the_infinite_canvas/)
-
-- **[I built a free and open-source alternative to proprietary piano-learning software](https://i.redd.it/t5zjmw1davyh1.png)**  
-   score `310` · comments `23` · `2026-10-31` · [reddit](https://reddit.com/r/coolgithubprojects/comments/1xklaxs/i_built_a_free_and_opensource_alternative_to/)
 
 - **[I made a free, open-source phone app that debloats your Google TV over Wi-Fi: no PC, no root](https://www.reddit.com/gallery/1xek32w)**  
    score `309` · comments `84` · `2026-10-24` · [reddit](https://reddit.com/r/coolgithubprojects/comments/1xek32w/i_made_a_free_opensource_phone_app_that_debloats/)
