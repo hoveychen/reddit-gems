@@ -1116,7 +1116,7 @@
    score `17` · comments `5` · `2025-06-11` · [reddit](https://reddit.com/r/coolgithubprojects/comments/1l8ytsr/congressmcp_an_mcp_server_to_interact_with/)
 
 
-## 2026 (12078 posts)
+## 2026 (12161 posts)
 
 - **[openGym hit 7.6k stars and our Buy Me a Coffee goal this week. I'm a bit speechless, so: thank you](https://i.redd.it/sv1v59nlu8uh1.png)**  
    score `1134` · comments `108` · `2026-10-08` · [reddit](https://reddit.com/r/coolgithubprojects/comments/1x0qouh/opengym_hit_76k_stars_and_our_buy_me_a_coffee/)
@@ -1175,6 +1175,9 @@
 - **[I built a steganography engine that hides files inside JPEGs, MP4s, and audio using ML — compiled into a single zero-dependency executable](https://i.redd.it/wdwtx5qbq4xg1.png)** `PYTHON`  
    score `354` · comments `13` · `2026-04-24` · [reddit](https://reddit.com/r/coolgithubprojects/comments/1sue17a/i_built_a_steganography_engine_that_hides_files/)
 
+- **[I built a file search that reads text inside screenshots. Under 9 MB. Fast and lightweight.](https://i.redd.it/m86u3vgh2ayh1.gif)**  
+   score `333` · comments `41` · `2026-10-28` · [reddit](https://reddit.com/r/coolgithubprojects/comments/1xi1kom/i_built_a_file_search_that_reads_text_inside/)
+
 - **[I built GitKingdom, where GitHub repos become buildings in a procedurally generated fantasy world. Your stars determine your building size.](https://i.redd.it/iwwwixt2o1rg1.png)**  
    score `330` · comments `49` · `2026-03-24` · [reddit](https://reddit.com/r/coolgithubprojects/comments/1s2nr4q/i_built_gitkingdom_where_github_repos_become/)
 
@@ -1198,9 +1201,6 @@
 
 - **[OpenTV-Remote - Free, open-source TV remote](https://www.reddit.com/gallery/1xh9jo6)**  
    score `253` · comments `33` · `2026-10-28` · [reddit](https://reddit.com/r/coolgithubprojects/comments/1xh9jo6/opentvremote_free_opensource_tv_remote/)
-
-- **[I built a file search that reads text inside screenshots. Under 9 MB. Fast and lightweight.](https://i.redd.it/m86u3vgh2ayh1.gif)**  
-   score `249` · comments `37` · `2026-10-28` · [reddit](https://reddit.com/r/coolgithubprojects/comments/1xi1kom/i_built_a_file_search_that_reads_text_inside/)
 
 - **[Cool GitHub profile visualizer (403 stars on github) that you can share](https://i.redd.it/vtahg0urh2zg1.png)** `OTHER`  
    score `247` · comments `13` · `2026-05-04` · [reddit](https://reddit.com/r/coolgithubprojects/comments/1t3a0rz/cool_github_profile_visualizer_403_stars_on/)
