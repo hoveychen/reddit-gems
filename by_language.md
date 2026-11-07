@@ -1,6 +1,6 @@
 # r/coolgithubprojects — Top by Language Flair
 
-## OTHER (20307 posts)
+## OTHER (20393 posts)
 
 - **[openGym hit 7.6k stars and our Buy Me a Coffee goal this week. I'm a bit speechless, so: thank you](https://i.redd.it/sv1v59nlu8uh1.png)**  
    score `1134` · comments `108` · `2026-10-08` · [reddit](https://reddit.com/r/coolgithubprojects/comments/1x0qouh/opengym_hit_76k_stars_and_our_buy_me_a_coffee/)
@@ -56,6 +56,9 @@
 - **[I built a self-hosted intelligence terminal — 26 global data sources + an AI analyst](https://i.redd.it/dmy29cyzwyog1.png)** `OTHER`  
    score `368` · comments `56` · `2026-03-14` · [reddit](https://reddit.com/r/coolgithubprojects/comments/1rtdonf/i_built_a_selfhosted_intelligence_terminal_26/)
 
+- **[I got tired of missing and forgetting good repos so I built a list that updates itself every 2 days (3k+ repos so far)](https://www.reddit.com/gallery/1xp4eoj)**  
+   score `340` · comments `44` · `2026-11-06` · [reddit](https://reddit.com/r/coolgithubprojects/comments/1xp4eoj/i_got_tired_of_missing_and_forgetting_good_repos/)
+
 - **[I built a file search that reads text inside screenshots. Under 9 MB. Fast and lightweight.](https://i.redd.it/m86u3vgh2ayh1.gif)**  
    score `333` · comments `41` · `2026-10-28` · [reddit](https://reddit.com/r/coolgithubprojects/comments/1xi1kom/i_built_a_file_search_that_reads_text_inside/)
 
@@ -73,9 +76,6 @@
 
 - **[Use your old smartphone as a desk widgit. Say hello! to Desko](https://www.reddit.com/gallery/1vds6fa)**  
    score `296` · comments `15` · `2026-08-02` · [reddit](https://reddit.com/r/coolgithubprojects/comments/1vds6fa/use_your_old_smartphone_as_a_desk_widgit_say/)
-
-- **[I made a chrome extension that lets you view the Reddit comments of any YouTube Video or Webpage.](https://v.redd.it/ecaxzbteu3471)**  
-   score `289` · comments `23` · `2021-06-08` · [reddit](https://reddit.com/r/coolgithubprojects/comments/nve864/i_made_a_chrome_extension_that_lets_you_view_the/)
 
 
 ## PYTHON (4152 posts)

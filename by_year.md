@@ -1116,7 +1116,7 @@
    score `17` · comments `5` · `2025-06-11` · [reddit](https://reddit.com/r/coolgithubprojects/comments/1l8ytsr/congressmcp_an_mcp_server_to_interact_with/)
 
 
-## 2026 (12250 posts)
+## 2026 (12336 posts)
 
 - **[openGym hit 7.6k stars and our Buy Me a Coffee goal this week. I'm a bit speechless, so: thank you](https://i.redd.it/sv1v59nlu8uh1.png)**  
    score `1134` · comments `108` · `2026-10-08` · [reddit](https://reddit.com/r/coolgithubprojects/comments/1x0qouh/opengym_hit_76k_stars_and_our_buy_me_a_coffee/)
@@ -1175,6 +1175,9 @@
 - **[I built a steganography engine that hides files inside JPEGs, MP4s, and audio using ML — compiled into a single zero-dependency executable](https://i.redd.it/wdwtx5qbq4xg1.png)** `PYTHON`  
    score `354` · comments `13` · `2026-04-24` · [reddit](https://reddit.com/r/coolgithubprojects/comments/1sue17a/i_built_a_steganography_engine_that_hides_files/)
 
+- **[I got tired of missing and forgetting good repos so I built a list that updates itself every 2 days (3k+ repos so far)](https://www.reddit.com/gallery/1xp4eoj)**  
+   score `340` · comments `44` · `2026-11-06` · [reddit](https://reddit.com/r/coolgithubprojects/comments/1xp4eoj/i_got_tired_of_missing_and_forgetting_good_repos/)
+
 - **[I built a file search that reads text inside screenshots. Under 9 MB. Fast and lightweight.](https://i.redd.it/m86u3vgh2ayh1.gif)**  
    score `333` · comments `41` · `2026-10-28` · [reddit](https://reddit.com/r/coolgithubprojects/comments/1xi1kom/i_built_a_file_search_that_reads_text_inside/)
 
@@ -1204,8 +1207,5 @@
 
 - **[Cool GitHub profile visualizer (403 stars on github) that you can share](https://i.redd.it/vtahg0urh2zg1.png)** `OTHER`  
    score `247` · comments `13` · `2026-05-04` · [reddit](https://reddit.com/r/coolgithubprojects/comments/1t3a0rz/cool_github_profile_visualizer_403_stars_on/)
-
-- **[Memoir (Git for AI Memory) - Memory your agents can explain, rewind, and branch.](https://i.redd.it/qxbx2j4nwjzg1.png)**  
-   score `247` · comments `40` · `2026-05-06` · [reddit](https://reddit.com/r/coolgithubprojects/comments/1t5jh09/memoir_git_for_ai_memory_memory_your_agents_can/)
 
 
