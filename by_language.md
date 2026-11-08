@@ -1,6 +1,9 @@
 # r/coolgithubprojects — Top by Language Flair
 
-## OTHER (20393 posts)
+## OTHER (20487 posts)
+
+- **[I built a free and open-source alternative to proprietary piano-learning software](https://i.redd.it/t5zjmw1davyh1.png)**  
+   score `1222` · comments `76` · `2026-10-31` · [reddit](https://reddit.com/r/coolgithubprojects/comments/1xklaxs/i_built_a_free_and_opensource_alternative_to/)
 
 - **[openGym hit 7.6k stars and our Buy Me a Coffee goal this week. I'm a bit speechless, so: thank you](https://i.redd.it/sv1v59nlu8uh1.png)**  
    score `1134` · comments `108` · `2026-10-08` · [reddit](https://reddit.com/r/coolgithubprojects/comments/1x0qouh/opengym_hit_76k_stars_and_our_buy_me_a_coffee/)
@@ -10,9 +13,6 @@
 
 - **[openGym hit 15,000 stars, your donations paid for every licence, and it's now in the App Store. Thank you! 💚](https://i.redd.it/zowhtgikmnxh1.png)**  
    score `770` · comments `109` · `2026-10-25` · [reddit](https://reddit.com/r/coolgithubprojects/comments/1xf9g8k/opengym_hit_15000_stars_your_donations_paid_for/)
-
-- **[I built a free and open-source alternative to proprietary piano-learning software](https://i.redd.it/t5zjmw1davyh1.png)**  
-   score `709` · comments `45` · `2026-10-31` · [reddit](https://reddit.com/r/coolgithubprojects/comments/1xklaxs/i_built_a_free_and_opensource_alternative_to/)
 
 - **[My flight finder hit 1.3k github stars.](https://www.reddit.com/gallery/1unyo4a)**  
    score `607` · comments `130` · `2026-07-05` · [reddit](https://reddit.com/r/coolgithubprojects/comments/1unyo4a/my_flight_finder_hit_13k_github_stars/)
@@ -47,6 +47,9 @@
 - **[xyOps just crossed 5,000 GitHub stars. Thank you!](https://i.redd.it/n1i512r89elh1.png)**  
    score `401` · comments `28` · `2026-08-24` · [reddit](https://reddit.com/r/coolgithubprojects/comments/1vxgqwd/xyops_just_crossed_5000_github_stars_thank_you/)
 
+- **[I got tired of missing and forgetting good repos so I built a list that updates itself every 2 days (3k+ repos so far)](https://www.reddit.com/gallery/1xp4eoj)**  
+   score `398` · comments `45` · `2026-11-06` · [reddit](https://reddit.com/r/coolgithubprojects/comments/1xp4eoj/i_got_tired_of_missing_and_forgetting_good_repos/)
+
 - **[I updated my GitHub profile!](https://www.reddit.com/gallery/1scedk0)** `OTHER`  
    score `386` · comments `24` · `2026-04-04` · [reddit](https://reddit.com/r/coolgithubprojects/comments/1scedk0/i_updated_my_github_profile/)
 
@@ -55,9 +58,6 @@
 
 - **[I built a self-hosted intelligence terminal — 26 global data sources + an AI analyst](https://i.redd.it/dmy29cyzwyog1.png)** `OTHER`  
    score `368` · comments `56` · `2026-03-14` · [reddit](https://reddit.com/r/coolgithubprojects/comments/1rtdonf/i_built_a_selfhosted_intelligence_terminal_26/)
-
-- **[I got tired of missing and forgetting good repos so I built a list that updates itself every 2 days (3k+ repos so far)](https://www.reddit.com/gallery/1xp4eoj)**  
-   score `340` · comments `44` · `2026-11-06` · [reddit](https://reddit.com/r/coolgithubprojects/comments/1xp4eoj/i_got_tired_of_missing_and_forgetting_good_repos/)
 
 - **[I built a file search that reads text inside screenshots. Under 9 MB. Fast and lightweight.](https://i.redd.it/m86u3vgh2ayh1.gif)**  
    score `333` · comments `41` · `2026-10-28` · [reddit](https://reddit.com/r/coolgithubprojects/comments/1xi1kom/i_built_a_file_search_that_reads_text_inside/)
