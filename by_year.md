@@ -1116,7 +1116,7 @@
    score `17` · comments `5` · `2025-06-11` · [reddit](https://reddit.com/r/coolgithubprojects/comments/1l8ytsr/congressmcp_an_mcp_server_to_interact_with/)
 
 
-## 2026 (12430 posts)
+## 2026 (12537 posts)
 
 - **[I built a free and open-source alternative to proprietary piano-learning software](https://i.redd.it/t5zjmw1davyh1.png)**  
    score `1222` · comments `76` · `2026-10-31` · [reddit](https://reddit.com/r/coolgithubprojects/comments/1xklaxs/i_built_a_free_and_opensource_alternative_to/)
