@@ -1116,7 +1116,7 @@
    score `17` · comments `5` · `2025-06-11` · [reddit](https://reddit.com/r/coolgithubprojects/comments/1l8ytsr/congressmcp_an_mcp_server_to_interact_with/)
 
 
-## 2026 (12537 posts)
+## 2026 (12620 posts)
 
 - **[I built a free and open-source alternative to proprietary piano-learning software](https://i.redd.it/t5zjmw1davyh1.png)**  
    score `1222` · comments `76` · `2026-10-31` · [reddit](https://reddit.com/r/coolgithubprojects/comments/1xklaxs/i_built_a_free_and_opensource_alternative_to/)
@@ -1187,8 +1187,14 @@
 - **[Real-time ASCII Webcam renderer in pure C with zero external dependencies](https://i.redd.it/fnh0meurna4h1.gif)**  
    score `328` · comments `42` · `2026-05-30` · [reddit](https://reddit.com/r/coolgithubprojects/comments/1ts35ei/realtime_ascii_webcam_renderer_in_pure_c_with/)
 
+- **[Awesome Reverse Engineer Anything:](https://github.com/maluramichael/awesome-reverse-engineer-anything)**  
+   score `328` · comments `25` · `2026-11-02` · [reddit](https://reddit.com/r/coolgithubprojects/comments/1xm14a2/awesome_reverse_engineer_anything/)
+
 - **[Finally! Cate v1.0 is out: The Infinite canvas workspace for developers](https://www.reddit.com/gallery/1tmef9f)**  
    score `321` · comments `81` · `2026-05-24` · [reddit](https://reddit.com/r/coolgithubprojects/comments/1tmef9f/finally_cate_v10_is_out_the_infinite_canvas/)
+
+- **[openDJ is a fast and modern open-source DJing and mixing software](https://i.redd.it/3xyi8xpbtczh1.jpeg)**  
+   score `316` · comments `38` · `2026-11-03` · [reddit](https://reddit.com/r/coolgithubprojects/comments/1xmn75f/opendj_is_a_fast_and_modern_opensource_djing_and/)
 
 - **[I made a free, open-source phone app that debloats your Google TV over Wi-Fi: no PC, no root](https://www.reddit.com/gallery/1xek32w)**  
    score `309` · comments `84` · `2026-10-24` · [reddit](https://reddit.com/r/coolgithubprojects/comments/1xek32w/i_made_a_free_opensource_phone_app_that_debloats/)
@@ -1201,11 +1207,5 @@
 
 - **[GitFut – your GitHub stats as a World Cup player card, out of 99](https://i.redd.it/a3izqipg4bah1.gif)**  
    score `272` · comments `70` · `2026-06-29` · [reddit](https://reddit.com/r/coolgithubprojects/comments/1uj8one/gitfut_your_github_stats_as_a_world_cup_player/)
-
-- **[OpenTV-Remote - Free, open-source TV remote](https://www.reddit.com/gallery/1xh9jo6)**  
-   score `253` · comments `33` · `2026-10-28` · [reddit](https://reddit.com/r/coolgithubprojects/comments/1xh9jo6/opentvremote_free_opensource_tv_remote/)
-
-- **[Cool GitHub profile visualizer (403 stars on github) that you can share](https://i.redd.it/vtahg0urh2zg1.png)** `OTHER`  
-   score `247` · comments `13` · `2026-05-04` · [reddit](https://reddit.com/r/coolgithubprojects/comments/1t3a0rz/cool_github_profile_visualizer_403_stars_on/)
 
 

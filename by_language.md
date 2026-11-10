@@ -1,6 +1,6 @@
 # r/coolgithubprojects — Top by Language Flair
 
-## OTHER (20594 posts)
+## OTHER (20677 posts)
 
 - **[I built a free and open-source alternative to proprietary piano-learning software](https://i.redd.it/t5zjmw1davyh1.png)**  
    score `1222` · comments `76` · `2026-10-31` · [reddit](https://reddit.com/r/coolgithubprojects/comments/1xklaxs/i_built_a_free_and_opensource_alternative_to/)
@@ -68,14 +68,14 @@
 - **[Real-time ASCII Webcam renderer in pure C with zero external dependencies](https://i.redd.it/fnh0meurna4h1.gif)**  
    score `328` · comments `42` · `2026-05-30` · [reddit](https://reddit.com/r/coolgithubprojects/comments/1ts35ei/realtime_ascii_webcam_renderer_in_pure_c_with/)
 
+- **[Awesome Reverse Engineer Anything:](https://github.com/maluramichael/awesome-reverse-engineer-anything)**  
+   score `328` · comments `25` · `2026-11-02` · [reddit](https://reddit.com/r/coolgithubprojects/comments/1xm14a2/awesome_reverse_engineer_anything/)
+
 - **[Finally! Cate v1.0 is out: The Infinite canvas workspace for developers](https://www.reddit.com/gallery/1tmef9f)**  
    score `321` · comments `81` · `2026-05-24` · [reddit](https://reddit.com/r/coolgithubprojects/comments/1tmef9f/finally_cate_v10_is_out_the_infinite_canvas/)
 
-- **[I made a free, open-source phone app that debloats your Google TV over Wi-Fi: no PC, no root](https://www.reddit.com/gallery/1xek32w)**  
-   score `309` · comments `84` · `2026-10-24` · [reddit](https://reddit.com/r/coolgithubprojects/comments/1xek32w/i_made_a_free_opensource_phone_app_that_debloats/)
-
-- **[Use your old smartphone as a desk widgit. Say hello! to Desko](https://www.reddit.com/gallery/1vds6fa)**  
-   score `296` · comments `15` · `2026-08-02` · [reddit](https://reddit.com/r/coolgithubprojects/comments/1vds6fa/use_your_old_smartphone_as_a_desk_widgit_say/)
+- **[openDJ is a fast and modern open-source DJing and mixing software](https://i.redd.it/3xyi8xpbtczh1.jpeg)**  
+   score `316` · comments `38` · `2026-11-03` · [reddit](https://reddit.com/r/coolgithubprojects/comments/1xmn75f/opendj_is_a_fast_and_modern_opensource_djing_and/)
 
 
 ## PYTHON (4152 posts)
