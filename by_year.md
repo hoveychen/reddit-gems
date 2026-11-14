@@ -1116,7 +1116,7 @@
    score `17` · comments `5` · `2025-06-11` · [reddit](https://reddit.com/r/coolgithubprojects/comments/1l8ytsr/congressmcp_an_mcp_server_to_interact_with/)
 
 
-## 2026 (12892 posts)
+## 2026 (12965 posts)
 
 - **[I built a free and open-source alternative to proprietary piano-learning software](https://i.redd.it/t5zjmw1davyh1.png)**  
    score `1222` · comments `76` · `2026-10-31` · [reddit](https://reddit.com/r/coolgithubprojects/comments/1xklaxs/i_built_a_free_and_opensource_alternative_to/)
@@ -1202,10 +1202,10 @@
 - **[Use your old smartphone as a desk widgit. Say hello! to Desko](https://www.reddit.com/gallery/1vds6fa)**  
    score `296` · comments `15` · `2026-08-02` · [reddit](https://reddit.com/r/coolgithubprojects/comments/1vds6fa/use_your_old_smartphone_as_a_desk_widgit_say/)
 
+- **[A month ago I posted here at 15k stars. openGym (open-source workout tracker) just passed 20,000 ⭐ and I still don't get how](https://i.redd.it/hsh568r4060i1.png)**  
+   score `287` · comments `81` · `2026-11-07` · [reddit](https://reddit.com/r/coolgithubprojects/comments/1xq2z30/a_month_ago_i_posted_here_at_15k_stars_opengym/)
+
 - **[Drop your repo, get a free product](https://www.reddit.com/gallery/1v3bujh)**  
    score `283` · comments `392` · `2026-07-22` · [reddit](https://reddit.com/r/coolgithubprojects/comments/1v3bujh/drop_your_repo_get_a_free_product/)
-
-- **[GitFut – your GitHub stats as a World Cup player card, out of 99](https://i.redd.it/a3izqipg4bah1.gif)**  
-   score `272` · comments `70` · `2026-06-29` · [reddit](https://reddit.com/r/coolgithubprojects/comments/1uj8one/gitfut_your_github_stats_as_a_world_cup_player/)
 
 
