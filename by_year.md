@@ -1116,7 +1116,7 @@
    score `17` · comments `5` · `2025-06-11` · [reddit](https://reddit.com/r/coolgithubprojects/comments/1l8ytsr/congressmcp_an_mcp_server_to_interact_with/)
 
 
-## 2026 (12965 posts)
+## 2026 (13067 posts)
 
 - **[I built a free and open-source alternative to proprietary piano-learning software](https://i.redd.it/t5zjmw1davyh1.png)**  
    score `1222` · comments `76` · `2026-10-31` · [reddit](https://reddit.com/r/coolgithubprojects/comments/1xklaxs/i_built_a_free_and_opensource_alternative_to/)
@@ -1163,6 +1163,9 @@
 - **[I built Musike: a free, open-source music player on YouTube's catalog with no ads, no account and no subscription](https://www.reddit.com/gallery/1x74ygg)**  
    score `452` · comments `118` · `2026-10-16` · [reddit](https://reddit.com/r/coolgithubprojects/comments/1x74ygg/i_built_musike_a_free_opensource_music_player_on/)
 
+- **[TelltaleDNS - a lightweight, self-hosted DNS resolver that actually explains what your devices are doing](https://i.redd.it/455juujtph1i1.jpeg)**  
+   score `442` · comments `60` · `2026-11-14` · [reddit](https://reddit.com/r/coolgithubprojects/comments/1xvr2e9/telltaledns_a_lightweight_selfhosted_dns_resolver/)
+
 - **[xyOps just crossed 5,000 GitHub stars. Thank you!](https://i.redd.it/n1i512r89elh1.png)**  
    score `401` · comments `28` · `2026-08-24` · [reddit](https://reddit.com/r/coolgithubprojects/comments/1vxgqwd/xyops_just_crossed_5000_github_stars_thank_you/)
 
@@ -1204,8 +1207,5 @@
 
 - **[A month ago I posted here at 15k stars. openGym (open-source workout tracker) just passed 20,000 ⭐ and I still don't get how](https://i.redd.it/hsh568r4060i1.png)**  
    score `287` · comments `81` · `2026-11-07` · [reddit](https://reddit.com/r/coolgithubprojects/comments/1xq2z30/a_month_ago_i_posted_here_at_15k_stars_opengym/)
-
-- **[Drop your repo, get a free product](https://www.reddit.com/gallery/1v3bujh)**  
-   score `283` · comments `392` · `2026-07-22` · [reddit](https://reddit.com/r/coolgithubprojects/comments/1v3bujh/drop_your_repo_get_a_free_product/)
 
 

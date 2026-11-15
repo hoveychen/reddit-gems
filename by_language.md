@@ -1,6 +1,6 @@
 # r/coolgithubprojects — Top by Language Flair
 
-## OTHER (21022 posts)
+## OTHER (21124 posts)
 
 - **[I built a free and open-source alternative to proprietary piano-learning software](https://i.redd.it/t5zjmw1davyh1.png)**  
    score `1222` · comments `76` · `2026-10-31` · [reddit](https://reddit.com/r/coolgithubprojects/comments/1xklaxs/i_built_a_free_and_opensource_alternative_to/)
@@ -47,6 +47,9 @@
 - **[I built Musike: a free, open-source music player on YouTube's catalog with no ads, no account and no subscription](https://www.reddit.com/gallery/1x74ygg)**  
    score `452` · comments `118` · `2026-10-16` · [reddit](https://reddit.com/r/coolgithubprojects/comments/1x74ygg/i_built_musike_a_free_opensource_music_player_on/)
 
+- **[TelltaleDNS - a lightweight, self-hosted DNS resolver that actually explains what your devices are doing](https://i.redd.it/455juujtph1i1.jpeg)**  
+   score `442` · comments `60` · `2026-11-14` · [reddit](https://reddit.com/r/coolgithubprojects/comments/1xvr2e9/telltaledns_a_lightweight_selfhosted_dns_resolver/)
+
 - **[xyOps just crossed 5,000 GitHub stars. Thank you!](https://i.redd.it/n1i512r89elh1.png)**  
    score `401` · comments `28` · `2026-08-24` · [reddit](https://reddit.com/r/coolgithubprojects/comments/1vxgqwd/xyops_just_crossed_5000_github_stars_thank_you/)
 
@@ -73,9 +76,6 @@
 
 - **[Finally! Cate v1.0 is out: The Infinite canvas workspace for developers](https://www.reddit.com/gallery/1tmef9f)**  
    score `321` · comments `81` · `2026-05-24` · [reddit](https://reddit.com/r/coolgithubprojects/comments/1tmef9f/finally_cate_v10_is_out_the_infinite_canvas/)
-
-- **[openDJ is a fast and modern open-source DJing and mixing software](https://i.redd.it/3xyi8xpbtczh1.jpeg)**  
-   score `316` · comments `38` · `2026-11-03` · [reddit](https://reddit.com/r/coolgithubprojects/comments/1xmn75f/opendj_is_a_fast_and_modern_opensource_djing_and/)
 
 
 ## PYTHON (4152 posts)
