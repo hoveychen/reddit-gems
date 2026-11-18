@@ -1,6 +1,6 @@
 # r/coolgithubprojects — Top by Language Flair
 
-## OTHER (21334 posts)
+## OTHER (21449 posts)
 
 - **[I built a free and open-source alternative to proprietary piano-learning software](https://i.redd.it/t5zjmw1davyh1.png)**  
    score `1222` · comments `76` · `2026-10-31` · [reddit](https://reddit.com/r/coolgithubprojects/comments/1xklaxs/i_built_a_free_and_opensource_alternative_to/)
@@ -56,6 +56,9 @@
 - **[I updated my GitHub profile!](https://www.reddit.com/gallery/1scedk0)** `OTHER`  
    score `386` · comments `24` · `2026-04-04` · [reddit](https://reddit.com/r/coolgithubprojects/comments/1scedk0/i_updated_my_github_profile/)
 
+- **[Meet rust-anything, I rewrote apps in Rust, got 20x faster, and didn't break a single thing.](https://i.redd.it/bdwn709xd52i1.png)**  
+   score `379` · comments `34` · `2026-11-17` · [reddit](https://reddit.com/r/coolgithubprojects/comments/1xygs6n/meet_rustanything_i_rewrote_apps_in_rust_got_20x/)
+
 - **[My open source project hit 5.2k stars and ~80k PyPI downloads, and it's the reason I quit my job](https://i.redd.it/nryrea2nmyih1.gif)**  
    score `369` · comments `42` · `2026-08-12` · [reddit](https://reddit.com/r/coolgithubprojects/comments/1vmgubd/my_open_source_project_hit_52k_stars_and_80k_pypi/)
 
@@ -73,9 +76,6 @@
 
 - **[Awesome Reverse Engineer Anything:](https://github.com/maluramichael/awesome-reverse-engineer-anything)**  
    score `328` · comments `25` · `2026-11-02` · [reddit](https://reddit.com/r/coolgithubprojects/comments/1xm14a2/awesome_reverse_engineer_anything/)
-
-- **[Finally! Cate v1.0 is out: The Infinite canvas workspace for developers](https://www.reddit.com/gallery/1tmef9f)**  
-   score `321` · comments `81` · `2026-05-24` · [reddit](https://reddit.com/r/coolgithubprojects/comments/1tmef9f/finally_cate_v10_is_out_the_infinite_canvas/)
 
 
 ## PYTHON (4152 posts)

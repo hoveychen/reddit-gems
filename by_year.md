@@ -1116,7 +1116,7 @@
    score `17` · comments `5` · `2025-06-11` · [reddit](https://reddit.com/r/coolgithubprojects/comments/1l8ytsr/congressmcp_an_mcp_server_to_interact_with/)
 
 
-## 2026 (13277 posts)
+## 2026 (13392 posts)
 
 - **[I built a free and open-source alternative to proprietary piano-learning software](https://i.redd.it/t5zjmw1davyh1.png)**  
    score `1222` · comments `76` · `2026-10-31` · [reddit](https://reddit.com/r/coolgithubprojects/comments/1xklaxs/i_built_a_free_and_opensource_alternative_to/)
@@ -1172,6 +1172,9 @@
 - **[I updated my GitHub profile!](https://www.reddit.com/gallery/1scedk0)** `OTHER`  
    score `386` · comments `24` · `2026-04-04` · [reddit](https://reddit.com/r/coolgithubprojects/comments/1scedk0/i_updated_my_github_profile/)
 
+- **[Meet rust-anything, I rewrote apps in Rust, got 20x faster, and didn't break a single thing.](https://i.redd.it/bdwn709xd52i1.png)**  
+   score `379` · comments `34` · `2026-11-17` · [reddit](https://reddit.com/r/coolgithubprojects/comments/1xygs6n/meet_rustanything_i_rewrote_apps_in_rust_got_20x/)
+
 - **[My open source project hit 5.2k stars and ~80k PyPI downloads, and it's the reason I quit my job](https://i.redd.it/nryrea2nmyih1.gif)**  
    score `369` · comments `42` · `2026-08-12` · [reddit](https://reddit.com/r/coolgithubprojects/comments/1vmgubd/my_open_source_project_hit_52k_stars_and_80k_pypi/)
 
@@ -1204,8 +1207,5 @@
 
 - **[Use your old smartphone as a desk widgit. Say hello! to Desko](https://www.reddit.com/gallery/1vds6fa)**  
    score `296` · comments `15` · `2026-08-02` · [reddit](https://reddit.com/r/coolgithubprojects/comments/1vds6fa/use_your_old_smartphone_as_a_desk_widgit_say/)
-
-- **[A month ago I posted here at 15k stars. openGym (open-source workout tracker) just passed 20,000 ⭐ and I still don't get how](https://i.redd.it/hsh568r4060i1.png)**  
-   score `287` · comments `81` · `2026-11-07` · [reddit](https://reddit.com/r/coolgithubprojects/comments/1xq2z30/a_month_ago_i_posted_here_at_15k_stars_opengym/)
 
 
