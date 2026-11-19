@@ -1,6 +1,6 @@
 # r/coolgithubprojects — Top by Language Flair
 
-## OTHER (21449 posts)
+## OTHER (21531 posts)
 
 - **[I built a free and open-source alternative to proprietary piano-learning software](https://i.redd.it/t5zjmw1davyh1.png)**  
    score `1222` · comments `76` · `2026-10-31` · [reddit](https://reddit.com/r/coolgithubprojects/comments/1xklaxs/i_built_a_free_and_opensource_alternative_to/)
@@ -47,6 +47,9 @@
 - **[Own your music: I built a terminal app that downloads your YouTube, SoundCloud, and Spotify libraries to real local files and plays them offline](https://www.reddit.com/gallery/1u3keiv)**  
    score `473` · comments `48` · `2026-06-12` · [reddit](https://reddit.com/r/coolgithubprojects/comments/1u3keiv/own_your_music_i_built_a_terminal_app_that/)
 
+- **[Meet rust-anything, I rewrote apps in Rust, got 20x faster, and didn't break a single thing.](https://i.redd.it/bdwn709xd52i1.png)**  
+   score `469` · comments `38` · `2026-11-17` · [reddit](https://reddit.com/r/coolgithubprojects/comments/1xygs6n/meet_rustanything_i_rewrote_apps_in_rust_got_20x/)
+
 - **[I built Musike: a free, open-source music player on YouTube's catalog with no ads, no account and no subscription](https://www.reddit.com/gallery/1x74ygg)**  
    score `452` · comments `118` · `2026-10-16` · [reddit](https://reddit.com/r/coolgithubprojects/comments/1x74ygg/i_built_musike_a_free_opensource_music_player_on/)
 
@@ -55,9 +58,6 @@
 
 - **[I updated my GitHub profile!](https://www.reddit.com/gallery/1scedk0)** `OTHER`  
    score `386` · comments `24` · `2026-04-04` · [reddit](https://reddit.com/r/coolgithubprojects/comments/1scedk0/i_updated_my_github_profile/)
-
-- **[Meet rust-anything, I rewrote apps in Rust, got 20x faster, and didn't break a single thing.](https://i.redd.it/bdwn709xd52i1.png)**  
-   score `379` · comments `34` · `2026-11-17` · [reddit](https://reddit.com/r/coolgithubprojects/comments/1xygs6n/meet_rustanything_i_rewrote_apps_in_rust_got_20x/)
 
 - **[My open source project hit 5.2k stars and ~80k PyPI downloads, and it's the reason I quit my job](https://i.redd.it/nryrea2nmyih1.gif)**  
    score `369` · comments `42` · `2026-08-12` · [reddit](https://reddit.com/r/coolgithubprojects/comments/1vmgubd/my_open_source_project_hit_52k_stars_and_80k_pypi/)
