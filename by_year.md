@@ -1116,7 +1116,7 @@
    score `17` · comments `5` · `2025-06-11` · [reddit](https://reddit.com/r/coolgithubprojects/comments/1l8ytsr/congressmcp_an_mcp_server_to_interact_with/)
 
 
-## 2026 (13544 posts)
+## 2026 (13619 posts)
 
 - **[I built a free and open-source alternative to proprietary piano-learning software](https://i.redd.it/t5zjmw1davyh1.png)**  
    score `1222` · comments `76` · `2026-10-31` · [reddit](https://reddit.com/r/coolgithubprojects/comments/1xklaxs/i_built_a_free_and_opensource_alternative_to/)
@@ -1126,6 +1126,9 @@
 
 - **[Actress Milla Jovovich just released a free open-source AI memory system](https://i.redd.it/fjzunvsr85ug1.png)** `OTHER`  
    score `933` · comments `101` · `2026-04-09` · [reddit](https://reddit.com/r/coolgithubprojects/comments/1sgm27k/actress_milla_jovovich_just_released_a_free/)
+
+- **[TelltaleDNS - a lightweight, self-hosted DNS resolver that actually explains what your devices are doing](https://i.redd.it/455juujtph1i1.jpeg)**  
+   score `829` · comments `104` · `2026-11-14` · [reddit](https://reddit.com/r/coolgithubprojects/comments/1xvr2e9/telltaledns_a_lightweight_selfhosted_dns_resolver/)
 
 - **[openGym hit 15,000 stars, your donations paid for every licence, and it's now in the App Store. Thank you! 💚](https://i.redd.it/zowhtgikmnxh1.png)**  
    score `770` · comments `109` · `2026-10-25` · [reddit](https://reddit.com/r/coolgithubprojects/comments/1xf9g8k/opengym_hit_15000_stars_your_donations_paid_for/)
@@ -1150,9 +1153,6 @@
 
 - **[I built a free, open-source market terminal inspired by Bloomberg. and it uses zero paid APIs.](https://i.redd.it/qj3300kdr5oh1.png)**  
    score `545` · comments `38` · `2026-09-07` · [reddit](https://reddit.com/r/coolgithubprojects/comments/1wa3iq9/i_built_a_free_opensource_market_terminal/)
-
-- **[TelltaleDNS - a lightweight, self-hosted DNS resolver that actually explains what your devices are doing](https://i.redd.it/455juujtph1i1.jpeg)**  
-   score `538` · comments `65` · `2026-11-14` · [reddit](https://reddit.com/r/coolgithubprojects/comments/1xvr2e9/telltaledns_a_lightweight_selfhosted_dns_resolver/)
 
 - **[undo, revert what the last shell command did to your filesystem](https://i.redd.it/53lylsnfmefh1.gif)**  
    score `504` · comments `81` · `2026-07-25` · [reddit](https://reddit.com/r/coolgithubprojects/comments/1v6d5d5/undo_revert_what_the_last_shell_command_did_to/)
