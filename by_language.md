@@ -1,6 +1,6 @@
 # r/coolgithubprojects — Top by Language Flair
 
-## OTHER (21881 posts)
+## OTHER (21976 posts)
 
 - **[I built a free and open-source alternative to proprietary piano-learning software](https://i.redd.it/t5zjmw1davyh1.png)**  
    score `1222` · comments `76` · `2026-10-31` · [reddit](https://reddit.com/r/coolgithubprojects/comments/1xklaxs/i_built_a_free_and_opensource_alternative_to/)
@@ -16,6 +16,9 @@
 
 - **[openGym hit 15,000 stars, your donations paid for every licence, and it's now in the App Store. Thank you! 💚](https://i.redd.it/zowhtgikmnxh1.png)**  
    score `770` · comments `109` · `2026-10-25` · [reddit](https://reddit.com/r/coolgithubprojects/comments/1xf9g8k/opengym_hit_15000_stars_your_donations_paid_for/)
+
+- **[Meet rust-anything, I rewrote apps in Rust, got 20x faster, and didn't break a single thing.](https://i.redd.it/bdwn709xd52i1.png)**  
+   score `762` · comments `65` · `2026-11-17` · [reddit](https://reddit.com/r/coolgithubprojects/comments/1xygs6n/meet_rustanything_i_rewrote_apps_in_rust_got_20x/)
 
 - **[My flight finder hit 1.3k github stars.](https://www.reddit.com/gallery/1unyo4a)**  
    score `607` · comments `130` · `2026-07-05` · [reddit](https://reddit.com/r/coolgithubprojects/comments/1unyo4a/my_flight_finder_hit_13k_github_stars/)
@@ -46,9 +49,6 @@
 
 - **[Own your music: I built a terminal app that downloads your YouTube, SoundCloud, and Spotify libraries to real local files and plays them offline](https://www.reddit.com/gallery/1u3keiv)**  
    score `473` · comments `48` · `2026-06-12` · [reddit](https://reddit.com/r/coolgithubprojects/comments/1u3keiv/own_your_music_i_built_a_terminal_app_that/)
-
-- **[Meet rust-anything, I rewrote apps in Rust, got 20x faster, and didn't break a single thing.](https://i.redd.it/bdwn709xd52i1.png)**  
-   score `469` · comments `38` · `2026-11-17` · [reddit](https://reddit.com/r/coolgithubprojects/comments/1xygs6n/meet_rustanything_i_rewrote_apps_in_rust_got_20x/)
 
 - **[I built Musike: a free, open-source music player on YouTube's catalog with no ads, no account and no subscription](https://www.reddit.com/gallery/1x74ygg)**  
    score `452` · comments `118` · `2026-10-16` · [reddit](https://reddit.com/r/coolgithubprojects/comments/1x74ygg/i_built_musike_a_free_opensource_music_player_on/)
