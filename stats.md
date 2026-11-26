@@ -1,8 +1,8 @@
 # r/coolgithubprojects — Archive Stats
 
-- Total posts: **36063**
-- Unique GitHub repos: **18321**
-- Date range: 2014-04-21 → 2026-11-25
+- Total posts: **36173**
+- Unique GitHub repos: **18360**
+- Date range: 2014-04-21 → 2026-11-26
 
 ## Posts per Year
 
@@ -20,13 +20,13 @@
 | 2023 | 1768 |
 | 2024 | 1502 |
 | 2025 | 3208 |
-| 2026 | 14007 |
+| 2026 | 14117 |
 
 ## Top Language Flairs
 
 | Flair | Posts |
 |---|---|
-| — | 18826 |
+| — | 18936 |
 | PYTHON | 4152 |
 | OTHER | 3238 |
 | JAVASCRIPT | 2726 |
@@ -81,11 +81,11 @@
 | [sepandhaghighi/mycoffee](https://github.com/sepandhaghighi/mycoffee) | 16 |
 | [Fajar-RahmadJaya/KeyTik](https://github.com/Fajar-RahmadJaya/KeyTik) | 16 |
 | [davidesantangelo/dato.rss](https://github.com/davidesantangelo/dato.rss) | 15 |
+| [jon-mil-92/DisplayHotKeys](https://github.com/jon-mil-92/DisplayHotKeys) | 15 |
 | [MODSetter/SurfSense](https://github.com/MODSetter/SurfSense) | 15 |
 | [sepandhaghighi/pyrgg](https://github.com/sepandhaghighi/pyrgg) | 14 |
 | [meherett/shuttle](https://github.com/meherett/shuttle) | 14 |
 | [Camplejs/Cample.js](https://github.com/Camplejs/Cample.js) | 14 |
-| [jon-mil-92/DisplayHotKeys](https://github.com/jon-mil-92/DisplayHotKeys) | 14 |
 | [pc8544/Website-Crawler](https://github.com/pc8544/Website-Crawler) | 14 |
 | [user19870/cppsp](https://github.com/user19870/cppsp) | 14 |
 | [rdn87/cordova-plugin-gctouch-id](https://github.com/rdn87/cordova-plugin-gctouch-id) | 13 |

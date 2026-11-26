@@ -1,6 +1,6 @@
 # r/coolgithubprojects — Top by Language Flair
 
-## OTHER (22064 posts)
+## OTHER (22174 posts)
 
 - **[I built a free and open-source alternative to proprietary piano-learning software](https://i.redd.it/t5zjmw1davyh1.png)**  
    score `1222` · comments `76` · `2026-10-31` · [reddit](https://reddit.com/r/coolgithubprojects/comments/1xklaxs/i_built_a_free_and_opensource_alternative_to/)
@@ -68,14 +68,14 @@
 - **[I built a self-hosted intelligence terminal — 26 global data sources + an AI analyst](https://i.redd.it/dmy29cyzwyog1.png)** `OTHER`  
    score `368` · comments `56` · `2026-03-14` · [reddit](https://reddit.com/r/coolgithubprojects/comments/1rtdonf/i_built_a_selfhosted_intelligence_terminal_26/)
 
+- **[I got tired of paid or fake "PC optimizers", so I built a free forever open-source one](https://i.redd.it/byumbsds1l2i1.png)**  
+   score `360` · comments `205` · `2026-11-19` · [reddit](https://reddit.com/r/coolgithubprojects/comments/1y0ba7u/i_got_tired_of_paid_or_fake_pc_optimizers_so_i/)
+
 - **[My grandfather spent 20 years writing an astrology program in GFA BASIC on the Atari ST. I ported it to C++ so it runs again.](https://github.com/horcom-rr/HORCOM)**  
    score `356` · comments `15` · `2026-11-18` · [reddit](https://reddit.com/r/coolgithubprojects/comments/1xzj5k2/my_grandfather_spent_20_years_writing_an/)
 
 - **[I built a file search that reads text inside screenshots. Under 9 MB. Fast and lightweight.](https://i.redd.it/m86u3vgh2ayh1.gif)**  
    score `333` · comments `41` · `2026-10-28` · [reddit](https://reddit.com/r/coolgithubprojects/comments/1xi1kom/i_built_a_file_search_that_reads_text_inside/)
-
-- **[I built GitKingdom, where GitHub repos become buildings in a procedurally generated fantasy world. Your stars determine your building size.](https://i.redd.it/iwwwixt2o1rg1.png)**  
-   score `330` · comments `49` · `2026-03-24` · [reddit](https://reddit.com/r/coolgithubprojects/comments/1s2nr4q/i_built_gitkingdom_where_github_repos_become/)
 
 
 ## PYTHON (4152 posts)

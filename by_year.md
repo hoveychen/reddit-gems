@@ -1116,7 +1116,7 @@
    score `17` · comments `5` · `2025-06-11` · [reddit](https://reddit.com/r/coolgithubprojects/comments/1l8ytsr/congressmcp_an_mcp_server_to_interact_with/)
 
 
-## 2026 (14007 posts)
+## 2026 (14117 posts)
 
 - **[I built a free and open-source alternative to proprietary piano-learning software](https://i.redd.it/t5zjmw1davyh1.png)**  
    score `1222` · comments `76` · `2026-10-31` · [reddit](https://reddit.com/r/coolgithubprojects/comments/1xklaxs/i_built_a_free_and_opensource_alternative_to/)
@@ -1184,6 +1184,9 @@
 - **[I built a self-hosted intelligence terminal — 26 global data sources + an AI analyst](https://i.redd.it/dmy29cyzwyog1.png)** `OTHER`  
    score `368` · comments `56` · `2026-03-14` · [reddit](https://reddit.com/r/coolgithubprojects/comments/1rtdonf/i_built_a_selfhosted_intelligence_terminal_26/)
 
+- **[I got tired of paid or fake "PC optimizers", so I built a free forever open-source one](https://i.redd.it/byumbsds1l2i1.png)**  
+   score `360` · comments `205` · `2026-11-19` · [reddit](https://reddit.com/r/coolgithubprojects/comments/1y0ba7u/i_got_tired_of_paid_or_fake_pc_optimizers_so_i/)
+
 - **[My grandfather spent 20 years writing an astrology program in GFA BASIC on the Atari ST. I ported it to C++ so it runs again.](https://github.com/horcom-rr/HORCOM)**  
    score `356` · comments `15` · `2026-11-18` · [reddit](https://reddit.com/r/coolgithubprojects/comments/1xzj5k2/my_grandfather_spent_20_years_writing_an/)
 
@@ -1204,8 +1207,5 @@
 
 - **[Finally! Cate v1.0 is out: The Infinite canvas workspace for developers](https://www.reddit.com/gallery/1tmef9f)**  
    score `321` · comments `81` · `2026-05-24` · [reddit](https://reddit.com/r/coolgithubprojects/comments/1tmef9f/finally_cate_v10_is_out_the_infinite_canvas/)
-
-- **[openDJ is a fast and modern open-source DJing and mixing software](https://i.redd.it/3xyi8xpbtczh1.jpeg)**  
-   score `316` · comments `38` · `2026-11-03` · [reddit](https://reddit.com/r/coolgithubprojects/comments/1xmn75f/opendj_is_a_fast_and_modern_opensource_djing_and/)
 
 
